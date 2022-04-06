@@ -1,5 +1,5 @@
 # Known Breaches
-A compliation of breach information gathered from data aggregators and breach lookup services.
+A compliation of breach information gathered from data aggregators and breach lookup services. This also ships with a basic HTML/JS client-side search for the datasets, this can be hosted on any webserver or ran locally, alternatively you can search the data online [here](https://breaches.dls.sh/).
 
 **Currently supports:**
  - HaveIBeenPwned.com
