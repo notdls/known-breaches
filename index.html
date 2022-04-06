@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Known Breaches
+        </title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" charset="utf8" src="main.js"></script>
+    </head>
+    <body onload="getDatasets()">
+        <div class="container">
+            <br>
+            <h3>Known Data Breaches</h3>
+            <p class="lead">Collection of known data breaches from <a href="https://dehashed.com/" target="_blank">Dehashed.com</a>, <a href="https://leak-lookup.com" target="_blank">Leak-Lookup.com</a>, <a href="https://haveibeenpwned.com/" target="_blank">HaveIBeenPwned.com</a> and Vigilante.pw.</p>
+            <hr>
+            <p><h4>Raw Datasets</h4></p>
+            <ul>
+                <li><a href="datasets/dehashed.json">dehashed.json</a></li>
+                <li><a href="datasets/hibp.json">hibp.json</a></li>
+                <li><a href="datasets/leaklookup.json">leaklookup.json</a></li>
+                <li><a href="datasets/vigilante-pw.json">vigilante-pw.json</a></li>
+                <li><a href="datasets/combined.json">combined.json</a></li>
+            </ul>
+            <hr>
+            <h4>Breach Search</h4>
+            <div id="breach_div">
+
+            </div>
+            <hr>
+        </div>
+        <script>
+            $(document).ready( function () {
+                $('#breach_table').dataTable();
+            });
+        </script>
+    </body>
+</html>
