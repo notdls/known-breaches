@@ -1,5 +1,6 @@
 import requests
 import json
+import csv
 from bs4 import BeautifulSoup
 
 """
@@ -18,7 +19,7 @@ def generate_requests_session():
     """
     session = requests.Session()
     session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
     })
     return session
 
@@ -117,6 +118,13 @@ def scrape_dehashed(session=generate_requests_session()):
     """
     breaches = []
     url = "https://dehashed.com/data"
+    session.headers.update({
+        "Referer": "https://dehashed.com/",
+    })
+    session.cookies.update({
+        "__cf_bm": "MteME12CAbXlR0LetQvKwjnLiJjxIz1y7KpNdLKn.Zs-1683186458-0-AZuU4JZX2jBF1/FSzlJdKmuoq//FgpA/dU+bdQdB9+6Scff74aMNCgj5dyf+Bp0z5JW63TmSxYU8LGlHLNbN1qD3HjaFLT4pC4DSoZH1q0Ok",
+        "cf_clearance": "cE1iFDVzxQZVeUTSpIaFV4dCL.WgJPoryFEvunVEkvA-1683186296-0-160",
+    })
     response = session.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -148,29 +156,61 @@ def scrape_dehashed(session=generate_requests_session()):
 if __name__ == "__main__":
     # scrape datasets from dehashed
     print("Scraping Dehashed.com")
-    dehashed_result = scrape_dehashed()
-    print("Successfully scraped {} breaches from Dehashed.com".format(len(dehashed_result)))
-    
+    try:
+        dehashed_result = scrape_dehashed()
+        if dehashed_result:
+            print("Saving results to file")
+            with open("datasets/dehashed.json", "w") as f:
+                json.dump(dehashed_result, f)
+            with open("datasets/dehashed.csv", "w") as f:
+                writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","source"])
+                writer.writeheader()
+                writer.writerows(dehashed_result)
+            print("Successfully scraped {} breaches from Dehashed.com".format(len(dehashed_result)))
+        else:
+            print("Scraping dehashed failed")
+    except:
+        print("Error occured while scraping dehashed")
     # scrape datasets from HaveIBeenPwned
+
     print("Scraping HaveIBeenPwned.com")
-    hibp_result = scrape_hibp()
+    try:
+        hibp_result = scrape_hibp()
+        if hibp_result:
+            print("Saving results to file")    
+            with open("datasets/hibp.json", "w") as f:
+                json.dump(hibp_result, f)
+            with open("datasets/hibp.csv", "w") as f:
+                writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","index_date","description","source"])
+                writer.writeheader()
+                writer.writerows(hibp_result)
+        else:
+            print("Scraping of HIBP failed")
+    except Exception as e:
+        print(str(e))
+        print("Error occured while scraiping hibp")
     print("Successfully scraped {} breaches from HaveIBeenPwned.com".format(len(hibp_result)))
     
     # scrape datasets from LeakLookup
     print("Scraping Leak-Lookup.com")
-    ll_result = scrape_leaklookup()
+    try:
+        ll_result = scrape_leaklookup()
+        if ll_result:
+            print("Saving results to file")
+            with open("datasets/leaklookup.json", "w") as f:
+                json.dump(ll_result, f)
+            with open("datasets/leaklookup.csv", "w") as f:
+                #breaches.append({"dump_name": dump_name, "record_count": record_count, "index_date": date, "source": "leaklookup"})
+
+                writer = csv.DictWriter(f, fieldnames=["dump_name","record_count","index_date","source"])
+                writer.writeheader()
+                writer.writerows(ll_result)
+        else:
+            print("Scraping of leak-lookup failed")
+    except:
+        print("Error occured while scraping Leak-Lookup")
     print("Successfully scraped {} breaches from Leak-Lookup.com".format(len(ll_result)))
 
-    # Save results to file
-    print("Saving results to file")
-    with open("datasets/dehashed.json", "w") as f:
-        json.dump(dehashed_result, f)
-    
-    with open("datasets/hibp.json", "w") as f:
-        json.dump(hibp_result, f)
-    
-    with open("datasets/leaklookup.json", "w") as f:
-        json.dump(ll_result, f)
     
     # load vigilante-pw datasets
     vigilante_pw_dataset = json.loads(open("datasets/vigilante-pw.json").read())
