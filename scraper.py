@@ -117,14 +117,7 @@ def scrape_dehashed(session=generate_requests_session()):
 
     """
     breaches = []
-    url = "https://dehashed.com/data"
-    session.headers.update({
-        "Referer": "https://dehashed.com/",
-    })
-    session.cookies.update({
-        "__cf_bm": "MteME12CAbXlR0LetQvKwjnLiJjxIz1y7KpNdLKn.Zs-1683186458-0-AZuU4JZX2jBF1/FSzlJdKmuoq//FgpA/dU+bdQdB9+6Scff74aMNCgj5dyf+Bp0z5JW63TmSxYU8LGlHLNbN1qD3HjaFLT4pC4DSoZH1q0Ok",
-        "cf_clearance": "cE1iFDVzxQZVeUTSpIaFV4dCL.WgJPoryFEvunVEkvA-1683186296-0-160",
-    })
+    url = "https://webcache.googleusercontent.com/search?q=cache:https://dehashed.com/data"
     response = session.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
