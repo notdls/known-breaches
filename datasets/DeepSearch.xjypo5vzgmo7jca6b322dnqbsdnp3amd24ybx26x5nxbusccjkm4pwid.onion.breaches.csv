@@ -1,0 +1,112 @@
+NAME,ROWS,BREACH DATE (DD/MM/YY),HASH ALGORITHM
+FrozenCraft.ru,"38,580",??/02/2015,IPB
+MPGH.net,"3,119,528",??/04/2015,vB
+CardingMafia.ws,"177,939",??/02/2016,vB
+000webhostapp.com,"15,271,671",??/10/2015,plaintext
+Edmodo.com,"77,039,864",??/05/2017,bcrypt
+Neopets,"68,743,270",??/??/2013,plaintext
+Daniel's Hosting Users (danwin1210.me),"7,177",26/02/2020,bcrypt
+YouNow.com,"40,545,410",??/06/2017,N/A
+Last.fm,"43,571,370",22/03/2012,MD5
+Desteria,"909,325",??/??/????,N/A
+Canva.com,"137,525,859",??/05/2019,bcrypt
+OGUsers.com,"200,551",??/04/2020,MyBB
+MySpace.com,"360,213,050",??/??/2008,SHA1
+Dailymotion.com,"85,199,393",20/10/2016,bcrypt
+Morele.net,"2,474,113",10/10/2018,MD5crypt
+BlankMediaGames.com,"7,787,441",28/12/2018,phpass
+DataViper.io,259,11/07/2020,bcrypt
+InfragardAtlanta.org,176,??/??/2011,MD5
+Cracked.to,"335,624",21/07/2019,bcrypt
+LinkedIn.com,"250,758,058",05/05/2012,SHA1
+Poshmark.com,"36,142,479",??/??/2018,bcrypt
+CashCrate.com,"6,896,884",17/11/2016,MD5 / plaintext
+GamerzPlanet.net,"1,215,132",23/10/2015,IPB / vB
+millionware.vip,681,??/06/2020,bcrypt
+XSplit.com,"2,992,711",??/06/2015,cracked / MD5 / SHA1
+XSplit.com Forum,"1,402,649",??/06/2015,phpBB
+Pixelmon.fr,"34,946",??/04/2016,MD5
+BC Wars (bcwars.com),"101,659",07/03/2011,plaintext
+LizardStresser.su,"12,935",??/01/2015,plaintext
+AltisLifeRPG.com,"31,154",??/08/2016,N/A
+Lifeboat (lbsg.net),"11,870,389",??/??/2016,MD5
+Tunngle.net,"8,195,146",??/??/2016,MyBB
+Nulled.ch,"43,617",20/05/2020,MyBB 1.2+
+CryptoStar.asia,"22,327",??/??/2020,MD5
+Miva.com,"32,801",??/05/2020,vB / bcrypt
+Forum.AlphaSoftware.com,"22,105",??/05/2020,vB / argon
+Forum.GAMEVIL.com,"807,251",??/05/2020,vB / bcrypt
+DemonForums.net,"11,464",07/11/2016,MyBB
+DemonForums.net,"52,616",20/02/2019,MyBB
+Shotbow.net,"1,052,836",??/04/2016,SHA256(sha256($pass).$salt)
+OGUsers.com,"112,918",26/12/2018,MyBB
+MechoDownload.com,"435,355",??/10/2013,vB
+DogeWallet.com,"28,298",??/??/2014,MD5 / plaintext
+Forums.IObit.com,"76,556",??/11/2015,vB / bcrypt
+EloBuddy.net,"177,371",??/05/2016,vB
+RedBox.com,"250,450",21/10/2016,plaintext/cracked/fake(?)
+Booter.io / RouterSlap.com,"5,025",07/09/2014,MD5
+TehkSeven.net,"1,960,704",??/01/2012,MD5 + IPB
+VTightGel.net,"2,447,187",??/11/2016,N/A
+HellForums Reloaded,113,??/02/2016,SHA1(salted)
+Dubsmash.com,"161,549,213",??/12/2018,PBKDF2
+CardForums.biz,"172,145",??/04/2017,vB
+GiaiPhapExcel.com,"980,615",??/03/2017,vB
+Forum.BitTorrent.com,"34,234",??/01/2016,vB
+VK.com (VKontakte),"100,544,935",??/??/2012,plaintext
+CFire.Mail.ru / CFire.ru / CrossFire Forums,"12,884,302",??/08/2016,vB
+AntiPublic / Anti Public 2016 Combolist,"562,077,491",??/12/2016,plaintext
+Ausbb.com,"11,590",??/??/2016,vB
+Community.TheGoodDrugsGuide.com,"80,415",??/??/2016,vB
+MyWayOut.org,"23,405",??/??/2016,vB
+Forums.MSDPerformance.com,"26,343",??/??/2016,vB
+UAFClan.com,"1,752",??/11/2016,vB
+GamesForum.com,"83,576",??/??/2016,vB
+OnlineNutrition.com.au,"3,712",??/??/2016,vB
+JuicedMuscle.com,"22,007",??/??/2016,vB
+Porno-Maniac.org,"33,396",??/11/2016,vB
+PoliticalForum.com,"31,628",??/11/2016,vB
+GrindFactor.com,626,??/??/2016,vB
+Forum.PR-RP.com,"3,175",??/??/2016,vB
+DeathAddict.com,"2,252",??/??/2016,vB
+Flashacking.net,"69,679",??/??/2016,vB
+PregnancyForum.org.uk,"43,647",??/??/2016,vB
+Forum.KeyPublishing.com,"45,670",??/11/2016,vB
+Forums.SGCafe.com,"34,163",??/??/2016,vB
+Forum.GraceOnTheMoon.com,"15,599",??/11/2016,vB
+iPhoneModding.com,"13,882",??/11/2016,vB
+iPhoneModding.com,"13,882",27/08/2020,vB
+SimpleLivingForum.net,"11,174",??/??/2016,vB
+TheAirTacticalAssaultGroup.com,"11,569",??/11/2016,vB
+SilentCheats.net,"8,902",??/??/2016,vB
+Pregnancy.com.au,"5,541",??/11/2016,vB
+United-Muscle.com,"5,042",??/??/2016,vB
+eSportsIndo.com,"2,270",??/11/2016,vB
+InkJetMall.com,"1,610",??/??/2016,vB
+TeamWarfare.com,762,??/??/2016,vB
+"TrackMill.com ""`trackmillforum`.`user`""","432,959",28/08/2020,vB
+ElectricPlug.xyz GTA V3,"2,781",??/??/2020,plaintext
+JustinTimberlake.com,"452,247",??/??/2020,Half-MD5 / WordPress(MD5)
+Coinmama.com,"484,128",??/08/2017,WordPress(MD5)
+Zomato.com / Foodiebay.com,"17,000,072",17/05/2017,OsCommerce
+AIOSerial (usernames + e-mails),238,??/??/2018,N/A
+Bitcoinisimo.com,"3,681",??/??/2017,unknown
+Void.to,"9,954",20/10/2018,MyBB
+Void.to,"86,313",13/06/2019,MyBB
+Emuparadise.me,"1,128,980",??/04/2018,vB
+Jeux-Fille-Gratuit.com,"1,016,507",20/10/2020,plaintext
+TheMafiaBoss.com,"2,016,619",30/10/2020,MD5 / plaintext
+vBulletin-Mods.co.uk,"2,778",??/11/2012,vBulletin
+MyFitnessPal.com,"150,633,047",??/02/2018,SHA1 / cracked / none
+AnimalJam,"52,697,233",11/10/2020,SHA1DASH
+8tracks.com / infinitetracks.com,"18,674,438",??/06/2017,SHA1DASH
+StarVault.se,"278,697",??/06/2018,vB / none
+Aternos.org,"1,241,052",??/12/2015,MD5(SHA1(SALT)MD5(PLAIN))
+Overclockers.co.uk,"208,634",??/??/2017,??
+InfoLeaks.cc Usernames and Emails,287,24/11/2020,N/A
+Stressing.Ninja v4,"8,397",21/03/2020,MD5
+OglerTube.com,"5,938",21/10/2020,SHA1
+Dueling Network,"6,487,335",29/03/2017,MD5
+ThisCrush.com / DailyQuiz.me,"12,866,799",13/01/2021,plaintext
+MTGox.com,"61,016",??/07/2011,md5crypt
+Hiapk.com,"17,275,064",??/??/2014,vB

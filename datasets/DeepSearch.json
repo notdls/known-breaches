@@ -1,0 +1,668 @@
+[
+  {
+    "dump_name": "FrozenCraft.ru",
+    "record_count": "38,580",
+    "breach_date": "??/02/2015",
+    "info": "Hashing Algorithm: IPB"
+  },
+  {
+    "dump_name": "MPGH.net",
+    "record_count": "3,119,528",
+    "breach_date": "??/04/2015",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "CardingMafia.ws",
+    "record_count": "177,939",
+    "breach_date": "??/02/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "000webhostapp.com",
+    "record_count": "15,271,671",
+    "breach_date": "??/10/2015",
+    "info": "Hashing Algorithm: plaintext"
+  },
+  {
+    "dump_name": "Edmodo.com",
+    "record_count": "77,039,864",
+    "breach_date": "??/05/2017",
+    "info": "Hashing Algorithm: bcrypt"
+  },
+  {
+    "dump_name": "Neopets",
+    "record_count": "68,743,270",
+    "breach_date": "??/??/2013",
+    "info": "Hashing Algorithm: plaintext"
+  },
+  {
+    "dump_name": "Daniel's Hosting Users (danwin1210.me)",
+    "record_count": "7,177",
+    "breach_date": "26/02/2020",
+    "info": "Hashing Algorithm: bcrypt"
+  },
+  {
+    "dump_name": "YouNow.com",
+    "record_count": "40,545,410",
+    "breach_date": "??/06/2017",
+    "info": "Hashing Algorithm: N/A"
+  },
+  {
+    "dump_name": "Last.fm",
+    "record_count": "43,571,370",
+    "breach_date": "22/03/2012",
+    "info": "Hashing Algorithm: MD5"
+  },
+  {
+    "dump_name": "Desteria",
+    "record_count": "909,325",
+    "breach_date": "??/??/????",
+    "info": "Hashing Algorithm: N/A"
+  },
+  {
+    "dump_name": "Canva.com",
+    "record_count": "137,525,859",
+    "breach_date": "??/05/2019",
+    "info": "Hashing Algorithm: bcrypt"
+  },
+  {
+    "dump_name": "OGUsers.com",
+    "record_count": "200,551",
+    "breach_date": "??/04/2020",
+    "info": "Hashing Algorithm: MyBB"
+  },
+  {
+    "dump_name": "MySpace.com",
+    "record_count": "360,213,050",
+    "breach_date": "??/??/2008",
+    "info": "Hashing Algorithm: SHA1"
+  },
+  {
+    "dump_name": "Dailymotion.com",
+    "record_count": "85,199,393",
+    "breach_date": "20/10/2016",
+    "info": "Hashing Algorithm: bcrypt"
+  },
+  {
+    "dump_name": "Morele.net",
+    "record_count": "2,474,113",
+    "breach_date": "10/10/2018",
+    "info": "Hashing Algorithm: MD5crypt"
+  },
+  {
+    "dump_name": "BlankMediaGames.com",
+    "record_count": "7,787,441",
+    "breach_date": "28/12/2018",
+    "info": "Hashing Algorithm: phpass"
+  },
+  {
+    "dump_name": "DataViper.io",
+    "record_count": 259,
+    "breach_date": "11/07/2020",
+    "info": "Hashing Algorithm: bcrypt"
+  },
+  {
+    "dump_name": "InfragardAtlanta.org",
+    "record_count": 176,
+    "breach_date": "??/??/2011",
+    "info": "Hashing Algorithm: MD5"
+  },
+  {
+    "dump_name": "Cracked.to",
+    "record_count": "335,624",
+    "breach_date": "21/07/2019",
+    "info": "Hashing Algorithm: bcrypt"
+  },
+  {
+    "dump_name": "LinkedIn.com",
+    "record_count": "250,758,058",
+    "breach_date": "05/05/2012",
+    "info": "Hashing Algorithm: SHA1"
+  },
+  {
+    "dump_name": "Poshmark.com",
+    "record_count": "36,142,479",
+    "breach_date": "??/??/2018",
+    "info": "Hashing Algorithm: bcrypt"
+  },
+  {
+    "dump_name": "CashCrate.com",
+    "record_count": "6,896,884",
+    "breach_date": "17/11/2016",
+    "info": "Hashing Algorithm: MD5 / plaintext"
+  },
+  {
+    "dump_name": "GamerzPlanet.net",
+    "record_count": "1,215,132",
+    "breach_date": "23/10/2015",
+    "info": "Hashing Algorithm: IPB / vB"
+  },
+  {
+    "dump_name": "millionware.vip",
+    "record_count": 681,
+    "breach_date": "??/06/2020",
+    "info": "Hashing Algorithm: bcrypt"
+  },
+  {
+    "dump_name": "XSplit.com",
+    "record_count": "2,992,711",
+    "breach_date": "??/06/2015",
+    "info": "Hashing Algorithm: cracked / MD5 / SHA1"
+  },
+  {
+    "dump_name": "XSplit.com Forum",
+    "record_count": "1,402,649",
+    "breach_date": "??/06/2015",
+    "info": "Hashing Algorithm: phpBB"
+  },
+  {
+    "dump_name": "Pixelmon.fr",
+    "record_count": "34,946",
+    "breach_date": "??/04/2016",
+    "info": "Hashing Algorithm: MD5"
+  },
+  {
+    "dump_name": "BC Wars (bcwars.com)",
+    "record_count": "101,659",
+    "breach_date": "07/03/2011",
+    "info": "Hashing Algorithm: plaintext"
+  },
+  {
+    "dump_name": "LizardStresser.su",
+    "record_count": "12,935",
+    "breach_date": "??/01/2015",
+    "info": "Hashing Algorithm: plaintext"
+  },
+  {
+    "dump_name": "AltisLifeRPG.com",
+    "record_count": "31,154",
+    "breach_date": "??/08/2016",
+    "info": "Hashing Algorithm: N/A"
+  },
+  {
+    "dump_name": "Lifeboat (lbsg.net)",
+    "record_count": "11,870,389",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: MD5"
+  },
+  {
+    "dump_name": "Tunngle.net",
+    "record_count": "8,195,146",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: MyBB"
+  },
+  {
+    "dump_name": "Nulled.ch",
+    "record_count": "43,617",
+    "breach_date": "20/05/2020",
+    "info": "Hashing Algorithm: MyBB 1.2+"
+  },
+  {
+    "dump_name": "CryptoStar.asia",
+    "record_count": "22,327",
+    "breach_date": "??/??/2020",
+    "info": "Hashing Algorithm: MD5"
+  },
+  {
+    "dump_name": "Miva.com",
+    "record_count": "32,801",
+    "breach_date": "??/05/2020",
+    "info": "Hashing Algorithm: vB / bcrypt"
+  },
+  {
+    "dump_name": "Forum.AlphaSoftware.com",
+    "record_count": "22,105",
+    "breach_date": "??/05/2020",
+    "info": "Hashing Algorithm: vB / argon"
+  },
+  {
+    "dump_name": "Forum.GAMEVIL.com",
+    "record_count": "807,251",
+    "breach_date": "??/05/2020",
+    "info": "Hashing Algorithm: vB / bcrypt"
+  },
+  {
+    "dump_name": "DemonForums.net",
+    "record_count": "11,464",
+    "breach_date": "07/11/2016",
+    "info": "Hashing Algorithm: MyBB"
+  },
+  {
+    "dump_name": "DemonForums.net",
+    "record_count": "52,616",
+    "breach_date": "20/02/2019",
+    "info": "Hashing Algorithm: MyBB"
+  },
+  {
+    "dump_name": "Shotbow.net",
+    "record_count": "1,052,836",
+    "breach_date": "??/04/2016",
+    "info": "Hashing Algorithm: SHA256(sha256($pass).$salt)"
+  },
+  {
+    "dump_name": "OGUsers.com",
+    "record_count": "112,918",
+    "breach_date": "26/12/2018",
+    "info": "Hashing Algorithm: MyBB"
+  },
+  {
+    "dump_name": "MechoDownload.com",
+    "record_count": "435,355",
+    "breach_date": "??/10/2013",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "DogeWallet.com",
+    "record_count": "28,298",
+    "breach_date": "??/??/2014",
+    "info": "Hashing Algorithm: MD5 / plaintext"
+  },
+  {
+    "dump_name": "Forums.IObit.com",
+    "record_count": "76,556",
+    "breach_date": "??/11/2015",
+    "info": "Hashing Algorithm: vB / bcrypt"
+  },
+  {
+    "dump_name": "EloBuddy.net",
+    "record_count": "177,371",
+    "breach_date": "??/05/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "RedBox.com",
+    "record_count": "250,450",
+    "breach_date": "21/10/2016",
+    "info": "Hashing Algorithm: plaintext/cracked/fake(?)"
+  },
+  {
+    "dump_name": "Booter.io / RouterSlap.com",
+    "record_count": "5,025",
+    "breach_date": "07/09/2014",
+    "info": "Hashing Algorithm: MD5"
+  },
+  {
+    "dump_name": "TehkSeven.net",
+    "record_count": "1,960,704",
+    "breach_date": "??/01/2012",
+    "info": "Hashing Algorithm: MD5 + IPB"
+  },
+  {
+    "dump_name": "VTightGel.net",
+    "record_count": "2,447,187",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: N/A"
+  },
+  {
+    "dump_name": "HellForums Reloaded",
+    "record_count": 113,
+    "breach_date": "??/02/2016",
+    "info": "Hashing Algorithm: SHA1(salted)"
+  },
+  {
+    "dump_name": "Dubsmash.com",
+    "record_count": "161,549,213",
+    "breach_date": "??/12/2018",
+    "info": "Hashing Algorithm: PBKDF2"
+  },
+  {
+    "dump_name": "CardForums.biz",
+    "record_count": "172,145",
+    "breach_date": "??/04/2017",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "GiaiPhapExcel.com",
+    "record_count": "980,615",
+    "breach_date": "??/03/2017",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Forum.BitTorrent.com",
+    "record_count": "34,234",
+    "breach_date": "??/01/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "VK.com (VKontakte)",
+    "record_count": "100,544,935",
+    "breach_date": "??/??/2012",
+    "info": "Hashing Algorithm: plaintext"
+  },
+  {
+    "dump_name": "CFire.Mail.ru / CFire.ru / CrossFire Forums",
+    "record_count": "12,884,302",
+    "breach_date": "??/08/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "AntiPublic / Anti Public 2016 Combolist",
+    "record_count": "562,077,491",
+    "breach_date": "??/12/2016",
+    "info": "Hashing Algorithm: plaintext"
+  },
+  {
+    "dump_name": "Ausbb.com",
+    "record_count": "11,590",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Community.TheGoodDrugsGuide.com",
+    "record_count": "80,415",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "MyWayOut.org",
+    "record_count": "23,405",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Forums.MSDPerformance.com",
+    "record_count": "26,343",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "UAFClan.com",
+    "record_count": "1,752",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "GamesForum.com",
+    "record_count": "83,576",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "OnlineNutrition.com.au",
+    "record_count": "3,712",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "JuicedMuscle.com",
+    "record_count": "22,007",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Porno-Maniac.org",
+    "record_count": "33,396",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "PoliticalForum.com",
+    "record_count": "31,628",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "GrindFactor.com",
+    "record_count": 626,
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Forum.PR-RP.com",
+    "record_count": "3,175",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "DeathAddict.com",
+    "record_count": "2,252",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Flashacking.net",
+    "record_count": "69,679",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "PregnancyForum.org.uk",
+    "record_count": "43,647",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Forum.KeyPublishing.com",
+    "record_count": "45,670",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Forums.SGCafe.com",
+    "record_count": "34,163",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Forum.GraceOnTheMoon.com",
+    "record_count": "15,599",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "iPhoneModding.com",
+    "record_count": "13,882",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "iPhoneModding.com",
+    "record_count": "13,882",
+    "breach_date": "27/08/2020",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "SimpleLivingForum.net",
+    "record_count": "11,174",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "TheAirTacticalAssaultGroup.com",
+    "record_count": "11,569",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "SilentCheats.net",
+    "record_count": "8,902",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Pregnancy.com.au",
+    "record_count": "5,541",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "United-Muscle.com",
+    "record_count": "5,042",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "eSportsIndo.com",
+    "record_count": "2,270",
+    "breach_date": "??/11/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "InkJetMall.com",
+    "record_count": "1,610",
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "TeamWarfare.com",
+    "record_count": 762,
+    "breach_date": "??/??/2016",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "TrackMill.com \"`trackmillforum`.`user`",
+    "record_count": "432,959",
+    "breach_date": "28/08/2020",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "ElectricPlug.xyz GTA V3",
+    "record_count": "2,781",
+    "breach_date": "??/??/2020",
+    "info": "Hashing Algorithm: plaintext"
+  },
+  {
+    "dump_name": "JustinTimberlake.com",
+    "record_count": "452,247",
+    "breach_date": "??/??/2020",
+    "info": "Hashing Algorithm: Half-MD5 / WordPress(MD5)"
+  },
+  {
+    "dump_name": "Coinmama.com",
+    "record_count": "484,128",
+    "breach_date": "??/08/2017",
+    "info": "Hashing Algorithm: WordPress(MD5)"
+  },
+  {
+    "dump_name": "Zomato.com / Foodiebay.com",
+    "record_count": "17,000,072",
+    "breach_date": "17/05/2017",
+    "info": "Hashing Algorithm: OsCommerce"
+  },
+  {
+    "dump_name": "AIOSerial (usernames + e-mails)",
+    "record_count": 238,
+    "breach_date": "??/??/2018",
+    "info": "Hashing Algorithm: N/A"
+  },
+  {
+    "dump_name": "Bitcoinisimo.com",
+    "record_count": "3,681",
+    "breach_date": "??/??/2017",
+    "info": "Hashing Algorithm: unknown"
+  },
+  {
+    "dump_name": "Void.to",
+    "record_count": "9,954",
+    "breach_date": "20/10/2018",
+    "info": "Hashing Algorithm: MyBB"
+  },
+  {
+    "dump_name": "Void.to",
+    "record_count": "86,313",
+    "breach_date": "13/06/2019",
+    "info": "Hashing Algorithm: MyBB"
+  },
+  {
+    "dump_name": "Emuparadise.me",
+    "record_count": "1,128,980",
+    "breach_date": "??/04/2018",
+    "info": "Hashing Algorithm: vB"
+  },
+  {
+    "dump_name": "Jeux-Fille-Gratuit.com",
+    "record_count": "1,016,507",
+    "breach_date": "20/10/2020",
+    "info": "Hashing Algorithm: plaintext"
+  },
+  {
+    "dump_name": "TheMafiaBoss.com",
+    "record_count": "2,016,619",
+    "breach_date": "30/10/2020",
+    "info": "Hashing Algorithm: MD5 / plaintext"
+  },
+  {
+    "dump_name": "vBulletin-Mods.co.uk",
+    "record_count": "2,778",
+    "breach_date": "??/11/2012",
+    "info": "Hashing Algorithm: vBulletin"
+  },
+  {
+    "dump_name": "MyFitnessPal.com",
+    "record_count": "150,633,047",
+    "breach_date": "??/02/2018",
+    "info": "Hashing Algorithm: SHA1 / cracked / none"
+  },
+  {
+    "dump_name": "AnimalJam",
+    "record_count": "52,697,233",
+    "breach_date": "11/10/2020",
+    "info": "Hashing Algorithm: SHA1DASH"
+  },
+  {
+    "dump_name": "8tracks.com / infinitetracks.com",
+    "record_count": "18,674,438",
+    "breach_date": "??/06/2017",
+    "info": "Hashing Algorithm: SHA1DASH"
+  },
+  {
+    "dump_name": "StarVault.se",
+    "record_count": "278,697",
+    "breach_date": "??/06/2018",
+    "info": "Hashing Algorithm: vB / none"
+  },
+  {
+    "dump_name": "Aternos.org",
+    "record_count": "1,241,052",
+    "breach_date": "??/12/2015",
+    "info": "Hashing Algorithm: MD5(SHA1(SALT)MD5(PLAIN))"
+  },
+  {
+    "dump_name": "Overclockers.co.uk",
+    "record_count": "208,634",
+    "breach_date": "??/??/2017",
+    "info": "Hashing Algorithm: ??"
+  },
+  {
+    "dump_name": "InfoLeaks.cc Usernames and Emails",
+    "record_count": 287,
+    "breach_date": "24/11/2020",
+    "info": "Hashing Algorithm: N/A"
+  },
+  {
+    "dump_name": "Stressing.Ninja v4",
+    "record_count": "8,397",
+    "breach_date": "21/03/2020",
+    "info": "Hashing Algorithm: MD5"
+  },
+  {
+    "dump_name": "OglerTube.com",
+    "record_count": "5,938",
+    "breach_date": "21/10/2020",
+    "info": "Hashing Algorithm: SHA1"
+  },
+  {
+    "dump_name": "Dueling Network",
+    "record_count": "6,487,335",
+    "breach_date": "29/03/2017",
+    "info": "Hashing Algorithm: MD5"
+  },
+  {
+    "dump_name": "ThisCrush.com / DailyQuiz.me",
+    "record_count": "12,866,799",
+    "breach_date": "13/01/2021",
+    "info": "Hashing Algorithm: plaintext"
+  },
+  {
+    "dump_name": "MTGox.com",
+    "record_count": "61,016",
+    "breach_date": "??/07/2011",
+    "info": "Hashing Algorithm: md5crypt"
+  },
+  {
+    "dump_name": "Hiapk.com",
+    "record_count": "17,275,064",
+    "breach_date": "??/??/2014",
+    "info": "Hashing Algorithm: vB"
+  }
+]
