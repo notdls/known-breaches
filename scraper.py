@@ -1,11 +1,34 @@
 import requests
 import json
 import csv
+import os
 from bs4 import BeautifulSoup
 
 """
 Scrapes in the indexed/available datasets from several data aggregators/indexers. Currently supports Dehashed, Leak-Lookup, HaveIBeenPwned
 """
+
+def add_source(breaches, source):
+    """
+    Adds a source field to a list of breaches.
+    """
+    for breach in breaches:
+        breach["source"] = source
+    return breaches
+
+def clean_json(breaches):
+    """
+    Cleans an array of json objects by stripping any key/value pairs where the key is not in the whitelist.
+    """
+    whitelist = ["dump_name","breach_date","record_count","info","index_date","description","source"]
+    clean_breaches = []
+    for breach in breaches:
+        clean_breach = {}
+        for key in breach.keys():
+            if key in whitelist:
+                clean_breach[key] = breach[key]
+        clean_breaches.append(clean_breach)
+    return clean_breaches
 
 def remove_non_digits(string):
     """
@@ -148,10 +171,12 @@ def scrape_dehashed(session=generate_requests_session()):
 
 if __name__ == "__main__":
     # scrape datasets from dehashed
+    breaches = []
     print("Scraping Dehashed.com")
     try:
         dehashed_result = scrape_dehashed()
         if dehashed_result:
+            breaches += dehashed_result
             print("Saving results to file")
             with open("datasets/dehashed.json", "w") as f:
                 json.dump(dehashed_result, f)
@@ -170,6 +195,7 @@ if __name__ == "__main__":
     try:
         hibp_result = scrape_hibp()
         if hibp_result:
+            breaches += hibp_result
             print("Saving results to file")    
             with open("datasets/hibp.json", "w") as f:
                 json.dump(hibp_result, f)
@@ -188,6 +214,7 @@ if __name__ == "__main__":
     print("Scraping Leak-Lookup.com")
     try:
         ll_result = scrape_leaklookup()
+        breaches += ll_result
         if ll_result:
             print("Saving results to file")
             with open("datasets/leaklookup.json", "w") as f:
@@ -204,13 +231,27 @@ if __name__ == "__main__":
         print("Error occured while scraping Leak-Lookup")
     print("Successfully scraped {} breaches from Leak-Lookup.com".format(len(ll_result)))
 
-    
-    # load vigilante-pw datasets
-    vigilante_pw_dataset = json.loads(open("datasets/vigilante-pw.json").read())
+    # load static datasets
+    # loop through each JSON file in the datasets/ directory
+    ignore_files = ["combined.json","hibp.com","dehashed.json","leaklookup.json","HackNotice.com.json"] # HackNotice excluded to reduce noise/size
+    for file in os.listdir("datasets/"):
+        if file.endswith(".json") and file not in ignore_files:
+            print("Loading {}".format(file))
+            try:
+                with open("datasets/{}".format(file), "r") as f:
+                    json_data = json.loads(f.read())
+                    for entry in json_data:
+                        entry["source"] = file.replace(".json","")
+                    breaches += json_data
+                    print("Extracted {} breaches from {}".format(len(json_data), file))
+            except:
+                print("Error occured while loading {}".format(file))
 
     # save combined results 
+    breaches = clean_json(breaches)
+
     print("Saving combined results to file")
     with open("datasets/combined.json", "w") as f:
-        json.dump(dehashed_result + hibp_result + ll_result + vigilante_pw_dataset, f)
+        f.write(json.dumps(breaches, separators=(',', ':')))
 
     print("Done :)")
