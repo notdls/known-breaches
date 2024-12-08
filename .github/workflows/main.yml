@@ -1,0 +1,55 @@
+name: Run Python Script and Commit Changes
+
+on:
+  # Trigger this workflow manually or on push to main branch
+  push:
+    branches:
+      - actions-test
+  # You can also trigger this on a schedule (e.g., daily)
+  schedule:
+    - cron: '0 0 * * *'  # every day at midnight
+
+jobs:
+  scrape-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the code
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Python
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+
+    # Step 3: Install dependencies (if you have a requirements.txt)
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    # Step 4: Run the Python script to scrape data and regenerate files
+    - name: Run Python script
+      run: |
+        python scraper.py
+
+    # Step 5: Commit changes and push them back to the repo
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # automatically available for push authorization
+      run: |
+        git config user.name "notdls"
+        git config user.email "25024098+notdls@users.noreply.github.com"
+
+        # get current date
+        CURRENT_DATE=$(date +'%d/%m/%y')
+
+        # Check if there are changes
+        if [[ `git status --porcelain` ]]; then
+          git add .
+          git commit -m "Dataset Update $CURRENT_DATE" || exit 0
+          git push origin main  # push to the main branch
+        else
+          echo "No changes to commit."
+        fi
