@@ -49,7 +49,7 @@ jobs:
         if [[ `git status --porcelain` ]]; then
           git add .
           git commit -m "Dataset Update $CURRENT_DATE" || exit 0
-          git push origin actions-test  # push to the main branch
+          git push origin main  # push to the main branch
         else
           echo "No changes to commit."
         fi
