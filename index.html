@@ -6,11 +6,23 @@
         </title>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
         <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+        <script src="https://sql.js.org/dist/sql-wasm.js"></script>
         <script type="text/javascript" charset="utf8" src="main.js"></script>
+        <style>
+            /* Add sorting cursor to indicate sortable columns */
+            #breach_table thead th {
+                cursor: pointer;
+            }
+            /* Style for sorted columns */
+            #breach_table thead th.sorting_asc,
+            #breach_table thead th.sorting_desc {
+                background-color: #f8f9fa;
+            }
+        </style>
     </head>
-    <body onload="getDatasets()">
+    <body onload="initDB()">
         <div class="container">
             <br>
             <h3>Known Data Breaches</h3>
@@ -20,13 +32,14 @@
             <table>
                 <tr>
                     <td style="padding:15px">
-                        <li><a href="datasets/dehashed.json">dehashed.json</a></li>
-                        <li><a href="datasets/hibp.json">hibp.json</a></li>
-                        <li><a href="datasets/leaklookup.json">leaklookup.json</a></li>
-                        <li><a href="datasets/vigilante-pw.json">vigilante-pw.json</a></li>
-                        <li><a href="datasets/Hashes.org.json">Hashes.org.json</a></li>
+                        <li><a href="datasets/Dehashed.json">Dehashed.json (Live)</a></li>
+                        <li><a href="datasets/HaveIBeenPwned.json">HaveIBeenPwned.json (Live)</a></li>
+                        <li><a href="datasets/Leak-Lookup.json">leaklookup.json (Live)</a></li>
+                        <li><a href="datasets/BreachDirectory.json">BreachDirectory.json (Live)</a></li>
+                        <li><a href="datasets/Hashmob.json">Hashmob.json (Live)</a></li>
+                        <li><a href="datasets/LeakCheck.io.json">LeakCheck.io.json (Live)</a></li>
+                        <li><a href="datasets/ScatteredSecrets.json">ScatteredSecrets.json (Live)</a></li>
                         <li><a href="datasets/Keeper.json">Keeper.json</a></li>
-                        <li><a href="datasets/Siphon.json">Siphon.json</a></li>
                     </td>
                     <td style="padding:15px">
                         <li><a href="datasets/Hacked-Emails.json">Hacked-Emails.json</a></li>
@@ -36,22 +49,26 @@
                         <li><a href="datasets/Snusbase.json">Snusbase.json</a></li>
                         <li><a href="datasets/Citadel.pw.json">Citadel.pw.json</a></li>
                         <li><a href="datasets/databases.today.json">databases.today.json</a></li>
+                        <li><a href="datasets/Siphon.json">Siphon.json</a></li>
+
                     </td>
                     <td style="padding:15px">
                         <li><a href="datasets/DataViper.io.json">DataViper.io.json</a></li>
                         <li><a href="datasets/DeepSearch.json">DeepSearch.json</a></li>
-                        <li><a href="datasets/BreachDirectory.json">BreachDirectory.json</a></li>
+                        <li><a href="datasets/vigilante-pw.json">vigilante-pw.json</a></li>
                         <li><a href="datasets/BreachAware.json">BreachAware.json</a></li>
                         <li><a href="datasets/HackNotice.com.json">HackNotice.com.json</a></li>
                         <li><a href="datasets/RaidForums.json">RaidForums.json</a></li>
                         <li><a href="datasets/xam.json">xam.json</a></li>
+                        <li><a href="datasets/Cit0day.json">Cit0day.json</a></li>
+
                     </td>
                     <td style="padding:15px">
                         <li><a href="datasets/LeakBase.pw.json">LeakBase.pw.json</a></li>
                         <li><a href="datasets/BreachNet.pw.json">BreachNet.pw.json</a></li>
                         <li><a href="datasets/WeLeakInfo_1.json">WeLeakInfo_1.json</a></li>
                         <li><a href="datasets/LeakCheck.net.json">LeakCheck.net.json</a></li>
-                        <li><a href="datasets/Cit0day.json">Cit0day.json</a></li>
+                        <li><a href="datasets/Hashes.org.json">Hashes.org.json</a></li>
                         <li><a href="datasets/combined.json">combined.json</a></li>
                         <li><a href="https://github.com/notdls/known-breaches/tree/main/datasets">Original Files</a></li>
                     </td>
