@@ -3,6 +3,9 @@ import json
 import csv
 import os
 from bs4 import BeautifulSoup
+import traceback
+import logging
+
 
 """
 Scrapes in the indexed/available datasets from several data aggregators/indexers. Currently supports Dehashed, Leak-Lookup, HaveIBeenPwned
@@ -42,9 +45,27 @@ def generate_requests_session():
     """
     session = requests.Session()
     session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
     })
     return session
+
+def get_via_flaresolverr(url, cookies_only=False):
+    # This function uses a specified FlareSolverr instance to get around Cloudflare captchas/bot detection
+    flaresolverr_url = os.getenv('FLARESOLVERR_URL')
+    resp = requests.post(flaresolverr_url, json={
+        'cmd': 'request.get',
+        'url': url,
+        'maxTimeout': 60000, # 60s
+        'returnOnlyCookies': cookies_only
+    })
+    if resp.status_code == 200:
+        resp_json = resp.json()
+        if 'status' in resp_json:
+            if resp_json['status'] == 'ok' and 'solution' in resp_json:
+                if cookies_only:
+                    return resp_json['solution']['cookies'], resp_json['solution']['userAgent']
+                return resp_json['solution']['response']
+    return None
 
 def scrape_leaklookup(session=generate_requests_session()):
     """
@@ -81,10 +102,101 @@ def scrape_leaklookup(session=generate_requests_session()):
             record_count = remove_non_digits(tds[1].text.replace(",","").strip())
             # YYYY-MM-DD
             date = tds[2].text.strip()
-            breaches.append({"dump_name": dump_name, "record_count": record_count, "index_date": date, "source": "leaklookup"})
+            breaches.append({"dump_name": dump_name, "record_count": record_count, "index_date": date, "source": "Leak-Lookup"})
         return breaches
     else:
         return None
+
+def scrape_breachdirectory(session=generate_requests_session()):
+    """
+    Scrapes the BreachDirectory dataset index.
+    """
+    breaches = []
+    url = "https://breachdirectory.org/tables"
+    response = get_via_flaresolverr(url)
+    if response:
+        soup = BeautifulSoup(response, 'html.parser')
+        data_table = soup.find('table', {'class': 'chakra-table'})
+        for entry in data_table.find('tbody').find_all('tr'):
+            """
+            <tr class="css-1whkjwr">
+                <td class="css-osmp5g">collection-1</td>
+                <td class="css-osmp5g">2,147,483,647</td>
+                <td class="css-osmp5g">2019-01-24</td>
+            </tr>
+            """
+            tds = entry.find_all('td')
+            dump_name = tds[0].text.strip()
+            breach_date = tds[2].text.strip()
+            record_count = remove_non_digits(tds[1])
+            breaches.append({"dump_name": dump_name, "breach_date": breach_date, "record_count": record_count, "source": "BreachDirectory"})
+        return breaches
+    else:
+        print(f"Received non-200 status code: {response.status_code}")
+        return None
+
+def scrape_leakcheck(session=generate_requests_session()):
+    """
+    Scrapes the LeakCheck dataset index.
+    """
+    breaches = []
+    url = "https://leakcheck.io/databases-list"
+    response = get_via_flaresolverr(url)
+    if response:
+        # load as json
+        soup = BeautifulSoup(response, 'html.parser')
+        json_data = soup.find('pre').text.strip()
+        data = json.loads(json_data)
+        for entry in data['data']:
+            """
+            {"id":1,"name":"MyHeritage.com","count":89769623,"breach_date":"2017-10","unverified":0,"passwordless":0,"compilation":0}
+            """
+            dump_name = entry['name']
+            breach_date = entry['breach_date']
+            record_count = entry['count']
+            breaches.append({"dump_name": dump_name, "breach_date": breach_date, "record_count": record_count, "source": "LeakCheck.io"})
+        return breaches
+    else:
+        print(f"Received non-200 status code: {response.status_code}")
+        return None
+
+def scrape_scatteredsecrets(session=generate_requests_session()):
+    """
+    Scrapes the ScatteredSecrets dataset.
+    """
+    breaches = []
+    url = "https://scatteredsecrets.com/"
+    response = session.get(url)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        data_table = soup.find('table', {'id': 'dumps_table'})
+        for entry in data_table.find('tbody').find_all('tr'):
+            try:
+                """
+                <tr class="odd">
+                    <td class="sorting_1">0-o.ca</td>
+                </tr>
+                """
+                    # valid entry
+                dump_name = entry.find('td').text.strip()
+                breaches.append({"dump_name": dump_name, "source": "ScatteredSecrets"})
+            except Exception as e:
+                print(f"Error grabbing dump name: {entry}")
+        return breaches
+    else:
+        return None
+    
+def scrape_hashmob_official(session=generate_requests_session()):
+    # Scrapes the "official" hashlists from the hashmob.net website.
+    api_key = os.getenv('HASHMOB_API_KEY')
+    url = "https://hashmob.net/api/v2/hashlist/official"
+    response = session.get(url, headers={'api-key':api_key})
+    breaches = []
+    if response.status_code == 200:
+        for entry in response.json():
+            breaches.append({'dump_name':entry['name'], 'info': entry['algorithm'], 'record_count': entry['total_hashes'], 'source':'Hashmob'})
+        return breaches
+    return None
 
 def scrape_hibp(session=generate_requests_session()):
     """
@@ -128,7 +240,7 @@ def scrape_hibp(session=generate_requests_session()):
                 record_count = remove_non_digits(entry.find_all('p')[1].text.splitlines()[3].split(":")[1].strip())
                 description = entry.find_all('p')[0].text.strip()
                 info = entry.find_all('p')[1].text.splitlines()[4].split(":")[1].strip()
-                breaches.append({"dump_name": dump_name, "record_count": record_count, "breach_date": breach_date, "index_date": index_date, "description": description, "info": info, "source": "hibp"})
+                breaches.append({"dump_name": dump_name, "record_count": record_count, "breach_date": breach_date, "index_date": index_date, "description": description, "info": info, "source": "HaveIBeenPwned"})
         return breaches
     else:
         return None
@@ -137,11 +249,19 @@ def scrape_hibp(session=generate_requests_session()):
 def scrape_dehashed(session=generate_requests_session()):
     """
     Scrapes the Dehashed dataset index.
-
     """
     breaches = []
-    url = "https://webcache.googleusercontent.com/search?q=cache:https://dehashed.com/data"
-    response = session.get(url)
+    url = "https://dehashed.com/data"
+    # get cf_clearance
+    cookies, userAgent = get_via_flaresolverr(url, cookies_only=True)
+    # update cookies
+    req_cookies = {}
+    for cookie in cookies:
+        req_cookies[cookie['name']] = cookie['value']
+    # Update user-agent to match FlareSolverr's
+    session.headers.update({"User-Agent":userAgent})
+    # send request with new cookies
+    response = session.get(url, cookies=req_cookies)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
         data_table = soup.find('table', {'class': 'table table-hover'})
@@ -164,94 +284,185 @@ def scrape_dehashed(session=generate_requests_session()):
             breach_date = tds[2].find('span').text.strip()
             record_count = remove_non_digits(tds[3].find('span').text.replace(",","").strip())
             info = tds[4].find('abbr')['title'].strip()
-            breaches.append({"dump_name": dump_name, "breach_date": breach_date, "record_count": record_count, "info": info, "source": "dehashed"})
+            breaches.append({"dump_name": dump_name, "breach_date": breach_date, "record_count": record_count, "info": info, "source": "Dehashed"})
         return breaches
     else:
+        print(f"Received non-200 status code: {response.status_code}")
         return None
+    
 
 if __name__ == "__main__":
-    # scrape datasets from dehashed
-    breaches = []
-    print("Scraping Dehashed.com")
-    try:
-        dehashed_result = scrape_dehashed()
-        if dehashed_result:
-            breaches += dehashed_result
-            print("Saving results to file")
-            with open("datasets/dehashed.json", "w") as f:
-                json.dump(dehashed_result, f)
-            with open("datasets/dehashed.csv", "w") as f:
-                writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","source"])
-                writer.writeheader()
-                writer.writerows(dehashed_result)
-            print("Successfully scraped {} breaches from Dehashed.com".format(len(dehashed_result)))
-        else:
-            print("Scraping dehashed failed")
-    except:
-        print("Error occured while scraping dehashed")
-    # scrape datasets from HaveIBeenPwned
+    # initialize logging
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format='%(asctime)s - %(levelname)s - %(message)s'
+    )
 
-    print("Scraping HaveIBeenPwned.com")
+    # init breaches
+    breaches = []
+    if "FLARESOLVERR_URL" in os.environ:
+        # scrape datasets from dehashed
+        logging.info("Scraping Dehashed.com")
+        try:
+            dehashed_result = scrape_dehashed()
+            if dehashed_result:
+                breaches += dehashed_result
+                logging.info("Saving results to file")
+                with open("datasets/Dehashed.json", "w") as f:
+                    json.dump(dehashed_result, f)
+                with open("datasets/Dehashed.csv", "w") as f:
+                    writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","source"])
+                    writer.writeheader()
+                    writer.writerows(dehashed_result)
+                logging.info("Successfully scraped %d breaches from Dehashed.com", len(dehashed_result))
+            else:
+                logging.error("Scraping dehashed failed")
+        except Exception as e:
+            logging.error("Error occurred while scraping dehashed: %s", str(e))
+
+        # scrape datasets from BreachDirectory
+        logging.info("Scraping BreachDirectory.org")
+        try:
+            bd_result = scrape_breachdirectory()
+            if bd_result:
+                breaches += bd_result
+                logging.info("Saving results to file")
+                with open("datasets/BreachDirectory.json", "w") as f:
+                    json.dump(bd_result, f)
+                with open("datasets/BreachDirectory.csv", "w") as f:
+                    writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","source"])
+                    writer.writeheader()
+                    writer.writerows(bd_result)
+                logging.info("Successfully scraped %d breaches from BreachDirectory.org", len(bd_result))
+            else:
+                logging.error("Scraping BreachDirectory failed")
+        except Exception as e:
+            logging.error('Error occurred while scraping BreachDirectory: %s', str(e))
+            logging.error('Traceback: %s', traceback.format_exc())
+
+        # scrape datasets from Leakcheck
+        logging.info("Scraping LeakCheck.io")
+        try:
+            lc_result = scrape_leakcheck()
+            if lc_result:
+                breaches += lc_result
+                logging.info("Saving results to file")
+                with open("datasets/LeakCheck.io.json", "w") as f:
+                    json.dump(lc_result, f)
+                with open("datasets/LeakCheck.io.csv", "w") as f:
+                    writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","source"])
+                    writer.writeheader()
+                    writer.writerows(lc_result)
+                logging.info("Successfully scraped %d breaches from LeakCheck.io", len(lc_result))
+            else:
+                logging.error("Scraping Leakcheck failed")
+        except Exception as e:
+            logging.error('Error occurred while scraping LeakCheck: %s', str(e))
+            logging.error('Traceback: %s', traceback.format_exc())
+
+    # scrape datasets from ScatteredSecrets
+    logging.info("Scraping ScatteredSecrets.com")
+    try:
+        ss_result = scrape_scatteredsecrets()
+        if ss_result:
+            breaches += ss_result
+            logging.info("Saving results to file")
+            with open("datasets/ScatteredSecrets.json", "w") as f:
+                json.dump(ss_result, f)
+            with open("datasets/ScatteredSecrets.csv", "w") as f:
+                writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","source"])
+                writer.writeheader()
+                writer.writerows(ss_result)
+            logging.info("Successfully scraped %d breaches from ScatteredSecrets", len(ss_result))
+        else:
+            logging.error("Scraping ScatteredSecrets failed")
+    except Exception as e:
+        logging.error('Error occurred while scraping ScatteredSecrets: %s', str(e))
+        logging.error('Traceback: %s', traceback.format_exc())
+
+    # scrape datasets from Hashmob
+    if "HASHMOB_API_KEY" in os.environ:
+        logging.info("Scraping Hashmob.net")
+        try:
+            hm_result = scrape_hashmob_official()
+            if hm_result:
+                breaches += hm_result
+                logging.info("Saving results to file")
+                with open("datasets/Hashmob.json", "w") as f:
+                    json.dump(hm_result, f)
+                with open("datasets/Hashmob.csv", "w") as f:
+                    writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","source","info"])
+                    writer.writeheader()
+                    writer.writerows(hm_result)
+                logging.info("Successfully scraped %d breaches from Hashmob", len(hm_result))
+            else:
+                logging.error("Scraping Hashmob failed")
+        except Exception as e:
+            logging.error('Error occurred while scraping Hashmob: %s', str(e))
+            logging.error('Traceback: %s', traceback.format_exc())
+
+    # scrape datasets from HaveIBeenPwned
+    logging.info("Scraping HaveIBeenPwned.com")
     try:
         hibp_result = scrape_hibp()
         if hibp_result:
             breaches += hibp_result
-            print("Saving results to file")    
-            with open("datasets/hibp.json", "w") as f:
+            logging.info("Saving results to file")    
+            with open("datasets/HaveIBeenPwned.json", "w") as f:
                 json.dump(hibp_result, f)
-            with open("datasets/hibp.csv", "w") as f:
+            with open("datasets/HaveIBeenPwned.csv", "w") as f:
                 writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","index_date","description","source"])
                 writer.writeheader()
                 writer.writerows(hibp_result)
+            logging.info("Successfully scraped %d breaches from HaveIBeenPwned.com", len(hibp_result))
         else:
-            print("Scraping of HIBP failed")
+            logging.error("Scraping of HaveIBeenPwned failed")
     except Exception as e:
-        print(str(e))
-        print("Error occured while scraiping hibp")
-    print("Successfully scraped {} breaches from HaveIBeenPwned.com".format(len(hibp_result)))
+        logging.error('Error occurred while scraping HaveIBeenPwned: %s', str(e))
+        logging.error('Traceback: %s', traceback.format_exc())
     
     # scrape datasets from LeakLookup
-    print("Scraping Leak-Lookup.com")
+    logging.info("Scraping Leak-Lookup.com")
     try:
         ll_result = scrape_leaklookup()
         breaches += ll_result
         if ll_result:
-            print("Saving results to file")
-            with open("datasets/leaklookup.json", "w") as f:
+            logging.info("Saving results to file")
+            with open("datasets/Leak-Lookup.json", "w") as f:
                 json.dump(ll_result, f)
-            with open("datasets/leaklookup.csv", "w") as f:
-                #breaches.append({"dump_name": dump_name, "record_count": record_count, "index_date": date, "source": "leaklookup"})
-
+            with open("datasets/Leak-Lookup.csv", "w") as f:
                 writer = csv.DictWriter(f, fieldnames=["dump_name","record_count","index_date","source"])
                 writer.writeheader()
                 writer.writerows(ll_result)
+            logging.info("Successfully scraped %d breaches from Leak-Lookup.com", len(ll_result))
         else:
-            print("Scraping of leak-lookup failed")
-    except:
-        print("Error occured while scraping Leak-Lookup")
-    print("Successfully scraped {} breaches from Leak-Lookup.com".format(len(ll_result)))
+            logging.error("Scraping of leak-lookup failed")
+    except Exception as e:
+        logging.error('Error occurred while scraping Leak-Lookup: %s', str(e))
+        logging.error('Traceback: %s', traceback.format_exc())
 
     # load static datasets
     # loop through each JSON file in the datasets/ directory
-    ignore_files = ["combined.json","hibp.com","dehashed.json","leaklookup.json","HackNotice.com.json"] # HackNotice excluded to reduce noise/size
+    ignore_files = ["combined.json","HaveIBeenPwned.json","Dehashed.json","Leak-Lookup.json","BreachDirectory.json","Hashmob.json","LeakCheck.io.json","ScatteredSecrets.json"]
     for file in os.listdir("datasets/"):
         if file.endswith(".json") and file not in ignore_files:
-            print("Loading {}".format(file))
+            logging.info("Loading %s", file)
             try:
                 with open("datasets/{}".format(file), "r") as f:
                     json_data = json.loads(f.read())
                     for entry in json_data:
                         entry["source"] = file.replace(".json","")
                     breaches += json_data
-                    print("Extracted {} breaches from {}".format(len(json_data), file))
-            except:
-                print("Error occured while loading {}".format(file))
+                    logging.info("Extracted %d breaches from %s", len(json_data), file)
+            except Exception as e:
+                logging.error('Error occurred while loading %s: %s', file, str(e))
+                logging.error('Traceback: %s', traceback.format_exc())
 
     # save combined results 
     breaches = clean_json(breaches)
 
-    print("Saving combined results to file")
+    logging.info("Saving combined results to file")
     with open("datasets/combined.json", "w") as f:
         f.write(json.dumps(breaches, separators=(',', ':')))
 
-    print("Done :)")
+    logging.info("Done :)")
