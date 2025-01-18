@@ -39,13 +39,13 @@ As vigilante.pw is currently down and has been for a while, the data set from th
 If you have any suggestions feel free to create an issue or submit a PR :)
 
 # Usage
-If you would like to run this yourself, the script now requires two things to run successfully:
- - A FlareServerr Host - This is used to get around Cloudflare bot checks
- - A Hashmob API Key - This is used to interact with the Hashmob API to retrieve a list of official breaches.
+If you would like to run this yourself, the scraper now requires two things to run successfully:
+ - A FlareServerr Host (`FLARESERVERR_URL`) - This is used to get around Cloudflare bot checks
+ - A Hashmob API Key (`HASHMOB_API_KEY`) - This is used to interact with the Hashmob API to retrieve a list of official breaches.
 
 These values are expected to be passed as environment variables (`FLARESERVERR_URL` and `HASHMOB_API_KEY`).
 
-It is possible to run the script without them, but you the generated dataset will be missing several live sites.
+It is possible to run the script without them, but the generated datasets will be missing several live sources.
 
 # TODO
  - Normalize breach dates
