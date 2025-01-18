@@ -1,15 +1,18 @@
 # Known Breaches
-A compliation of breach information gathered from data aggregators and breach lookup services. This also ships with a basic HTML/JS client-side search for the datasets, this can be hosted on any webserver or ran locally, alternatively you can search the data online [here](https://breaches.dls.sh/).
+A compliation of breach information gathered from data aggregators, breach lookup and similar services. This also ships with a basic HTML/JS client-side search (now using [sql.js](https://sql.js.org/#/)) for the datasets, this can be hosted on any webserver or ran locally, alternatively you can search the data online [here](https://breaches.dls.sh/).
 
 **Automatic Updates:**
  - HaveIBeenPwned.com
  - Dehashed.com
  - Leak-Lookup.com
+ - ScatteredSecrets.com
+ - BreachDirectory.org
+ - LeakCheck.io
+ - Hashmob.net
 
 **Archived Lists:**
  - Vigilante.pw
  - BreachAware
- - BreachDirectory
  - BreachNet
  - Cit0day
  - Citadel.pw
@@ -35,3 +38,14 @@ As vigilante.pw is currently down and has been for a while, the data set from th
 
 If you have any suggestions feel free to create an issue or submit a PR :)
 
+# Usage
+If you would like to run this yourself, the script now requires two things to run successfully:
+ - A FlareServerr Host - This is used to get around Cloudflare bot checks
+ - A Hashmob API Key - This is used to interact with the Hashmob API to retrieve a list of official breaches.
+
+These values are expected to be passed as environment variables (`FLARESERVERR_URL` and `HASHMOB_API_KEY`).
+
+It is possible to run the script without them, but you the generated dataset will be missing several live sites.
+
+# TODO
+ - Normalize breach dates
