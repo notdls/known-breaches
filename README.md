@@ -11,27 +11,28 @@ A compliation of breach information gathered from data aggregators, breach looku
 | LeakCheck.io | 1,010 | 6,251,599,721 | ✅ |
 | ScatteredSecrets | 4,669 | Unavailable | ✅ |
 | Leak-Lookup | 4,409 | 27,850,174,836 | ✅ |
-| Hashes.org | 2,508 | 3,259,811,660 | ❌ |
-| Keeper | 2,939 | Unavailable | ❌ |
-| Siphon | 765 | Unavailable | ❌ |
-| Hacked-Emails | 16,497 | 1,620,592 | ❌ |
-| vigilante-pw | 6,413 | 6,263,886,497 | ❌ |
-| leakfind | 660 | Unavailable | ❌ |
-| WeLeakInfo_2 | 945 | Unavailable | ❌ |
-| Snusbase | 673 | Unavailable | ❌ |
-| Citadel.pw | 475 | Unavailable | ❌ |
-| databases.today | 1,256 | Unavailable | ❌ |
-| DataViper.io | 8,225 | 14,699,175,144 | ❌ |
-| DeepSearch | 111 | 3,142 | ❌ |
-| BreachAware | 3,685 | 6,117,426,271 | ❌ |
-| HackNotice.com | 50,967 | 11,194,593,862 | ❌ |
-| RaidForums | 505 | 1,625 | ❌ |
-| LeakBase.pw | 655 | 10,640 | ❌ |
-| BreachNet.pw | 662 | 3,220,636,003 | ❌ |
-| WeLeakInfo_1 | 10,369 | Unavailable | ❌ |
-| LeakCheck.net | 780 | Unavailable | ❌ |
 | xam | 308 | 5,789,597 | ❌ |
+| LeakBase.pw | 655 | 10,640 | ❌ |
+| Hacked-Emails | 16,497 | 1,620,592 | ❌ |
+| RaidForums | 505 | 1,625 | ❌ |
+| Keeper | 2,939 | Unavailable | ❌ |
+| vigilante-pw | 6,413 | 6,263,886,497 | ❌ |
+| Hashes.org | 2,508 | 3,259,811,660 | ❌ |
+| DataViper.io | 8,225 | 14,699,175,144 | ❌ |
+| Citadel.pw | 475 | Unavailable | ❌ |
+| leakfind | 660 | Unavailable | ❌ |
+| databases.today | 1,256 | Unavailable | ❌ |
+| DeepSearch | 111 | 3,142 | ❌ |
+| WeLeakInfo_2 | 945 | Unavailable | ❌ |
+| Siphon | 765 | Unavailable | ❌ |
+| LeakCheck.net | 780 | Unavailable | ❌ |
+| WeLeakInfo_1 | 10,369 | Unavailable | ❌ |
+| BreachNet.pw | 662 | 3,220,636,003 | ❌ |
+| BreachAware | 3,685 | 6,117,426,271 | ❌ |
+| Snusbase | 673 | Unavailable | ❌ |
+| HackNotice.com | 50,967 | 11,194,593,862 | ❌ |
 | Cit0day | 23,562 | 1,588,612 | ❌ |
+
 
 You can find the datasets in `datasets/`, each file here contains data obtained from the individual providers with the exception of `combined.json` which is a compilation of all data.
 
