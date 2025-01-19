@@ -128,7 +128,7 @@ def scrape_breachdirectory(session=generate_requests_session()):
             tds = entry.find_all('td')
             dump_name = tds[0].text.strip()
             breach_date = tds[2].text.strip()
-            record_count = remove_non_digits(tds[1])
+            record_count = remove_non_digits(tds[1].text.strip())
             breaches.append({"dump_name": dump_name, "breach_date": breach_date, "record_count": record_count, "source": "BreachDirectory"})
         return breaches
     else:
