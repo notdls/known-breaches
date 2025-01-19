@@ -2,36 +2,7 @@
 A compliation of breach information gathered from data aggregators, breach lookup and similar services. This also ships with a basic HTML/JS client-side search (now using [sql.js](https://sql.js.org/#/)) for the datasets, this can be hosted on any webserver or ran locally, alternatively you can search the data online [here](https://breaches.dls.sh/).
 
 ## Indexed Services
-| Service Name | Breach Count | Total Records | Automatic Updates |
-| ------------ | ------------ | ------------- |        :--:       |
-| HaveIBeenPwned | 851 | 14,505,253,859 | ✅ |
-| Dehashed | 1,071 | 16,133,955,377 | ✅ |
-| Hashmob | 2,647 | 4,649,520,532 | ✅ |
-| BreachDirectory | 4,276 | 26,536,733,833 | ✅ |
-| LeakCheck.io | 1,010 | 6,251,599,721 | ✅ |
-| ScatteredSecrets | 4,669 | Unavailable | ✅ |
-| Leak-Lookup | 4,409 | 27,850,174,836 | ✅ |
-| Hashes.org | 2,508 | 3,259,811,660 | ❌ |
-| Keeper | 2,939 | Unavailable | ❌ |
-| Siphon | 765 | Unavailable | ❌ |
-| Hacked-Emails | 16,497 | 1,620,592 | ❌ |
-| vigilante-pw | 6,413 | 6,263,886,497 | ❌ |
-| leakfind | 660 | Unavailable | ❌ |
-| WeLeakInfo_2 | 945 | Unavailable | ❌ |
-| Snusbase | 673 | Unavailable | ❌ |
-| Citadel.pw | 475 | Unavailable | ❌ |
-| databases.today | 1,256 | Unavailable | ❌ |
-| DataViper.io | 8,225 | 14,699,175,144 | ❌ |
-| DeepSearch | 111 | 3,142 | ❌ |
-| BreachAware | 3,685 | 6,117,426,271 | ❌ |
-| HackNotice.com | 50,967 | 11,194,593,862 | ❌ |
-| RaidForums | 505 | 1,625 | ❌ |
-| LeakBase.pw | 655 | 10,640 | ❌ |
-| BreachNet.pw | 662 | 3,220,636,003 | ❌ |
-| WeLeakInfo_1 | 10,369 | Unavailable | ❌ |
-| LeakCheck.net | 780 | Unavailable | ❌ |
-| xam | 308 | 5,789,597 | ❌ |
-| Cit0day | 23,562 | 1,588,612 | ❌ |
+README_TABLE
 
 You can find the datasets in `datasets/`, each file here contains data obtained from the individual providers with the exception of `combined.json` which is a compilation of all data.
 
