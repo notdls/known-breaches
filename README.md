@@ -4,34 +4,34 @@ A compliation of breach information gathered from data aggregators, breach looku
 ## Indexed Services
 | Service Name | Breach Count | Total Records | Automatic Updates |
 | ------------ | ------------ | ------------- |        :--:       |
-| HaveIBeenPwned | 851 | 14,505,253,859 | ✅ |
+| BreachDirectory | 4,276 | 26,536,733,833 | ✅ |
 | Dehashed | 1,071 | 16,133,955,377 | ✅ |
 | Hashmob | 2,647 | 4,649,520,532 | ✅ |
-| BreachDirectory | 4,276 | 26,536,733,833 | ✅ |
+| HaveIBeenPwned | 851 | 14,505,253,859 | ✅ |
+| Leak-Lookup | 4,409 | 27,850,174,836 | ✅ |
 | LeakCheck.io | 1,010 | 6,251,599,721 | ✅ |
 | ScatteredSecrets | 4,669 | Unavailable | ✅ |
-| Leak-Lookup | 4,409 | 27,850,174,836 | ✅ |
-| xam | 308 | 5,789,597 | ❌ |
-| LeakBase.pw | 655 | 10,640 | ❌ |
-| Hacked-Emails | 16,497 | 1,620,592 | ❌ |
-| RaidForums | 505 | 1,625 | ❌ |
-| Keeper | 2,939 | Unavailable | ❌ |
-| vigilante-pw | 6,413 | 6,263,886,497 | ❌ |
-| Hashes.org | 2,508 | 3,259,811,660 | ❌ |
-| DataViper.io | 8,225 | 14,699,175,144 | ❌ |
-| Citadel.pw | 475 | Unavailable | ❌ |
-| leakfind | 660 | Unavailable | ❌ |
-| databases.today | 1,256 | Unavailable | ❌ |
-| DeepSearch | 111 | 3,142 | ❌ |
-| WeLeakInfo_2 | 945 | Unavailable | ❌ |
-| Siphon | 765 | Unavailable | ❌ |
-| LeakCheck.net | 780 | Unavailable | ❌ |
-| WeLeakInfo_1 | 10,369 | Unavailable | ❌ |
-| BreachNet.pw | 662 | 3,220,636,003 | ❌ |
 | BreachAware | 3,685 | 6,117,426,271 | ❌ |
-| Snusbase | 673 | Unavailable | ❌ |
+| BreachNet.pw | 662 | 3,220,636,003 | ❌ |
+| Cit0day | 23,562 | 1,215,545 | ❌ |
+| Citadel.pw | 475 | Unavailable | ❌ |
+| databases.today | 1,256 | Unavailable | ❌ |
+| DataViper.io | 8,225 | 14,699,175,144 | ❌ |
+| DeepSearch | 111 | 2,292,279,815 | ❌ |
+| Hacked-Emails | 16,497 | 10,767,621,128 | ❌ |
 | HackNotice.com | 50,967 | 11,194,593,862 | ❌ |
-| Cit0day | 23,562 | 1,588,612 | ❌ |
+| Hashes.org | 2,508 | 3,259,811,660 | ❌ |
+| Keeper | 2,939 | Unavailable | ❌ |
+| LeakBase.pw | 655 | 4,335,625,510 | ❌ |
+| LeakCheck.net | 780 | Unavailable | ❌ |
+| leakfind | 660 | Unavailable | ❌ |
+| RaidForums | 505 | 10,586,929,316 | ❌ |
+| Siphon | 765 | Unavailable | ❌ |
+| Snusbase | 673 | Unavailable | ❌ |
+| vigilante-pw | 6,413 | 6,263,886,497 | ❌ |
+| WeLeakInfo_1 | 10,369 | Unavailable | ❌ |
+| WeLeakInfo_2 | 945 | Unavailable | ❌ |
+| xam | 308 | 5,789,597 | ❌ |
 
 
 You can find the datasets in `datasets/`, each file here contains data obtained from the individual providers with the exception of `combined.json` which is a compilation of all data.
