@@ -1901,7 +1901,7 @@ HO[5449]__Highcountry4wheelers.com,,46630,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5447]__Fybforum.co.uk,,50557,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5442]__Thechinforum.com,,58095,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5440]__Forum.learncima.com,,62522,Hashmob,bcrypt(md5($pass)) / bcryptmd5
-HO[543]__Edmodo.com,,40865241,Hashmob,bcrypt(md5($pass)) / bcryptmd5
+HO[543]__Edmodo.com,,74577287,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5438]__Forum.dex-rpg.com,,67629,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5428]__Forum.cabaleu.playthisgame.com,,143833,Hashmob,vBulletin >= v3.8.5
 HO[53]__Madword.co.uk,,1029,Hashmob,MD5
