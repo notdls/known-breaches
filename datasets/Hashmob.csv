@@ -582,7 +582,6 @@ arkforums,,3918,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 apexbooter,,7,Hashmob,SHA1
 anandtech,,365674,Hashmob,vBulletin < v3.8.5
 aippm,,21,Hashmob,vBulletin < v3.8.5
-acneipb,,458006,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 accountsupplier.com,,1151,Hashmob,sha1($pass.$salt)
 aarinfantasyjoomla,,107013,Hashmob,Joomla < 2.5.18
 4uck,,9896,Hashmob,vBulletin >= v3.8.5
@@ -1786,7 +1785,6 @@ HO[6383]__Letfan.com,,122763,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[637]__Amt-games.com,,4184,Hashmob,vBulletin >= v3.8.5
 HO[6378]__Nulled.ch,,36522,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 HO[636]__Alwafd.org,,3908,Hashmob,Joomla < 2.5.18
-HO[635]__Allowmenstalk.com,,138900,Hashmob,phpass
 HO[6353]__Stalker.so,,1154743,Hashmob,sha1($salt.$pass)
 HO[6352]__Wishbone.io,,6449254,Hashmob,MD5
 HO[634]__AllAboutTheGames.co.uk,,1193,Hashmob,"md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5)"
