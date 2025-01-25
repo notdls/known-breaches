@@ -47,12 +47,12 @@ Ecb.co.uk,,28328,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Ecb.co.uk [md5],,14069,Hashmob,MD5
 Darkwindforums.com,,112974,Hashmob,MD5
 Czforito.com,,63500,Hashmob,vBulletin < v3.8.5
-Czforito.com [bcrypt],,27085,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Czforito.com [bcrypt],,27085,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Cpokemon.com [vbulletin],,71371,Hashmob,vBulletin >= v3.8.5
 Cpokemon.com [bcrypt],,220,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Cosforums.com,,100719,Hashmob,vBulletin < v3.8.5
 Comunidadzero.com,,63500,Hashmob,vBulletin < v3.8.5
-Comunidadzero.com [bcrypt],,27105,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Comunidadzero.com [bcrypt],,27105,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Bleutorch.com,,363081,Hashmob,SHA1
 AlpineReplay.com,,632158,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Monstercars.nl,,17486,Hashmob,"osCommerce, xt:Commerce"
@@ -2122,7 +2122,7 @@ HO[2929]__Oneservers.su,,35012,Hashmob,MD5
 HO[2927]__Borealis.su,,280077,Hashmob,md5(md5($pass))
 HO[2917]__Newlook.com,,843330,Hashmob,SHA1
 HO[28]__Blizzard.com.au,,15956,Hashmob,MD5
-HO[2804]__Whitepages.com,,9213816,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+HO[2804]__Whitepages.com,,10839470,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[2802]__Roadtrippers.com,,2510187,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[2801]__Sephora.com,,767165,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[2800]__Pobiearmy24.pl,,150825,Hashmob,vBulletin < v3.8.5
