@@ -1,4 +1,12 @@
 dump_name,breach_date,record_count,source,info
+Storybird.com [djangosha1],,1384815,Hashmob,Django (SHA-1)
+Storenvy.com,,9682746,Hashmob,Ruby on Rails Restful-Authentication
+Forums.xkcd.com,,546599,Hashmob,phpass
+Forums.xkcd.com [bcrypt],,15149,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Cafepress.com,,5902984,Hashmob,"nsldap, SHA-1(Base64), Netscape LDAP SHA"
+Bitcointalk.org,,450355,Hashmob,"sha256crypt $5$, SHA256 (Unix)"
+Bitcointalk.org [sha1],,44865,Hashmob,SHA1
+Beedoo.com.br,,432120,Hashmob,MD5
 Armorgames.com,,7806281,Hashmob,sha1($salt.sha1($pass.$salt))
 Comai.fr,,20075,Hashmob,md5($salt.$pass)
 grpvyn.com,,255724,Hashmob,MD5
@@ -34,7 +42,7 @@ Narutorp.net,,98866,Hashmob,vBulletin < v3.8.5
 Multibux.org,,32244,Hashmob,vBulletin < v3.8.5
 Masterforex-v.org,,166699,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Lifeofpix.com,,175861,Hashmob,phpass
-Killbillet.com [bcrypt],,33468,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Killbillet.com [bcrypt],,33468,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Killbillet.com,,87334,Hashmob,vBulletin >= v3.8.5
 Goninja.de,,161145,Hashmob,vBulletin < v3.8.5
 Gamershood.com [bcrypt],,111,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
