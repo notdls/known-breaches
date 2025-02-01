@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Farmadelivery.com.br,,1150010,Hashmob,md5($salt.$pass)
+Adecco.com,,3270221,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 A3M.com,,433922,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Zacks.com [2024-06],,1961793,Hashmob,SHA2-256
 Strongholdkingdoms.com,,5816522,Hashmob,HMAC-RIPEMD160 (key = $salt)
