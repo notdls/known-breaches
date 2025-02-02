@@ -40,7 +40,7 @@ Sitcomsonline.com,,42949,Hashmob,vBulletin < v3.8.5
 SchenkYou.com,,236926,Hashmob,sha256($salt.$pass)
 Raffaello-Network,,827801,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Protecta.com.au,,59251,Hashmob,sha256($salt.$pass)
-Pearldrummersforums.com,,197821,Hashmob,vBulletin < v3.8.5
+Pearldrummersforums.com,,197821,Hashmob,vBulletin >= v3.8.5
 Owned.com,,72493,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Nterone.com,,203091,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Narutorp.net,,98866,Hashmob,vBulletin < v3.8.5
