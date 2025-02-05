@@ -10,7 +10,7 @@ A compliation of breach information gathered from data aggregators, breach looku
 | HaveIBeenPwned | 860 | 14,630,838,014 | ✅ |
 | Leak-Lookup | 4,416 | 27,859,679,523 | ✅ |
 | LeakCheck.io | 1,010 | 6,251,599,721 | ✅ |
-| Leaked.Domains | 303 | 10,369,487,996 | ✅ |
+| Leaked.Domains | 307 | 10,369,487,996 | ✅ |
 | ScatteredSecrets | 4,669 | Unavailable | ✅ |
 | BreachAware | 3,685 | 6,117,426,271 | ❌ |
 | BreachForums_Official_Index | 1,006 | 16,041,441,468 | ❌ |
