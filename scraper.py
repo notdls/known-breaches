@@ -291,6 +291,37 @@ def scrape_dehashed(session=generate_requests_session()):
         return None
     
 
+def scrape_leaked_domains(session=generate_requests_session()):
+    breaches = []
+    url = "https://leaked.domains/Info/"
+    # get cf_clearance
+    cookies, userAgent = get_via_flaresolverr(url, cookies_only=True)
+    # update cookies
+    req_cookies = {}
+    for cookie in cookies:
+        req_cookies[cookie['name']] = cookie['value']
+    # Update user-agent to match FlareSolverr's
+    session.headers.update({"User-Agent":userAgent})
+    # send request with new cookies
+    response = session.get(url, cookies=req_cookies)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        data_table = soup.find('table', {'id': 'leak_summery'})
+        for entry in data_table.find('tbody').find_all('tr'):
+            #print(entry)
+            tds = entry.find_all('td')
+            entry_type = tds[1].text.strip()
+            if entry_type == "Leakdb":
+                dump_name = tds[0].text.strip()
+                breach_date = tds[5].text.strip()
+                record_count = remove_non_digits(tds[6].text.replace(",","").strip())
+                info = tds[4].text.strip()
+                breaches.append({"dump_name": dump_name, "breach_date": breach_date, "record_count": record_count, "info": info, "source": "Leaked.Domains"})
+        return breaches
+    else:
+        print(f"Received non-200 status code: {response.status_code}")
+        return None
+
 if __name__ == "__main__":
     # initialize logging
     logging.basicConfig(
@@ -359,6 +390,25 @@ if __name__ == "__main__":
         except Exception as e:
             logging.error('Error occurred while scraping LeakCheck: %s', str(e))
             logging.error('Traceback: %s', traceback.format_exc())
+
+        # scrape datasets from Leaked.Domains
+        logging.info("Scraping Leaked.Domains")
+        try:
+            ld_result = scrape_leaked_domains()
+            if ld_result:
+                breaches += ld_result
+                logging.info("Saving results to file")
+                with open("datasets/Leaked.Domains.json", "w") as f:
+                    json.dump(ld_result, f)
+                with open("datasets/Leaked.Domains.csv", "w") as f:
+                    writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","source"])
+                    writer.writeheader()
+                    writer.writerows(ld_result)
+                logging.info("Successfully scraped %d breaches from Leaked.Domains", len(ld_result))
+            else:
+                logging.error("Scraping Leaked.Domains failed")
+        except Exception as e:
+            logging.error("Error occurred while scraping Leaked.Domains: %s", str(e))
 
     # scrape datasets from ScatteredSecrets
     logging.info("Scraping ScatteredSecrets.com")
