@@ -493,7 +493,7 @@ if __name__ == "__main__":
 
     # load static datasets
     # loop through each JSON file in the datasets/ directory
-    ignore_files = ["combined.json","HaveIBeenPwned.json","Dehashed.json","Leak-Lookup.json","BreachDirectory.json","Hashmob.json","LeakCheck.io.json","ScatteredSecrets.json"]
+    ignore_files = ["combined.json","HaveIBeenPwned.json","Dehashed.json","Leak-Lookup.json","BreachDirectory.json","Hashmob.json","LeakCheck.io.json","ScatteredSecrets.json","Leaked.Domains.json"]
     for file in os.listdir("datasets/"):
         if file.endswith(".json") and file not in ignore_files:
             logging.info("Loading %s", file)

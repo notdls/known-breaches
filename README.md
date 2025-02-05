@@ -4,7 +4,7 @@ A compliation of breach information gathered from data aggregators, breach looku
 ## Indexed Services
 | Service Name | Breach Count | Total Records | Automatic Updates |
 | ------------ | ------------ | ------------- |        :--:       |
-| BreachDirectory | 4,276 | 26,536,733,833 | ✅ |
+| BreachDirectory | 4,416 | 27,859,679,523 | ✅ |
 | Dehashed | 1,071 | 16,133,955,377 | ✅ |
 | Hashmob | 2,660 | 4,723,179,783 | ✅ |
 | HaveIBeenPwned | 860 | 14,630,838,014 | ✅ |
@@ -26,6 +26,7 @@ A compliation of breach information gathered from data aggregators, breach looku
 | Keeper | 2,939 | Unavailable | ❌ |
 | LeakBase.pw | 655 | 4,335,625,510 | ❌ |
 | LeakCheck.net | 780 | Unavailable | ❌ |
+| Leaked.Domains | 303 | 10,369,487,996 | ❌ |
 | leakfind | 660 | Unavailable | ❌ |
 | RaidForums | 505 | 10,586,929,316 | ❌ |
 | Siphon | 765 | Unavailable | ❌ |
