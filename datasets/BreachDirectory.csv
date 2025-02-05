@@ -10,8 +10,10 @@ exploit.in,2017-07-09,805561994,BreachDirectory
 pemiblanc.com,2018-08-28,652748394,BreachDirectory
 antipublic-combo,2017-05-31,562175314,BreachDirectory
 weibo.com,2017-06-07,508513746,BreachDirectory
+socradar.io,2024-08-14,434872552,BreachDirectory
 peopledatalabs,2020-12-16,416726546,BreachDirectory
 myspace.com,2017-02-20,360212437,BreachDirectory
+intelx.io-whois,2024-10-07,316849053,BreachDirectory
 cit0day.in,2020-11-13,296503532,BreachDirectory
 truecaller.com,2019-10-28,286252303,BreachDirectory
 twitter.com,2017-02-20,281238587,BreachDirectory
@@ -36,6 +38,7 @@ myfitnesspal.com,2019-10-31,150669098,BreachDirectory
 npa-nxx,2017-10-13,143090683,BreachDirectory
 canva.com,2023-06-19,142773536,BreachDirectory
 jd.com,2021-06-21,141647897,BreachDirectory
+pureincubation.com,2024-12-09,132728321,BreachDirectory
 badoo.com,2017-03-24,127380528,BreachDirectory
 comelec.gov.ph,2018-12-04,123336630,BreachDirectory
 mindjolt.com,2019-11-27,117078155,BreachDirectory
@@ -64,13 +67,16 @@ pizap.com,2020-12-23,60838054,BreachDirectory
 modbsolutions.com,2017-04-03,58851905,BreachDirectory
 netlog.com,2019-11-15,57020420,BreachDirectory
 thepostmillennial.com,2024-05-27,56822226,BreachDirectory
+flagshipcredit.com,2024-11-21,56095851,BreachDirectory
 houzz.com,2020-04-24,55299286,BreachDirectory
 emailcar.net,2017-06-11,52616638,BreachDirectory
 pipl.com,2022-04-12,51552012,BreachDirectory
 imesh.com,2017-02-20,51310960,BreachDirectory
 gov.tr,2020-08-04,49612210,BreachDirectory
 influentia.fr,2021-11-15,49405460,BreachDirectory
+intelx.io-pastescrape,2024-10-07,46172586,BreachDirectory
 actmobile.com,2021-11-15,45674640,BreachDirectory
+netprospex,2024-11-22,45657646,BreachDirectory
 animaljam.com,2021-05-12,45619628,BreachDirectory
 last.fm,2017-02-23,43571231,BreachDirectory
 us-wireless,2022-04-22,43060344,BreachDirectory
@@ -80,6 +86,7 @@ younow.com,2019-10-28,40546501,BreachDirectory
 wishbone.io,2020-05-29,40295279,BreachDirectory
 chegg.com,2020-01-07,39826924,BreachDirectory
 novaonx.com,2023-04-18,38879066,BreachDirectory
+neimanmarcusgroup.com,2024-07-10,38689461,BreachDirectory
 ashleymadison.com,2017-05-31,36405830,BreachDirectory
 hathway.net,2024-01-24,35204515,BreachDirectory
 collection-1-phone,2019-02-17,34656501,BreachDirectory
@@ -88,7 +95,9 @@ melco-resorts.com,2021-09-30,34067773,BreachDirectory
 jazz.com.pk,2020-07-20,34006717,BreachDirectory
 livejournal.com,2020-03-12,33728450,BreachDirectory
 fotolog.net,2021-04-14,33507662,BreachDirectory
+twilio.com,2024-07-10,33419948,BreachDirectory
 rockettext.com,2021-10-13,32151711,BreachDirectory
+nationalpublicdata.com,2024-09-10,32051250,BreachDirectory
 fling.com,2017-04-02,31561932,BreachDirectory
 tianya.cn,2017-04-11,31250554,BreachDirectory
 whitepages.com,2020-01-08,31004399,BreachDirectory
@@ -121,8 +130,11 @@ wanelo.com,2019-11-18,23188908,BreachDirectory
 r2games.com,2017-03-30,23113328,BreachDirectory
 webkinz.com,2020-04-22,22982544,BreachDirectory
 gfan.com,2018-03-06,22724902,BreachDirectory
+movistar.com.pe,2024-12-11,22550831,BreachDirectory
 eyeem.com,2019-10-28,22360766,BreachDirectory
 163.com,2017-05-29,22213902,BreachDirectory
+teg.com.au,2024-11-01,22073576,BreachDirectory
+expandia.es,2024-12-11,21957869,BreachDirectory
 parkmobile.us,2021-07-23,21864662,BreachDirectory
 yopsy.com,2021-02-03,21713002,BreachDirectory
 shopback.sg,2021-05-13,21343871,BreachDirectory
@@ -154,6 +166,7 @@ haijiao.com,2023-07-24,15760038,BreachDirectory
 taringa.net,2018-09-06,15639978,BreachDirectory
 blankmediagames.com,2019-02-26,15635869,BreachDirectory
 000webhost.com,2017-03-29,15271696,BreachDirectory
+trello.com,2024-07-17,15182068,BreachDirectory
 taobao.com,2017-04-11,15073142,BreachDirectory
 7k7k.com,2017-04-05,14928174,BreachDirectory
 500px.com,2020-04-10,14870306,BreachDirectory
@@ -186,6 +199,7 @@ sayweee.com,2023-05-22,11337847,BreachDirectory
 4kmiles.com,2019-11-21,11300415,BreachDirectory
 sohu.com,2018-07-03,11128812,BreachDirectory
 cafepress.co.uk,2019-10-31,11110295,BreachDirectory
+lendenclub.com,2024-11-12,11107518,BreachDirectory
 jobandtalent.com,2019-11-20,11071953,BreachDirectory
 couponmom.com,2018-03-12,11032697,BreachDirectory
 armorgames.com,2019-07-13,11014093,BreachDirectory
@@ -193,6 +207,7 @@ banorte.com,2022-09-01,10858585,BreachDirectory
 172.104.90.245,2023-07-04,10856261,BreachDirectory
 tigodating.com,2024-02-28,10764134,BreachDirectory
 catho.com,2020-07-16,10713186,BreachDirectory
+stripchat.com,2024-11-12,10083977,BreachDirectory
 minted.com,2020-11-12,9999813,BreachDirectory
 uuu9.com,2022-08-02,9959129,BreachDirectory
 digimon.co.in,2020-05-29,9808786,BreachDirectory
@@ -261,11 +276,13 @@ eatstreet.com,2020-05-08,6402697,BreachDirectory
 flytap.com,2024-06-21,6280782,BreachDirectory
 shemarooent.com,2023-04-18,6225923,BreachDirectory
 totaljerkface.com,2020-08-10,6208170,BreachDirectory
+opensea.io,2024-11-01,6176070,BreachDirectory
 indiamart.com,2021-09-14,6161866,BreachDirectory
 ticketfly.com,2019-12-10,6151524,BreachDirectory
 tapfly.com,2022-10-28,6114731,BreachDirectory
 leet.cc,2017-03-08,6084277,BreachDirectory
 toondoo.com,2019-10-28,6057852,BreachDirectory
+movieboxpro.app,2025-01-04,6056814,BreachDirectory
 kaixin001.com,2019-05-31,6018068,BreachDirectory
 xat.com,2017-02-20,5937733,BreachDirectory
 xatech.com,2018-03-12,5937733,BreachDirectory
@@ -274,6 +291,7 @@ nexusmods.com,2021-10-20,5920919,BreachDirectory
 reddoorz.com,2021-02-12,5892881,BreachDirectory
 appen.com,2020-08-14,5888739,BreachDirectory
 strongholdkingdoms.com,2019-10-31,5817899,BreachDirectory
+scentbird.com,2020-08-04,5816040,BreachDirectory
 mypertamina.id,2024-01-27,5768011,BreachDirectory
 bankbsi.co.id,2024-04-26,5741104,BreachDirectory
 gemini.com,2023-01-23,5701678,BreachDirectory
@@ -283,6 +301,7 @@ yatra.com,2022-02-15,5507285,BreachDirectory
 thegioididong.com,2019-01-13,5489951,BreachDirectory
 digido.ph,2024-04-02,5481446,BreachDirectory
 estantevirtual.com.br,2019-12-06,5459527,BreachDirectory
+burgerkingrus.ru,2024-11-05,5444507,BreachDirectory
 pconline.com.cn,2019-04-01,5444480,BreachDirectory
 bolshayaperemena.online,2024-01-31,5274262,BreachDirectory
 risengames.me,2020-08-04,5233643,BreachDirectory
@@ -292,6 +311,7 @@ kickstarter.com,2018-03-12,5177287,BreachDirectory
 alpari.com,2018-03-06,5129999,BreachDirectory
 ttnet.com.tr,2017-12-05,5119689,BreachDirectory
 neverskip.com,2023-11-09,5051745,BreachDirectory
+lookiero.com,2025-01-29,4988942,BreachDirectory
 muzhiwan.com,2017-06-12,4920392,BreachDirectory
 91huayi.com,2020-07-08,4909220,BreachDirectory
 ripp.le,2019-04-01,4898920,BreachDirectory
@@ -309,12 +329,16 @@ nexmods.com,2018-03-06,4548636,BreachDirectory
 abfrl.com,2022-08-19,4491865,BreachDirectory
 gaadi.com,2017-09-11,4491708,BreachDirectory
 adecco.com,2024-04-09,4443806,BreachDirectory
+audiusa.com,2024-09-16,4396677,BreachDirectory
 peatix.com,2020-12-10,4347570,BreachDirectory
+bloomstoday.com,2024-11-21,4332904,BreachDirectory
 shacknews.com,2019-12-17,4310456,BreachDirectory
 wongnai.com,2021-02-06,4298975,BreachDirectory
+sport2000.fr,2024-09-23,4282428,BreachDirectory
 uiggy.com,2017-10-23,4278872,BreachDirectory
 kupivip.ru,2019-03-06,4244858,BreachDirectory
 swvl.com,2020-08-04,4197424,BreachDirectory
+crunchyroll.com,2024-10-08,4123572,BreachDirectory
 avvo.com,2019-10-31,4105220,BreachDirectory
 storybird.com,2020-11-25,4049940,BreachDirectory
 manpower.co.uk,2022-04-11,4045281,BreachDirectory
@@ -354,6 +378,7 @@ interpals.net,2017-11-13,3450438,BreachDirectory
 chronicle.com,2020-06-22,3448060,BreachDirectory
 nnm-club.ru,2020-07-20,3429552,BreachDirectory
 clickasnap.com,2022-11-02,3426822,BreachDirectory
+denniskirk.com,2025-01-23,3397435,BreachDirectory
 liveauctioneers.com,2020-07-20,3389533,BreachDirectory
 leroymerlin.ru,2024-04-10,3352642,BreachDirectory
 gbatemp.net,2020-07-08,3340100,BreachDirectory
@@ -369,6 +394,7 @@ kixify.com,2023-07-24,3087605,BreachDirectory
 tigtag.com,2021-07-23,3078952,BreachDirectory
 havenly.com,2020-08-04,3071214,BreachDirectory
 mop.com,2017-05-23,3040148,BreachDirectory
+boutiqaat.com,2024-11-21,3020610,BreachDirectory
 yue.com,2017-08-22,3010034,BreachDirectory
 makaan.com,2020-05-22,3008853,BreachDirectory
 miniclip.com,2020-05-22,2992447,BreachDirectory
@@ -380,6 +406,7 @@ adapt.io,2021-02-03,2926960,BreachDirectory
 foursquare.com,2020-04-10,2900985,BreachDirectory
 gatehub.net,2019-12-11,2848247,BreachDirectory
 eatigo.com,2020-11-12,2841869,BreachDirectory
+huntstand.com,2024-10-08,2816946,BreachDirectory
 locally.com,2022-10-27,2808282,BreachDirectory
 elanic.in,2021-10-20,2798914,BreachDirectory
 promofarma.com,2020-12-10,2773098,BreachDirectory
@@ -405,6 +432,7 @@ r-rp.ru,2022-10-07,2483901,BreachDirectory
 drizly.com,2020-08-04,2479146,BreachDirectory
 morele.net,2019-04-24,2474113,BreachDirectory
 armyforceonline.com,2017-02-20,2465663,BreachDirectory
+mspy.com,2024-09-12,2461815,BreachDirectory
 fashionfantasygame.com,2017-04-14,2447297,BreachDirectory
 vtightgel.net,2017-05-26,2447188,BreachDirectory
 ducks.org,2021-06-03,2441696,BreachDirectory
@@ -445,6 +473,7 @@ mmc-forum.de,2020-07-08,1960683,BreachDirectory
 askona.ru,2024-01-24,1948443,BreachDirectory
 flashflashrevolution.com,2017-11-04,1942641,BreachDirectory
 pixlr.com,2021-02-23,1921175,BreachDirectory
+cashtoyou.ru,2024-10-08,1910547,BreachDirectory
 gigasize.com,2020-07-08,1900706,BreachDirectory
 revitcommunity.com,2017-10-13,1890637,BreachDirectory
 knuddels.de,2022-07-29,1871776,BreachDirectory
@@ -474,6 +503,7 @@ webtretho.com,2021-10-25,1703721,BreachDirectory
 nihonomaru.com,2017-05-25,1698175,BreachDirectory
 cponline.pw,2021-10-20,1689036,BreachDirectory
 cprewritten.net,2020-04-10,1689011,BreachDirectory
+nexo.io,2024-11-01,1688622,BreachDirectory
 worldofwar.net,2019-04-03,1687866,BreachDirectory
 jamesdelivery.com.br,2020-11-12,1677525,BreachDirectory
 vipstore.com,2020-04-22,1652491,BreachDirectory
@@ -500,9 +530,11 @@ clixsense.com,2017-04-04,1534745,BreachDirectory
 vivahealth.co.id,2021-10-13,1529897,BreachDirectory
 gamesbox.com,2021-04-22,1521152,BreachDirectory
 leslipfrancais.fr,2024-05-04,1506432,BreachDirectory
+ldlc.com,2024-07-17,1504632,BreachDirectory
 youporn.com,2018-02-13,1500067,BreachDirectory
 cityofvillains.com,2019-10-02,1488113,BreachDirectory
 slideteam.net,2022-09-14,1464250,BreachDirectory
+tracelo.com,2024-09-25,1459203,BreachDirectory
 yottapresto.com,2020-07-20,1444911,BreachDirectory
 animegame.me,2020-07-20,1435393,BreachDirectory
 famm.us,2020-11-19,1429136,BreachDirectory
@@ -526,6 +558,7 @@ ledger.com,2021-01-04,1348346,BreachDirectory
 diet.com,2020-07-08,1340966,BreachDirectory
 iimjobs.com,2021-05-13,1336085,BreachDirectory
 elance.com,2017-06-08,1330798,BreachDirectory
+54.203.159.252,2024-10-21,1328249,BreachDirectory
 piggyback.com,2020-07-20,1322798,BreachDirectory
 roseindia.net,2018-03-22,1320861,BreachDirectory
 streamcraft.net,2017-07-18,1318720,BreachDirectory
@@ -550,6 +583,7 @@ bhinneka.com,2020-07-16,1252100,BreachDirectory
 gawker.com,2017-04-02,1247894,BreachDirectory
 superteachertools.us,2020-05-05,1247511,BreachDirectory
 km.ru,2017-06-09,1245698,BreachDirectory
+detmir.ru,2024-11-05,1245003,BreachDirectory
 dymocks.com.au,2023-11-09,1243745,BreachDirectory
 aternos.org,2017-02-20,1241054,BreachDirectory
 altenens.is,2022-09-29,1239996,BreachDirectory
@@ -601,6 +635,7 @@ oasiscollectors.com,2018-03-06,1073724,BreachDirectory
 forbes.com,2017-03-30,1071964,BreachDirectory
 productupload.com,2018-03-27,1068442,BreachDirectory
 rooter.io,2021-02-01,1065707,BreachDirectory
+europa.jobs,2024-07-05,1061230,BreachDirectory
 fitmart.de,2023-11-13,1057352,BreachDirectory
 onrpg.com,2022-04-02,1054930,BreachDirectory
 shotbow.net,2020-04-28,1052837,BreachDirectory
@@ -636,6 +671,7 @@ kimsufi.com,2017-04-25,969084,BreachDirectory
 eurogunz.net,2017-10-30,968076,BreachDirectory
 abraham-hicks.com,2018-03-06,965476,BreachDirectory
 forumfree.it,2017-06-14,961793,BreachDirectory
+lakodoposla.com,2024-09-16,958667,BreachDirectory
 petflow.com,2019-11-04,957000,BreachDirectory
 coachella.com,2017-11-13,956145,BreachDirectory
 travelio.com,2022-02-15,954328,BreachDirectory
@@ -688,6 +724,7 @@ hh.ru,2022-09-14,827198,BreachDirectory
 kinokong.org,2022-09-14,821197,BreachDirectory
 euronote.hu,2018-07-03,817603,BreachDirectory
 jassume.com,2022-09-09,814237,BreachDirectory
+eyevision.com.sg,2024-11-12,813231,BreachDirectory
 vivagames.com,2020-07-20,805428,BreachDirectory
 sv5ndz2.com,2023-04-21,805160,BreachDirectory
 lordsofporno.com,2017-04-10,804709,BreachDirectory
@@ -703,6 +740,7 @@ renewbuy.com,2023-11-09,783156,BreachDirectory
 divxsubtitles.net,2017-07-13,782989,BreachDirectory
 abandonia.com,2017-02-26,782609,BreachDirectory
 neo24.pl,2019-10-02,780124,BreachDirectory
+tiger-one.eu,2024-09-23,780083,BreachDirectory
 forumcommunity.net,2017-06-27,777352,BreachDirectory
 city-chat.de,2017-06-08,775195,BreachDirectory
 moneycontrol.com,2018-10-16,774548,BreachDirectory
@@ -730,10 +768,13 @@ acce-online.com,2020-07-09,739603,BreachDirectory
 excalibur-craft.ru,2022-04-26,737725,BreachDirectory
 corevin.com,2018-03-06,732524,BreachDirectory
 msk-phone.ru,2019-04-11,722156,BreachDirectory
+mtvzp.com,2024-10-21,720935,BreachDirectory
 gameturk.com,2018-03-12,712753,BreachDirectory
 policeone.com,2017-11-09,712722,BreachDirectory
+magickartenmarkt.de,2024-10-23,709137,BreachDirectory
 programmingforums.com,2017-06-13,708174,BreachDirectory
 au2exchange.com,2022-02-17,707478,BreachDirectory
+ubook.com,2024-07-31,706416,BreachDirectory
 knowncircle.com,2020-06-22,705579,BreachDirectory
 seat.es,2022-05-10,703257,BreachDirectory
 eweiqi.com,2020-04-13,702634,BreachDirectory
@@ -742,6 +783,8 @@ libero.it,2017-06-18,701041,BreachDirectory
 diskunion.co.jp,2022-08-15,701038,BreachDirectory
 212300.com,2017-03-19,700673,BreachDirectory
 qiannao.com,2019-03-20,700214,BreachDirectory
+smarthome.rt.ru,2024-12-11,698399,BreachDirectory
+ulektz.com,2024-11-21,698037,BreachDirectory
 ncut.edu.tw,2018-07-03,697150,BreachDirectory
 fullhyderabad.com,2020-04-24,695931,BreachDirectory
 actionnetwork.com,2020-04-22,693535,BreachDirectory
@@ -771,6 +814,7 @@ mappery.com,2019-01-13,632346,BreachDirectory
 rds.it,2021-10-25,628236,BreachDirectory
 foxmc.ru,2019-06-10,627558,BreachDirectory
 userscloud.com,2020-01-07,626985,BreachDirectory
+lapostemobile.fr,2024-07-30,624070,BreachDirectory
 ffshrine.org,2020-03-15,620579,BreachDirectory
 pennsylvania.gov,2017-05-28,620200,BreachDirectory
 comcast.net,2017-03-08,617561,BreachDirectory
@@ -795,6 +839,7 @@ indianmoney.com,2017-12-12,583799,BreachDirectory
 shadowcraft.ru,2022-04-26,578269,BreachDirectory
 elitemeeting.com,2019-04-11,569834,BreachDirectory
 shredderstoo.com,2020-11-19,569538,BreachDirectory
+farm.com.sa,2024-08-14,568886,BreachDirectory
 universarium.org,2020-10-13,568810,BreachDirectory
 bmobile.co.tt,2024-05-15,567991,BreachDirectory
 aarinfantasy.com,2017-08-21,566471,BreachDirectory
@@ -809,6 +854,7 @@ uca.ma,2024-01-24,551834,BreachDirectory
 thefaveapp.com,2017-08-22,549120,BreachDirectory
 battlefieldheroes.com,2017-02-20,548774,BreachDirectory
 cs-puchatek.pl,2021-02-08,546204,BreachDirectory
+shadow.tech,2024-10-09,544966,BreachDirectory
 eccie.net,2022-02-15,538547,BreachDirectory
 crownbingo.com,2017-04-15,537147,BreachDirectory
 twcenter.net,2020-05-15,537046,BreachDirectory
@@ -818,6 +864,7 @@ bookchor.com,2022-02-15,533289,BreachDirectory
 stickam.com,2018-03-12,531309,BreachDirectory
 percentil.com,2021-10-14,531209,BreachDirectory
 unrealengine.com,2018-10-03,530591,BreachDirectory
+utair.ru,2024-08-30,530095,BreachDirectory
 annunci69.it,2018-02-23,529064,BreachDirectory
 ueber18.de,2017-06-08,528999,BreachDirectory
 photolamus.com,2021-02-23,528673,BreachDirectory
@@ -857,6 +904,7 @@ alaska.gov,2017-05-25,487413,BreachDirectory
 podcasts.apple.com,2023-06-21,486871,BreachDirectory
 coinmama.com,2019-12-17,486219,BreachDirectory
 switchmydebt.com,2020-05-09,485546,BreachDirectory
+nap.bg,2024-10-21,485167,BreachDirectory
 peoplesenergy.co.uk,2021-10-13,481511,BreachDirectory
 moko.cc,2017-06-15,480019,BreachDirectory
 dcemu.co.uk,2018-02-23,479858,BreachDirectory
@@ -890,6 +938,7 @@ seoclerks.com,2020-07-20,449920,BreachDirectory
 gametag.com,2018-07-10,448553,BreachDirectory
 proctoru.com,2020-08-04,444276,BreachDirectory
 techimo.com,2017-03-31,443506,BreachDirectory
+life360.com,2024-07-17,443222,BreachDirectory
 solomid.net,2017-03-31,442514,BreachDirectory
 conceptart.org,2017-11-30,441946,BreachDirectory
 y9sq.com,2020-08-14,441945,BreachDirectory
@@ -952,8 +1001,10 @@ protegez-vous.ca,2020-12-16,381565,BreachDirectory
 e-pay.com.my,2020-03-30,379965,BreachDirectory
 clpsct.org,2020-04-13,379314,BreachDirectory
 xhamster.com,2017-03-31,378991,BreachDirectory
+22fun.com,2025-01-29,378546,BreachDirectory
 rabota.bg,2020-07-09,376230,BreachDirectory
 divachix.com,2022-09-23,376208,BreachDirectory
+rushmytravelvisa.com,2024-08-25,374084,BreachDirectory
 trackmill.com,2019-03-13,372515,BreachDirectory
 pokebip.com,2022-04-29,371601,BreachDirectory
 mapforums.com,2021-01-04,368306,BreachDirectory
@@ -1027,10 +1078,12 @@ me2wg.com,2022-09-06,306168,BreachDirectory
 gladminds.co,2022-09-09,306146,BreachDirectory
 familyrelatives.com,2020-07-09,305765,BreachDirectory
 gainful.com,2022-09-23,304973,BreachDirectory
+digidirect.com.au,2024-10-08,304769,BreachDirectory
 dttplus.com,2024-03-19,304600,BreachDirectory
 seochat.com,2017-06-20,304128,BreachDirectory
 mailinglists.com.au,2017-10-26,303233,BreachDirectory
 foreverliving.com.br,2018-07-04,302980,BreachDirectory
+chrono77.com,2024-07-08,302676,BreachDirectory
 iys.org.tr,2022-08-11,302378,BreachDirectory
 168.61.98.58,2023-04-21,302377,BreachDirectory
 sumotorrent.sx,2022-09-01,302289,BreachDirectory
@@ -1040,6 +1093,7 @@ dpsfsis.com,2018-07-08,299505,BreachDirectory
 inventorconnections.com,2018-02-23,299129,BreachDirectory
 mystudiyo.com,2018-02-13,298615,BreachDirectory
 ps3iso.com,2020-09-18,298173,BreachDirectory
+hkgolden.com,2024-08-25,297870,BreachDirectory
 bridgemanimages.co.uk,2021-04-13,297303,BreachDirectory
 cardmafia.cc,2021-04-27,296909,BreachDirectory
 ahashare.com,2017-02-21,296862,BreachDirectory
@@ -1078,6 +1132,7 @@ gamereplays.org,2018-09-06,269214,BreachDirectory
 jamiekent.com,2018-02-07,267939,BreachDirectory
 cablesuk.co.uk,2017-12-12,267879,BreachDirectory
 majorgeeks.com,2017-03-29,267650,BreachDirectory
+parkingpay.jp,2025-01-29,267233,BreachDirectory
 dress.ph,2019-05-30,266662,BreachDirectory
 tridentcryptofund.com,2022-11-28,266642,BreachDirectory
 denniswheatley.info,2018-03-27,266601,BreachDirectory
@@ -1139,9 +1194,12 @@ technicpack.net,2022-07-24,238551,BreachDirectory
 botsoflegends.com,2017-09-25,238394,BreachDirectory
 botoflegends.com,2022-07-12,238393,BreachDirectory
 mobilneforum.pl,2017-12-12,238025,BreachDirectory
+schenkyou,2024-10-11,237372,BreachDirectory
+lxob.fr,2024-08-02,235459,BreachDirectory
 wddsupport.com,2021-04-13,233663,BreachDirectory
 forodelguardiacivil.com,2022-09-22,233279,BreachDirectory
 jobringer.com,2022-02-17,232976,BreachDirectory
+animeleague.net,2024-11-04,232686,BreachDirectory
 malakye.com,2023-02-03,232363,BreachDirectory
 swimdoctor.co.kr,2020-07-09,232240,BreachDirectory
 narutobase.net,2022-10-23,232156,BreachDirectory
@@ -1160,6 +1218,7 @@ telefon-treff.de,2023-11-09,227401,BreachDirectory
 swingers99.com,2021-10-25,227399,BreachDirectory
 lyf.app,2021-09-30,227124,BreachDirectory
 omaze.com,2020-08-06,226737,BreachDirectory
+guy4game.com,2024-07-30,226693,BreachDirectory
 psu.com,2022-04-11,226606,BreachDirectory
 localgiftcards.com,2023-06-07,226389,BreachDirectory
 pesgaming.com,2017-11-08,226157,BreachDirectory
@@ -1184,6 +1243,7 @@ liancaijing.com,2020-03-12,214620,BreachDirectory
 acikogretim.gen.tr,2020-03-13,213193,BreachDirectory
 pixelchat.tv,2022-09-09,212989,BreachDirectory
 kerygmafamily.com,2018-07-23,212597,BreachDirectory
+breached.co,2024-07-30,212254,BreachDirectory
 voipforums.com,2019-10-28,211824,BreachDirectory
 rabbo.io,2017-09-13,211777,BreachDirectory
 elle.com.hk,2020-10-13,211748,BreachDirectory
@@ -1210,12 +1270,14 @@ win7vista.com,2017-04-15,202854,BreachDirectory
 bizhwy.com,2020-04-24,202689,BreachDirectory
 epicnpc.com,2019-07-29,202649,BreachDirectory
 autosportwilly.com,2020-07-09,202501,BreachDirectory
+cuidateplus.marca.com,2024-07-02,201826,BreachDirectory
 konduit.io,2020-08-04,201120,BreachDirectory
 amazon.cn,2019-10-28,200988,BreachDirectory
 lendingtree.com,2022-07-29,200642,BreachDirectory
 oncologyconsultants.com,2017-09-26,200001,BreachDirectory
 turnover-it.com,2021-11-15,199163,BreachDirectory
 btc-e.com,2017-07-14,198864,BreachDirectory
+amperity.com,2025-01-29,198149,BreachDirectory
 pearldrummersforums.com,2021-04-26,197823,BreachDirectory
 forumtravesti.com.br,2019-10-28,197575,BreachDirectory
 nintendolife.com,2018-01-08,197471,BreachDirectory
@@ -1228,6 +1290,7 @@ vbforums.com,2023-01-31,194833,BreachDirectory
 boostbot.org,2020-08-03,194501,BreachDirectory
 educarriere.ci,2018-07-08,193015,BreachDirectory
 thetvdb.com,2017-11-22,192846,BreachDirectory
+luluhypermarket.com,2024-08-15,191585,BreachDirectory
 hackforums.net,2018-03-14,191534,BreachDirectory
 ahoygame.com,2017-08-08,191109,BreachDirectory
 homerefill.com.br,2022-09-09,190817,BreachDirectory
@@ -1309,6 +1372,7 @@ lessonofpassion.com,2017-11-22,155528,BreachDirectory
 sktorrent.eu,2017-04-15,155170,BreachDirectory
 giaitri.com,2017-06-15,154865,BreachDirectory
 fsgames.com,2019-10-28,154801,BreachDirectory
+elearnnet.kr,2025-01-23,154656,BreachDirectory
 lucasforums.com,2017-09-11,154613,BreachDirectory
 zakupki.gov.ru,2024-01-22,154476,BreachDirectory
 ptvtelecom.com,2023-11-09,154096,BreachDirectory
@@ -1350,6 +1414,7 @@ amarriner.com,2018-07-04,142228,BreachDirectory
 linustechtips.com,2020-11-25,142205,BreachDirectory
 e-healthlinks.com,2017-06-08,142174,BreachDirectory
 elclubdigital.com,2023-08-09,140743,BreachDirectory
+komplettfritid.no,2024-12-11,140591,BreachDirectory
 iranmemar.com,2021-02-12,140549,BreachDirectory
 youwinconnect.org.ng,2018-03-22,140468,BreachDirectory
 simdyansty.com,2017-11-21,140333,BreachDirectory
@@ -1364,14 +1429,17 @@ ag-energy.com.au,2022-09-23,138317,BreachDirectory
 hiluxsurf.co.uk,2022-08-19,137722,BreachDirectory
 villavu.com,2017-09-11,137317,BreachDirectory
 askgamblers.com,2017-12-20,136680,BreachDirectory
+ctars.com.au,2022-09-24,135880,BreachDirectory
 skotos.net,2019-10-28,135744,BreachDirectory
 blackspigot.com,2021-10-20,135379,BreachDirectory
 elevrus.com,2022-07-12,135312,BreachDirectory
 nudeweb.com,2019-03-14,135262,BreachDirectory
 hostsearch.com,2017-04-12,135077,BreachDirectory
 newseasims.com,2017-09-07,135015,BreachDirectory
+ucar.fr,2024-08-25,134785,BreachDirectory
 daxy.com,2021-06-22,134668,BreachDirectory
 remedia.at,2022-10-23,134601,BreachDirectory
+112.124.111.70,2024-10-23,134376,BreachDirectory
 vcanbuy.com,2018-07-03,134304,BreachDirectory
 4metin.org,2022-04-29,134172,BreachDirectory
 themafiaboss.com,2019-10-28,133859,BreachDirectory
@@ -1418,7 +1486,9 @@ bundle.app,2020-07-16,121912,BreachDirectory
 tastycat.se,2020-10-21,121535,BreachDirectory
 sminecraft.com,2022-04-26,120352,BreachDirectory
 b91.com,2020-03-23,120259,BreachDirectory
+119.8.43.218,2024-08-16,120258,BreachDirectory
 edilportale.com,2022-09-30,120139,BreachDirectory
+welhof.com,2025-01-29,119726,BreachDirectory
 pctattletale.com,2024-05-30,119693,BreachDirectory
 ownagepranks.com,2021-10-20,119229,BreachDirectory
 loomio.org,2017-11-06,118971,BreachDirectory
@@ -1434,6 +1504,7 @@ frozencraft.ru,2017-08-20,115921,BreachDirectory
 sakkarinsai8.com,2018-10-16,115912,BreachDirectory
 gamepal.com,2017-10-19,115322,BreachDirectory
 sex-seitensprung.de,2018-02-13,115193,BreachDirectory
+heritage.org,2024-07-10,114891,BreachDirectory
 leakedreality.com,2022-09-01,114583,BreachDirectory
 ogusers.com,2019-05-29,114454,BreachDirectory
 valkyrie-wow.org,2021-01-04,114101,BreachDirectory
@@ -1450,6 +1521,7 @@ citybee.lt,2021-02-23,110303,BreachDirectory
 chronofhorse.com,2019-10-28,110247,BreachDirectory
 blackhatprotools.net,2020-09-30,110160,BreachDirectory
 rbx.exchange,2022-09-22,109998,BreachDirectory
+abans.com,2025-01-04,109969,BreachDirectory
 sevendollarclick.com,2017-06-19,109858,BreachDirectory
 9lives.be,2022-09-23,109836,BreachDirectory
 xploder.net,2017-11-05,109635,BreachDirectory
@@ -1521,6 +1593,7 @@ decentplayboy.com,2020-01-07,94810,BreachDirectory
 realitymod.com,2020-05-15,94552,BreachDirectory
 t2tea.com,2024-05-04,94369,BreachDirectory
 bloggtoppen.se,2020-10-14,93679,BreachDirectory
+yonema.com,2025-01-04,93518,BreachDirectory
 benchmark.rs,2023-05-22,93452,BreachDirectory
 heroscapers.com,2020-09-21,92847,BreachDirectory
 getpaidto.com,2020-05-29,92806,BreachDirectory
@@ -1539,6 +1612,7 @@ priorovod.ru,2020-09-21,90416,BreachDirectory
 agusiq-torrents.pl,2022-09-14,90401,BreachDirectory
 ageofwushu.com,2021-02-01,90349,BreachDirectory
 warcraftrealms.com,2019-01-13,90299,BreachDirectory
+beautytap.com,2024-11-28,90227,BreachDirectory
 moonmc.ru,2022-08-22,90195,BreachDirectory
 wptapl.com,2022-07-24,90178,BreachDirectory
 makingfun.com,2019-10-28,89727,BreachDirectory
@@ -1559,6 +1633,7 @@ poradnikzdrowie.pl,2020-03-13,87880,BreachDirectory
 bashgah.com,2019-02-26,87799,BreachDirectory
 infragard.org,2023-01-23,87760,BreachDirectory
 la2world.ru,2024-02-28,87669,BreachDirectory
+caterot.com,2024-11-28,87438,BreachDirectory
 tiramisu.com.tw,2019-07-12,86943,BreachDirectory
 vurbis.com,2023-06-07,86868,BreachDirectory
 business-gazeta.ru,2021-10-13,86839,BreachDirectory
@@ -1586,6 +1661,7 @@ bonsaiibiza.com,2023-08-09,83641,BreachDirectory
 forosecuador.ec,2019-10-28,83622,BreachDirectory
 rootkit.com,2017-03-31,83585,BreachDirectory
 opdex.ru,2022-09-14,83327,BreachDirectory
+reaching.to,2024-09-24,82821,BreachDirectory
 foros.comunidadzero.com,2019-10-28,82306,BreachDirectory
 loading.se,2018-08-28,82285,BreachDirectory
 pears-project.com,2024-01-22,82023,BreachDirectory
@@ -1631,6 +1707,7 @@ jabbim.cz,2017-11-02,76647,BreachDirectory
 thetechgame.com,2017-04-11,75459,BreachDirectory
 zoomcourier.ph,2021-10-25,74856,BreachDirectory
 instrurap.fr,2022-09-13,74556,BreachDirectory
+vpbet1.com,2025-01-04,74534,BreachDirectory
 cloudsdale.org,2021-10-25,74249,BreachDirectory
 kingfisherworld.com,2020-11-12,74211,BreachDirectory
 hacker.org,2020-09-15,74167,BreachDirectory
@@ -1639,6 +1716,7 @@ shockgore.com,2022-04-22,73797,BreachDirectory
 wow-mania.com,2017-11-13,73764,BreachDirectory
 mythicalworld.net,2019-04-02,73735,BreachDirectory
 fox.com,2022-09-30,73727,BreachDirectory
+xfactor.itv.com,2024-07-02,73726,BreachDirectory
 jejuall.com,2017-08-08,73503,BreachDirectory
 filmhot.us,2020-03-13,73056,BreachDirectory
 cristalix.ru,2017-10-30,72851,BreachDirectory
@@ -1671,6 +1749,7 @@ ancient-forums.com,2024-05-23,69087,BreachDirectory
 mineheroes.net,2017-10-15,69061,BreachDirectory
 hkesports.com,2018-07-12,68726,BreachDirectory
 netdoktor.se,2020-10-14,68593,BreachDirectory
+platformcommons.org,2024-11-21,68414,BreachDirectory
 luyentoeicvn.com,2020-03-13,68265,BreachDirectory
 debbiemacomber.com,2018-12-11,68105,BreachDirectory
 aspkin.com,2022-03-29,68076,BreachDirectory
@@ -1712,12 +1791,14 @@ atletasnow.com,2022-09-23,62901,BreachDirectory
 cmesociety.com,2023-07-04,62889,BreachDirectory
 learncima.com,2019-10-28,62531,BreachDirectory
 temeoo.com,2021-09-14,62520,BreachDirectory
+alphacapitalgroup.uk,2024-12-11,62388,BreachDirectory
 adidas.co.ma,2023-06-27,62346,BreachDirectory
 planetcalypsoforum.com,2020-05-05,62295,BreachDirectory
 sunshinehotel.it,2018-03-07,62143,BreachDirectory
 aadalsiden.info,2018-10-24,62055,BreachDirectory
 ichatusa.com,2017-02-20,61990,BreachDirectory
 websites.co.in,2023-12-05,61884,BreachDirectory
+everycoin.io,2024-11-12,61563,BreachDirectory
 dlubal.com,2022-03-29,61452,BreachDirectory
 mtgox.com,2020-08-15,61017,BreachDirectory
 contentwizard.guru,2018-07-06,60850,BreachDirectory
@@ -1726,6 +1807,7 @@ zenledger.io,2023-01-09,60416,BreachDirectory
 argopak.ru,2023-02-14,60204,BreachDirectory
 1000literaryagents.com,2018-10-24,60021,BreachDirectory
 industrialreviews.ru,2018-07-12,59930,BreachDirectory
+paleohacks.com,2024-11-12,59900,BreachDirectory
 xsyon.com,2017-05-23,59897,BreachDirectory
 gipfeltreffen.at,2019-10-28,59872,BreachDirectory
 divxmania.it,2017-11-30,59739,BreachDirectory
@@ -1754,6 +1836,7 @@ godsgirls.com,2022-09-13,56958,BreachDirectory
 altenen.st,2022-09-29,56851,BreachDirectory
 codemasters-projects.net,2020-08-03,56799,BreachDirectory
 kasperskyclub.ru,2024-04-09,56797,BreachDirectory
+codemasters-project.net,2024-11-21,56764,BreachDirectory
 kakasure.com,2017-04-25,56682,BreachDirectory
 mydayboat.com,2018-10-03,56661,BreachDirectory
 shell.com,2024-06-17,56543,BreachDirectory
@@ -1781,8 +1864,10 @@ hhide.org,2020-12-16,52979,BreachDirectory
 getrevengeonyourex.com,2023-01-23,52754,BreachDirectory
 comicbookdb.com,2017-02-20,52734,BreachDirectory
 speedtrader.com,2022-07-29,52653,BreachDirectory
+zonebase.com,2024-11-28,52524,BreachDirectory
 mawdoo3.com,2021-07-23,52332,BreachDirectory
 armorama.com,2018-02-13,52289,BreachDirectory
+hedeya.com,2024-10-09,52266,BreachDirectory
 hisseanaliz.net,2019-10-28,52112,BreachDirectory
 igrow.asia,2020-12-23,52092,BreachDirectory
 bodynet.nl,2020-05-29,52071,BreachDirectory
@@ -1800,12 +1885,14 @@ wendys.com.ph,2019-02-28,50788,BreachDirectory
 hemmakvall.se,2017-10-13,50635,BreachDirectory
 hocbaionha.com,2020-04-12,50628,BreachDirectory
 fybforum.co.uk,2019-10-28,50586,BreachDirectory
+ukscrappers.co.uk,2024-08-30,50438,BreachDirectory
 nodusgriefing.com,2017-03-24,50423,BreachDirectory
 nodusforums.com,2017-11-08,50420,BreachDirectory
 kssip.gov.pl,2021-10-25,50284,BreachDirectory
 minecoin.su,2021-10-20,50271,BreachDirectory
 galacticgames.co.uk,2023-01-09,50110,BreachDirectory
 247hire.com,2022-11-24,50047,BreachDirectory
+tibber.com,2025-01-04,50027,BreachDirectory
 starnet.md,2020-11-25,49740,BreachDirectory
 alomaliye.com,2020-03-15,49689,BreachDirectory
 itarian.com,2020-01-15,49594,BreachDirectory
@@ -1816,6 +1903,7 @@ hopponworks.com,2021-06-03,49074,BreachDirectory
 hopponapp.com,2022-09-09,49069,BreachDirectory
 shisha-net.de,2022-09-06,49042,BreachDirectory
 cityculture.org,2018-07-06,48947,BreachDirectory
+stockz11.com,2024-07-02,48902,BreachDirectory
 evillabs.sk,2017-11-13,48755,BreachDirectory
 zoomsearchengine.com,2021-01-04,48700,BreachDirectory
 rallyforum.com,2020-03-12,48577,BreachDirectory
@@ -1871,6 +1959,7 @@ bkforum.com,2021-10-25,44659,BreachDirectory
 zofile.com,2020-05-29,44636,BreachDirectory
 aerocenter.ir,2019-03-14,44427,BreachDirectory
 dcgpac.com,2023-06-13,44268,BreachDirectory
+sportstech.de,2025-01-04,44247,BreachDirectory
 lada-granta.net,2020-09-21,44157,BreachDirectory
 micromatic.com,2019-10-28,43989,BreachDirectory
 xronize.com,2017-10-23,43797,BreachDirectory
@@ -1893,6 +1982,7 @@ nute.ufsc.br,2017-02-20,43081,BreachDirectory
 sitcomsonline.com,2017-05-08,42981,BreachDirectory
 cyfrowe.pl,2020-04-22,42969,BreachDirectory
 1cool.de,2018-10-24,42871,BreachDirectory
+ieg.vn,2024-10-22,42790,BreachDirectory
 antikregiseg.hu,2018-07-04,42753,BreachDirectory
 davoonline.com,2020-05-27,42724,BreachDirectory
 cpbweb.com.br,2018-07-04,42663,BreachDirectory
@@ -1974,6 +2064,7 @@ svenskamagic.com,2022-10-23,36656,BreachDirectory
 thailadydatefinder.com,2022-02-15,36521,BreachDirectory
 lebebe.eu,2018-02-23,36375,BreachDirectory
 lionelracingforum.com,2019-10-28,36213,BreachDirectory
+103.95.38.153,2024-11-12,35742,BreachDirectory
 freshfiction.com,2018-07-09,35680,BreachDirectory
 skoolkit.co.uk,2017-07-13,35610,BreachDirectory
 herodote.net,2018-07-12,35582,BreachDirectory
@@ -1984,8 +2075,10 @@ sireticraft.ru,2022-04-26,35407,BreachDirectory
 ak-lsa.de,2019-02-16,35250,BreachDirectory
 datefit.com,2022-04-11,35198,BreachDirectory
 viphackforums.net,2020-06-23,35103,BreachDirectory
+54.173.110.80,2024-10-22,35101,BreachDirectory
 eevid.com,2020-07-11,35035,BreachDirectory
 starsonata.com,2022-10-06,35027,BreachDirectory
+thuocsi.vn,2024-12-11,34984,BreachDirectory
 pixelmon.fr,2017-11-08,34947,BreachDirectory
 doomworld.com,2022-11-24,34939,BreachDirectory
 elbibliote.com,2023-07-04,34912,BreachDirectory
@@ -1996,8 +2089,10 @@ xculpter.com,2021-02-12,34807,BreachDirectory
 pcgameiso.com,2020-09-18,34796,BreachDirectory
 sexdating.se,2020-10-14,34645,BreachDirectory
 teartournaments.com,2022-04-22,34556,BreachDirectory
+minecraft-monitor.ru,2024-07-11,34523,BreachDirectory
 ata-k.com,2020-03-13,34339,BreachDirectory
 bittorrent.com,2017-04-14,34235,BreachDirectory
+guidedev.xyz,2024-07-05,34109,BreachDirectory
 justbanter.co.uk,2024-05-30,34088,BreachDirectory
 travelok.com,2021-02-23,34016,BreachDirectory
 chevy-niva29.ru,2020-09-21,33765,BreachDirectory
@@ -2015,6 +2110,8 @@ filmboden.se,2020-10-21,32347,BreachDirectory
 taptoeat.com,2017-07-14,32315,BreachDirectory
 world-psychotherapy.com,2019-08-01,32128,BreachDirectory
 toonbook.com,2022-02-15,32123,BreachDirectory
+xtdev.com,2020-01-19,32122,BreachDirectory
+boksha.com,2025-01-04,31981,BreachDirectory
 pawno.su,2017-07-13,31969,BreachDirectory
 darkspot.info,2020-06-23,31942,BreachDirectory
 theboard.f4wonline.com,2019-10-28,31905,BreachDirectory
@@ -2036,12 +2133,14 @@ jdmstyletuning.com,2017-05-21,31199,BreachDirectory
 altisrp.fr,2017-02-20,31155,BreachDirectory
 altisliferpg.com,2017-06-28,31155,BreachDirectory
 cesvimexico.com.mx,2017-07-28,30920,BreachDirectory
+adt.co.uk,2024-08-14,30872,BreachDirectory
 vpm.com,2022-11-15,30852,BreachDirectory
 gamingworld.su,2024-03-20,30794,BreachDirectory
 kkewash.com,2018-03-12,30785,BreachDirectory
 multimedia.de,2018-03-12,30768,BreachDirectory
 printplanet.com,2019-10-28,30707,BreachDirectory
 mylloyd.com,2017-06-19,30706,BreachDirectory
+fairytailhentaidb.com,2024-07-17,30561,BreachDirectory
 volgagirl.com,2018-03-19,30324,BreachDirectory
 bodybuilder.ir,2019-03-14,30254,BreachDirectory
 shsforums.net,2022-09-24,30098,BreachDirectory
@@ -2049,10 +2148,12 @@ spurstalk.com,2017-05-21,30041,BreachDirectory
 combatcraft.su,2022-04-02,30041,BreachDirectory
 sunlite.hk,2019-04-01,29927,BreachDirectory
 pornofint.net,2024-01-11,29906,BreachDirectory
+appstle.com,2024-11-28,29903,BreachDirectory
 poweryourtrade.com,2018-03-12,29879,BreachDirectory
 sanguefreddo.net,2019-10-28,29732,BreachDirectory
 couple.uk,2021-09-23,29698,BreachDirectory
 expat.ru,2021-02-12,29666,BreachDirectory
+marketmoveis.pt,2024-10-11,29634,BreachDirectory
 jabber.cz,2017-11-02,29624,BreachDirectory
 divxup.com,2017-05-21,29563,BreachDirectory
 atlayo.com,2021-04-27,29328,BreachDirectory
@@ -2079,6 +2180,7 @@ dogewallet.com,2019-03-14,28299,BreachDirectory
 geekydev.com,2023-08-24,28256,BreachDirectory
 fashiontalent.club,2018-07-09,28175,BreachDirectory
 silveragecomics.com,2024-01-25,28163,BreachDirectory
+mmo-db.com,2024-10-08,28135,BreachDirectory
 xbiz.net,2022-11-30,28079,BreachDirectory
 nptel.ac.in,2018-10-16,28077,BreachDirectory
 guarented.com,2022-02-17,28077,BreachDirectory
@@ -2088,6 +2190,7 @@ ideaonpaper.com,2019-08-28,28049,BreachDirectory
 omegarealm.com,2017-11-06,27975,BreachDirectory
 goaliestore.com,2019-10-28,27973,BreachDirectory
 magic-and-arts.com,2018-01-23,27910,BreachDirectory
+kid.travel,2024-08-22,27895,BreachDirectory
 ultimatesafelistexchange.com,2018-03-19,27842,BreachDirectory
 tetongravity.com,2017-05-21,27784,BreachDirectory
 codemasters.com,2023-02-03,27737,BreachDirectory
@@ -2115,7 +2218,6 @@ nodepositforum.com,2022-09-22,26756,BreachDirectory
 propaganda.net,2017-10-24,26673,BreachDirectory
 codeleakers.com,2023-01-09,26661,BreachDirectory
 bslhomework.org.uk,2018-07-06,26635,BreachDirectory
-ctars.com.au,2022-09-24,26525,BreachDirectory
 craftboard.pl,2022-04-26,26465,BreachDirectory
 clemcoindustries.com,2017-06-05,26236,BreachDirectory
 jetty.su,2021-02-12,26227,BreachDirectory
@@ -2131,6 +2233,7 @@ mydocuments36.ru,2024-01-26,25906,BreachDirectory
 desteria.com,2017-11-06,25904,BreachDirectory
 123fish.net,2018-10-24,25860,BreachDirectory
 suganado.com,2018-10-16,25797,BreachDirectory
+absolute-dogs.com,2024-11-21,25747,BreachDirectory
 carbscontrol.com,2019-03-14,25722,BreachDirectory
 furacao.com,2018-08-28,25670,BreachDirectory
 aussievapers.com,2017-04-14,25617,BreachDirectory
@@ -2138,6 +2241,7 @@ fastgamer.com,2018-02-07,25470,BreachDirectory
 odenthal.de,2018-02-07,25465,BreachDirectory
 alimentatie-online.be,2019-07-19,25450,BreachDirectory
 clementdesign.com,2018-02-07,25320,BreachDirectory
+dspy.tk,2024-08-22,25293,BreachDirectory
 evilwarez.pl,2022-07-09,25281,BreachDirectory
 devilwarez.pl,2022-04-22,25280,BreachDirectory
 verified.cash,2021-11-15,25273,BreachDirectory
@@ -2156,6 +2260,7 @@ softrak.com,2018-10-16,24842,BreachDirectory
 findacarer.com.au,2018-02-07,24748,BreachDirectory
 hajinc.com,2018-10-03,24690,BreachDirectory
 buzzmachines.com,2021-10-20,24685,BreachDirectory
+gamzo.com,2024-08-02,24559,BreachDirectory
 draftsforsale.com,2019-03-14,24523,BreachDirectory
 theatrotheque.com,2018-10-16,24516,BreachDirectory
 e.rip,2023-01-23,24489,BreachDirectory
@@ -2225,6 +2330,7 @@ biblestories.us,2020-10-29,21814,BreachDirectory
 teriin.org,2018-03-12,21813,BreachDirectory
 sundays.by,2022-09-06,21791,BreachDirectory
 lasvegasdirect.com,2019-10-28,21778,BreachDirectory
+157.230.17.65,2024-10-22,21727,BreachDirectory
 aasaanjobs.com,2022-09-06,21677,BreachDirectory
 kiev.ua,2020-09-21,21663,BreachDirectory
 vuzevpn.com,2022-02-15,21653,BreachDirectory
@@ -2241,6 +2347,7 @@ honestbuildings.com,2022-03-16,21486,BreachDirectory
 pharmadiscount24.com,2017-02-20,21479,BreachDirectory
 starcash.com,2019-03-14,21429,BreachDirectory
 walkingdeadforums.com,2017-05-08,21308,BreachDirectory
+autotrader.com,2024-11-21,21180,BreachDirectory
 sandragee.co.uk,2018-10-16,21174,BreachDirectory
 planetaobuvi.ru,2023-11-30,21102,BreachDirectory
 fourwars.ru,2022-03-29,21099,BreachDirectory
@@ -2285,6 +2392,7 @@ e-spotrebice.sk,2022-09-30,19306,BreachDirectory
 lawebdefisica.com,2019-10-28,19297,BreachDirectory
 quantumstresser.net,2022-06-28,19291,BreachDirectory
 the-obituary.com,2018-03-12,19288,BreachDirectory
+len-tour.ru,2024-09-25,19277,BreachDirectory
 leoprinting.co.uk,2020-08-03,19258,BreachDirectory
 crackcommunity.com,2020-07-08,19173,BreachDirectory
 qhimm.com,2021-08-04,19102,BreachDirectory
@@ -2358,6 +2466,7 @@ stangbangerz.com,2020-03-13,17018,BreachDirectory
 verified.cm,2020-06-23,16992,BreachDirectory
 verified.ru,2022-02-15,16992,BreachDirectory
 selino.pl,2017-06-28,16918,BreachDirectory
+flylax.com,2024-08-02,16840,BreachDirectory
 jetaudio.com,2022-11-15,16832,BreachDirectory
 blu-rayiso.com,2020-09-18,16822,BreachDirectory
 bioquest.org,2018-07-04,16789,BreachDirectory
@@ -2368,6 +2477,7 @@ kbrnet.ru,2020-09-21,16689,BreachDirectory
 secureorderingonline.com,2018-07-04,16672,BreachDirectory
 jadedldn.com,2018-08-28,16652,BreachDirectory
 sh0ping.su,2021-10-25,16592,BreachDirectory
+pro-ucheba.com,2024-10-21,16527,BreachDirectory
 licaidashiye.com,2018-03-12,16458,BreachDirectory
 brainden.com,2019-03-14,16439,BreachDirectory
 vnonline.co.uk,2018-10-16,16418,BreachDirectory
@@ -2533,6 +2643,7 @@ crankgaming.net,2017-09-13,12444,BreachDirectory
 adboardz.com,2018-07-04,12441,BreachDirectory
 hackbase.cc,2021-10-27,12436,BreachDirectory
 tangkaskita.net,2022-02-15,12435,BreachDirectory
+influenceye,2024-10-11,12425,BreachDirectory
 maltababyandkids.com,2018-10-03,12391,BreachDirectory
 swarmshop.ws,2021-04-22,12344,BreachDirectory
 g2rihxhkobxu4tnx.onion,2022-09-30,12282,BreachDirectory
@@ -2617,6 +2728,7 @@ atlantiszkiado.net,2018-07-04,10440,BreachDirectory
 stock2morrow.com,2018-10-16,10437,BreachDirectory
 carder.su,2022-02-15,10432,BreachDirectory
 barmanclub.ir,2020-03-13,10423,BreachDirectory
+coursetobuy.net,2024-08-25,10421,BreachDirectory
 golfturkiye.net,2020-03-13,10391,BreachDirectory
 gamingzeta.com,2019-03-14,10374,BreachDirectory
 delta-stresser.xyz,2020-07-08,10367,BreachDirectory
@@ -2644,6 +2756,7 @@ outlawjapclub.com,2019-10-28,10030,BreachDirectory
 logexone-avon,2020-12-11,10016,BreachDirectory
 jabster.pl,2017-11-02,10009,BreachDirectory
 cngchat.com,2019-10-28,9998,BreachDirectory
+114.55.219.99,2024-10-21,9970,BreachDirectory
 traveltacoma.com,2017-03-24,9933,BreachDirectory
 crackiansleaks.com,2022-03-24,9933,BreachDirectory
 marbellapropertysolutions.com,2018-10-03,9902,BreachDirectory
@@ -2673,6 +2786,7 @@ arkaniaz.fr,2017-10-30,9505,BreachDirectory
 spainpvp.com,2017-10-30,9504,BreachDirectory
 laboklin.de,2018-10-16,9487,BreachDirectory
 hobbysquawk.com,2019-10-28,9475,BreachDirectory
+arago.games,2024-08-22,9412,BreachDirectory
 bootsacademyonline.com,2017-09-07,9405,BreachDirectory
 encyclopediadramatica.fyi,2020-05-15,9400,BreachDirectory
 netdoktor.at,2019-10-28,9393,BreachDirectory
@@ -2700,6 +2814,7 @@ oceangrownlounge.com,2019-10-28,8954,BreachDirectory
 flinky.de,2018-01-08,8949,BreachDirectory
 rangevideo.com,2017-05-22,8924,BreachDirectory
 verizon.com,2017-07-08,8923,BreachDirectory
+bizzeo.co,2024-10-22,8913,BreachDirectory
 horse.ir,2019-03-14,8895,BreachDirectory
 bakerro.com,2019-10-28,8894,BreachDirectory
 accountrs.com,2017-03-08,8864,BreachDirectory
@@ -2831,6 +2946,8 @@ efupw.com,2019-10-28,6749,BreachDirectory
 mernetwork.com,2017-05-22,6732,BreachDirectory
 cadaloginc.com,2018-10-16,6721,BreachDirectory
 reclamerio.com.br,2018-10-16,6718,BreachDirectory
+d4tabase.com,2024-08-15,6708,BreachDirectory
+easympserp.com,2024-11-12,6707,BreachDirectory
 giochix.it,2018-03-07,6694,BreachDirectory
 zismo.su,2022-04-29,6691,BreachDirectory
 sercovam.com,2018-03-12,6678,BreachDirectory
@@ -2882,6 +2999,7 @@ d2region.com,2022-09-01,6061,BreachDirectory
 gamerxserver.com,2022-03-11,6053,BreachDirectory
 thaimisc.com,2017-07-14,6048,BreachDirectory
 perfecthandbags.co.uk,2018-08-28,6041,BreachDirectory
+realityforum.net,2024-11-21,6035,BreachDirectory
 citroclubchile.cl,2020-03-13,6016,BreachDirectory
 sportnord.de,2018-10-16,6006,BreachDirectory
 eeberbachchannel.de,2018-07-08,6001,BreachDirectory
@@ -2954,6 +3072,7 @@ playkot.com,2017-05-22,5150,BreachDirectory
 tiktopers.ru,2022-03-29,5144,BreachDirectory
 lifesalud.com.ar,2023-08-03,5143,BreachDirectory
 zonealarm.com,2019-10-28,5129,BreachDirectory
+maaal.com,2024-08-22,5118,BreachDirectory
 projectdream.co.uk,2019-03-14,5110,BreachDirectory
 ruslang.ru,2018-07-09,5100,BreachDirectory
 truenorthloghomes.com,2019-04-02,5078,BreachDirectory
@@ -2982,16 +3101,20 @@ webm0ney.ru,2022-06-28,4832,BreachDirectory
 zion-network.cc,2022-09-22,4827,BreachDirectory
 emruzi.com,2020-03-13,4819,BreachDirectory
 bestcombats.net,2023-08-01,4814,BreachDirectory
+c4x1.ru,2024-07-10,4806,BreachDirectory
 wearerealitygames.com,2019-10-28,4757,BreachDirectory
 canwatchco.ca,2017-05-22,4748,BreachDirectory
 cardersplanet.biz,2019-05-08,4738,BreachDirectory
 rungruengelectronic.com,2018-10-16,4712,BreachDirectory
 hpvliyiz.com,2020-03-13,4712,BreachDirectory
+hostinglab.it,2024-07-05,4699,BreachDirectory
 atlasti.com,2017-05-22,4687,BreachDirectory
+pasajero.tech,2024-07-11,4686,BreachDirectory
 krakin.com,2022-06-21,4674,BreachDirectory
 eurogirlsforum.com,2019-10-28,4671,BreachDirectory
 wiig.de,2020-03-23,4669,BreachDirectory
 mc-market.org,2017-10-13,4648,BreachDirectory
+kiwifarms.pl,2024-08-25,4539,BreachDirectory
 ukcen.com,2019-10-28,4530,BreachDirectory
 doddlercon.com,2018-10-16,4527,BreachDirectory
 kupi-kotel.ru,2024-01-04,4506,BreachDirectory
@@ -3025,7 +3148,9 @@ digitalgangster.com,2017-04-12,4297,BreachDirectory
 allareas.de,2019-02-16,4292,BreachDirectory
 scriptpirates.com,2023-08-09,4290,BreachDirectory
 007.no,2018-10-24,4284,BreachDirectory
+targray.com,2024-07-09,4280,BreachDirectory
 bleachmyasylum.com,2017-05-22,4261,BreachDirectory
+elifelimo.com,2024-11-21,4260,BreachDirectory
 indigooffices.com,2023-12-05,4259,BreachDirectory
 jkrishnamurti.org,2018-10-17,4258,BreachDirectory
 futureforward.in,2018-07-09,4251,BreachDirectory
@@ -3085,6 +3210,7 @@ ekucharka.net,2019-10-28,3893,BreachDirectory
 magentoforum.com,2020-05-27,3892,BreachDirectory
 nflfans.com,2017-05-22,3890,BreachDirectory
 dutchwow.com,2019-03-14,3888,BreachDirectory
+hebetechnik-experte.de,2024-07-31,3881,BreachDirectory
 vatalent.com,2018-10-16,3875,BreachDirectory
 festivalsalvadoreno.com,2018-07-09,3868,BreachDirectory
 airboxbounce.co.uk,2018-11-08,3856,BreachDirectory
@@ -3178,6 +3304,7 @@ freegen.pw,2022-10-25,3024,BreachDirectory
 2005.botanyconference.org,2018-07-04,3023,BreachDirectory
 scientific-conference.net,2018-10-16,3023,BreachDirectory
 lalau.ru,2024-04-26,3021,BreachDirectory
+mazafaka.ru,2024-08-15,3021,BreachDirectory
 christiansurvivors.com,2019-10-28,3006,BreachDirectory
 bettercotton.org,2022-03-29,2997,BreachDirectory
 aussiethai.com,2018-07-04,2990,BreachDirectory
@@ -3210,6 +3337,7 @@ connectmyindia.com,2018-10-16,2780,BreachDirectory
 pickup.ru,2019-03-14,2776,BreachDirectory
 vbulletin-mods.co.uk,2022-06-28,2773,BreachDirectory
 voltdb.com,2019-10-28,2756,BreachDirectory
+carevisioncms.co.uk,2024-09-23,2752,BreachDirectory
 dirty-dawg.com,2018-10-03,2750,BreachDirectory
 mambo.co.il,2024-01-11,2749,BreachDirectory
 lapakbetting.com,2019-03-14,2736,BreachDirectory
@@ -3237,6 +3365,7 @@ rada.it,2024-01-24,2596,BreachDirectory
 riseofchampions.com,2017-05-22,2594,BreachDirectory
 chocolia.eu,2022-09-06,2587,BreachDirectory
 callofduty.com,2017-12-12,2573,BreachDirectory
+berukota.ru,2024-09-25,2564,BreachDirectory
 wa-plugins.ru,2023-02-14,2561,BreachDirectory
 nordbaches.com,2022-11-28,2546,BreachDirectory
 happy-compta.fr,2024-01-31,2544,BreachDirectory
@@ -3245,6 +3374,7 @@ siberdeyiz.com,2023-10-16,2536,BreachDirectory
 whereinjamaica.com,2018-10-16,2535,BreachDirectory
 rat-club.is,2021-10-27,2531,BreachDirectory
 pm-mc.com,2017-10-26,2530,BreachDirectory
+uzigraphics.net,2024-11-12,2529,BreachDirectory
 careerlabs.com,2020-08-03,2528,BreachDirectory
 discoverxs.com,2019-10-28,2524,BreachDirectory
 gamedaim.com,2021-10-14,2516,BreachDirectory
@@ -3283,6 +3413,7 @@ signalator.com,2019-08-01,2386,BreachDirectory
 itmatters.com.ph,2018-07-13,2372,BreachDirectory
 desmonorthwest.com,2019-12-17,2365,BreachDirectory
 fifa4fighters.de,2018-10-16,2360,BreachDirectory
+worldoffun.com.ph,2024-07-08,2355,BreachDirectory
 penza4x4.ru,2020-09-21,2349,BreachDirectory
 kwas.ca,2019-03-14,2336,BreachDirectory
 mcleaks.net,2020-07-08,2335,BreachDirectory
@@ -3304,7 +3435,6 @@ superstresser.com,2020-08-17,2241,BreachDirectory
 reloading.cc,2019-03-14,2234,BreachDirectory
 toonter.me,2021-07-23,2234,BreachDirectory
 black-energy.ru,2022-02-15,2232,BreachDirectory
-xtdev.com,2020-01-19,2203,BreachDirectory
 ixam-hosting.com,2020-07-08,2199,BreachDirectory
 smallworlds.com,2017-05-23,2187,BreachDirectory
 xrforums.net,2018-03-12,2186,BreachDirectory
@@ -3560,6 +3690,7 @@ timesofap.com,2018-07-03,1191,BreachDirectory
 lbxonline.com,2018-07-24,1180,BreachDirectory
 recklessnetwork.com,2020-08-17,1173,BreachDirectory
 employeeforum.capitalsenior.com,2019-10-28,1169,BreachDirectory
+websancharindia.com,2024-01-22,1168,BreachDirectory
 batc.tv,2017-06-27,1164,BreachDirectory
 hesus-store.com,2022-08-19,1164,BreachDirectory
 domainstream.se,2017-07-13,1158,BreachDirectory
@@ -3829,6 +3960,7 @@ naszeaudio.pl,2019-10-28,477,BreachDirectory
 valleysolar.com.br,2021-02-03,476,BreachDirectory
 gonegambling.com,2017-05-22,466,BreachDirectory
 networkgaming.org,2020-07-20,465,BreachDirectory
+mazcenter.ru,2024-08-14,465,BreachDirectory
 pathfinder-airsoft.com,2017-05-22,460,BreachDirectory
 safespace.es,2019-10-28,455,BreachDirectory
 makestation.net,2020-09-19,455,BreachDirectory
@@ -3904,6 +4036,7 @@ prowrestling.com,2017-05-22,326,BreachDirectory
 w0rm.ws,2022-03-03,324,BreachDirectory
 loungeboard.net,2023-07-24,324,BreachDirectory
 bara2.biz,2019-03-14,323,BreachDirectory
+domeshelter.com.au,2024-07-31,321,BreachDirectory
 captchasolutions.com,2020-08-17,316,BreachDirectory
 forumaniga.me,2019-10-28,314,BreachDirectory
 booter.tw,2017-02-28,313,BreachDirectory
@@ -3965,9 +4098,11 @@ httpizkis.ru,2017-07-18,213,BreachDirectory
 novusrising.com,2019-10-28,212,BreachDirectory
 farmaciatorres.com,2023-08-01,208,BreachDirectory
 ruisystem.net,2019-10-28,202,BreachDirectory
+elecnor.es,2024-11-21,199,BreachDirectory
 agingpro.com,2018-07-04,198,BreachDirectory
 acehcf.us,2017-10-30,196,BreachDirectory
 mdcomputers.in,2017-11-13,196,BreachDirectory
+realtor.ca,2024-09-25,196,BreachDirectory
 courtpay.org,2022-08-15,194,BreachDirectory
 cocobod.gh,2017-06-30,192,BreachDirectory
 reunisel.com,2023-07-31,187,BreachDirectory
@@ -4000,6 +4135,7 @@ ascentproject.eu,2017-07-14,151,BreachDirectory
 worldwidefeatures.com,2018-02-07,151,BreachDirectory
 icallsuite.com,2020-11-12,150,BreachDirectory
 versity.com,2022-10-25,149,BreachDirectory
+cbre.com,2024-07-30,149,BreachDirectory
 dark.bio,2023-06-27,147,BreachDirectory
 celebrityaccess.com,2018-07-08,145,BreachDirectory
 vauxhallvivaforum.co.uk,2019-03-14,142,BreachDirectory
@@ -4040,6 +4176,7 @@ nukjevet.net,2021-10-25,105,BreachDirectory
 denr.gov.ph,2023-02-03,105,BreachDirectory
 buzzplex.net,2017-10-30,104,BreachDirectory
 bikeratheart.com,2019-10-28,104,BreachDirectory
+talentica.com,2024-08-15,104,BreachDirectory
 avtovikyp.by,2024-01-11,101,BreachDirectory
 kampenhout.be,2018-02-07,100,BreachDirectory
 britishrock.cc,2020-07-28,100,BreachDirectory
@@ -4121,11 +4258,14 @@ chacao.gob.ve,2020-07-28,45,BreachDirectory
 widespreadforums.com,2020-08-03,44,BreachDirectory
 fatalhack.ru,2022-02-15,44,BreachDirectory
 nezzwerk.com,2023-11-03,43,BreachDirectory
+kamaz-kt.ru,2024-07-11,43,BreachDirectory
+dataforums.in,2024-11-01,42,BreachDirectory
 metsglobal.org,2019-10-28,41,BreachDirectory
 intelyc,2017-11-06,40,BreachDirectory
 forexelate.com,2019-10-28,40,BreachDirectory
 databases.biz,2022-06-21,40,BreachDirectory
 motosharleydavidson.ca,2018-10-03,39,BreachDirectory
+videohom.ru,2024-07-09,36,BreachDirectory
 eez.com.tw,2017-05-21,35,BreachDirectory
 artemishaber.com,2022-09-29,35,BreachDirectory
 corruptstresser.com,2017-03-31,34,BreachDirectory
@@ -4160,6 +4300,7 @@ dataviper.io,2020-07-16,19,BreachDirectory
 camiling-lgu.gov.ph,2023-10-16,19,BreachDirectory
 the420room.com,2017-05-23,18,BreachDirectory
 lamborghini-mulhouse.fr,2017-07-13,18,BreachDirectory
+italiamilitare.it,2024-08-25,18,BreachDirectory
 elregional.com.mx,2018-01-25,17,BreachDirectory
 mega.nz,2019-03-14,17,BreachDirectory
 cronicabalear.es,2022-04-22,17,BreachDirectory
@@ -4183,9 +4324,9 @@ vberdyanske.net,2022-06-22,12,BreachDirectory
 onlysvapo.it,2023-02-14,12,BreachDirectory
 linux-freebsd.ru,2024-01-11,12,BreachDirectory
 wow-hackers.com,2022-06-22,11,BreachDirectory
-websancharindia.com,2024-01-22,11,BreachDirectory
 tamilarena.com,2017-02-20,10,BreachDirectory
 teo-me.com,2022-08-11,10,BreachDirectory
+feetware.club,2024-07-05,10,BreachDirectory
 dourodummer.on.ca,2017-04-02,9,BreachDirectory
 cvrce.edu.in,2019-03-06,9,BreachDirectory
 alpharm.ru,2021-10-15,9,BreachDirectory
@@ -4274,4 +4415,3 @@ wesnoth.gamingladder.info,2017-02-20,0,BreachDirectory
 flux.org,2017-02-20,0,BreachDirectory
 icontrolpollution.com,2018-02-07,0,BreachDirectory
 scamcom,2018-06-27,0,BreachDirectory
-scentbird.com,2020-08-04,0,BreachDirectory
