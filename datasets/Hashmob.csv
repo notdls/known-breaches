@@ -2653,7 +2653,7 @@ HO[1043]__Amplitude-studios.com,,95810,Hashmob,vBulletin >= v3.8.5
 HO[1037]__Myspace (salted),,67595065,Hashmob,sha1($salt.$pass)
 HO[1036]__Mac-forums.com,,321476,Hashmob,vBulletin >= v3.8.5
 HO[1032]__Flyinghearts.info,,175032,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-HO[1031]__Animoto.com,,14938981,Hashmob,sha256($pass.$salt)
+HO[1031]__Animoto.com,,34930764,Hashmob,sha256($pass.$salt)
 HO[102]__Naughty America,,316860,Hashmob,MD5
 HO[101]__Heroes of Newerth,,2344049,Hashmob,vBulletin < v3.8.5
 HO[1017]__Disqus.com,,3119850,Hashmob,sha1($salt.$pass)
