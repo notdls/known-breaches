@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Beautybuy.com.ua,,14013,Hashmob,MD5
 Beccontrols.com,,14115,Hashmob,MD5
 Barcelonaled.com [presta],,119092,Hashmob,MD5
 Barcelonaled.com [bcrypt],,194986,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
