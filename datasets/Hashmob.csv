@@ -1,5 +1,4 @@
 dump_name,breach_date,record_count,source,info
-Zoomcar.com,,3586346,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 VideoToolbox.com,,579747,Hashmob,MySQL4.1/MySQL5
 MyApple.pl,,185566,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Jeu-concours.biz,,620847,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
