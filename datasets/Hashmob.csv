@@ -6,7 +6,7 @@ MyApple.pl,,185566,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Jeu-concours.biz,,620847,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Coricamo.de,,93287,Hashmob,md5($salt.md5($pass.$salt))
 Coricamo.de [bcrypt],,30066,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Cledesecurite.com,,16581,Hashmob,md5($salt.$pass)
+Cledesecurite.com,,16581,Hashmob,PrestaShop
 Bettersport.gr,,39119,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Beautybuy.com.ua,,14013,Hashmob,MD5
 Beccontrols.com,,14115,Hashmob,MD5
