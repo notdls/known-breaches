@@ -1,4 +1,8 @@
 dump_name,breach_date,record_count,source,info
+Guntrader.uk,,121126,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+fairytailhentaidb.com,,21363,Hashmob,MD5
+fairytailhentaidb.com [phpBB3],,728,Hashmob,phpass
+Gamergen.com,,935963,Hashmob,phpass
 Sencha.com,,849332,Hashmob,vBulletin >= v3.8.5
 forums.revora.net,,1226237,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Unifaveni.com.br,,263574,Hashmob,phpass
