@@ -1,6 +1,6 @@
 dump_name,breach_date,record_count,source,info
 SLPremia.ru,,738202,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-ShortEdition,,55658,Hashmob,sha512($salt.$pass)
+ShortEdition.com,,55658,Hashmob,sha512($salt.$pass)
 OpenRaid.org [phpBB3],,457080,Hashmob,phpass
 Guntrader.uk,,121126,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 fairytailhentaidb.com,,21363,Hashmob,MD5
