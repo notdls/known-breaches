@@ -9,7 +9,7 @@ A compliation of breach information gathered from data aggregators, breach looku
 | Hashmob | 2,682 | 5,160,119,990 | ✅ |
 | HaveIBeenPwned | 878 | 14,949,317,502 | ✅ |
 | Leak-Lookup | 4,431 | 27,976,266,406 | ✅ |
-| LeakCheck.io | 1,306 | 6,386,304,180 | ✅ |
+| LeakCheck.io | 1,305 | 6,386,304,180 | ✅ |
 | Leaked.Domains | 307 | 10,390,618,831 | ✅ |
 | ScatteredSecrets | 4,669 | Unavailable | ✅ |
 | BreachAware | 3,685 | 6,117,426,271 | ❌ |
