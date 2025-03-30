@@ -3,7 +3,7 @@ SLPremia.ru,,738202,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ShortEdition.com,,55658,Hashmob,sha512($salt.$pass)
 OpenRaid.org [phpBB3],,457080,Hashmob,phpass
 Guntrader.uk,,121126,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-fairytailhentaidb.com,,21363,Hashmob,MD5
+fairytailhentaidb.com,,21363,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 fairytailhentaidb.com [phpBB3],,728,Hashmob,phpass
 Gamergen.com,,935963,Hashmob,phpass
 Sencha.com,,849332,Hashmob,vBulletin >= v3.8.5
@@ -76,7 +76,7 @@ Gamershood.com [bcrypt],,111,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Gamershood.com,,85867,Hashmob,vBulletin >= v3.8.5
 Forums.webzen.com,,208900,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Fortniteporn.org [phpass],,53696,Hashmob,phpass
-Fortniteporn.org,,21191,Hashmob,MD5
+Fortniteporn.org,,21191,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 FoodFood.com,,62441,Hashmob,phpass
 Exclusivelygames.com,,13692,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Ecb.co.uk,,28328,Hashmob,"bcrypt $2*$, Blowfish (Unix)"

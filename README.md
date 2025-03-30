@@ -9,9 +9,9 @@ A compliation of breach information gathered from data aggregators, breach looku
 | Hashmob | 2,682 | 5,160,119,990 | ✅ |
 | HaveIBeenPwned | 878 | 14,949,317,502 | ✅ |
 | Leak-Lookup | 4,431 | 27,976,266,406 | ✅ |
-| LeakCheck.io | 1,305 | 6,388,439,544 | ✅ |
+| LeakCheck.io | 1,305 | 6,396,207,792 | ✅ |
 | Leaked.Domains | 307 | 10,390,618,831 | ✅ |
-| ScatteredSecrets | 4,669 | Unavailable | ✅ |
+| ScatteredSecrets | 4,736 | Unavailable | ✅ |
 | BreachAware | 3,685 | 6,117,426,271 | ❌ |
 | BreachForums_Official_Index | 1,006 | 16,041,441,468 | ❌ |
 | BreachForums_Unofficial_Index | 184 | 1,335,823,055 | ❌ |
