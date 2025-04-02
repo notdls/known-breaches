@@ -4,7 +4,7 @@ A compliation of breach information gathered from data aggregators, breach looku
 ## Indexed Services
 | Service Name | Breach Count | Total Records | Automatic Updates |
 | ------------ | ------------ | ------------- |        :--:       |
-| BreachDirectory | 4,416 | 27,859,679,523 | ✅ |
+| BreachDirectory | 4,437 | 27,978,047,211 | ✅ |
 | Dehashed | 1,071 | 16,133,955,377 | ✅ |
 | Hashmob | 2,682 | 5,160,119,990 | ✅ |
 | HaveIBeenPwned | 879 | 14,949,479,875 | ✅ |
