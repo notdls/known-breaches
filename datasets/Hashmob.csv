@@ -47,7 +47,7 @@ Afibel.pl [prestashop],,1319,Hashmob,md5($salt.$pass)
 GameTime.com,,1134073,Hashmob,vBulletin < v3.8.5
 tracelo.com,,94927,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ostrov-shop.by,,765462,Hashmob,"sha512crypt $6$, SHA512 (Unix)"
-mmo-db.com,,28002,Hashmob,md5($pass.$salt)
+mmo-db.com,,28003,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 minecoin.com,,906627,Hashmob,AuthMe sha256
 espresso-jobs.com,,87781,Hashmob,phpass
 espresso-jobs.com [bcrypt],,22136,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
