@@ -6,7 +6,7 @@ A compliation of breach information gathered from data aggregators, breach looku
 | ------------ | ------------ | ------------- |        :--:       |
 | BreachDirectory | 4,437 | 27,978,047,211 | ✅ |
 | Dehashed | 1,071 | 16,133,955,377 | ✅ |
-| Hashmob | 2,683 | 5,160,315,175 | ✅ |
+| Hashmob | 2,701 | 5,160,938,879 | ✅ |
 | HaveIBeenPwned | 882 | 14,952,757,805 | ✅ |
 | Leak-Lookup | 4,439 | 28,015,244,367 | ✅ |
 | LeakCheck.io | 1,304 | 6,482,029,102 | ✅ |

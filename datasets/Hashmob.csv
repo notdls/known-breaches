@@ -1,6 +1,24 @@
 dump_name,breach_date,record_count,source,info
+Curaden.de,,76388,Hashmob,md5($salt.$pass)
+curadenacademy.com [bcrypt],,10284,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+curaden-dentaldepot.ch [presta],,42602,Hashmob,md5($salt.$pass)
+curaden-dentaldepot.ch [bcrypt],,4677,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+blog.dsr2.ru,,13514,Hashmob,phpass
+TheTVDB.com [sql],,169349,Hashmob,MySQL4.1/MySQL5
+Sitcomsonline.com [vb],,42951,Hashmob,vBulletin < v3.8.5
+SchenkYOU.de,,236603,Hashmob,sha256($salt.$pass)
+SchenkYOU.de [md5],,133,Hashmob,MD5
+DrukMistrz.pl,,9763,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Curaden.us [presta],,1354,Hashmob,md5($salt.$pass)
+Curaden.us [bcrypt],,2254,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Curaden.nl [presta],,3915,Hashmob,md5($salt.$pass)
+Curaden.nl [bcrypt],,178,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Curaden.fr [bcrypt],,1060,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Curaden.co.uk [presta],,199,Hashmob,md5($salt.$pass)
+Curaden.co.uk [bcrypt],,3755,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Curaden.de [bcrypt],,4725,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Gawker.com,,195184,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-SLPremia.ru,,738202,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+slpremium.ru,,738202,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ShortEdition.com,,55658,Hashmob,sha512($salt.$pass)
 OpenRaid.org [phpBB3],,457080,Hashmob,phpass
 Guntrader.uk,,121126,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
