@@ -1,4 +1,7 @@
 dump_name,breach_date,record_count,source,info
+brandstores.de [bcrypt],,12421,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+brandstores.de [Presta],,80605,Hashmob,md5($salt.$pass)
+auxxxreviews.com (Vbulletin),,94071,Hashmob,vBulletin >= v3.8.5
 Curaden.de,,76388,Hashmob,md5($salt.$pass)
 curadenacademy.com [bcrypt],,10284,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 curaden-dentaldepot.ch [presta],,42602,Hashmob,md5($salt.$pass)
