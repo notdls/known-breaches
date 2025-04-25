@@ -1,4 +1,8 @@
 dump_name,breach_date,record_count,source,info
+Dronestore.cl [prestashop],,14906,Hashmob,md5($salt.$pass)
+Dronestore.cl [bcrypt],,26605,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Dragonshield.com [prestashop],,21702,Hashmob,md5($salt.$pass)
+Dragonshield.com [bcrypt],,27874,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 brandstores.de [bcrypt],,12421,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 brandstores.de [Presta],,80605,Hashmob,md5($salt.$pass)
 auxxxreviews.com (Vbulletin),,94071,Hashmob,vBulletin >= v3.8.5
