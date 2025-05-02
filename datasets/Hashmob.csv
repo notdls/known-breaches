@@ -40,36 +40,36 @@ VideoToolbox.com,,579747,Hashmob,MySQL4.1/MySQL5
 MyApple.pl,,185566,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Jeu-concours.biz,,620847,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Coricamo.de,,93287,Hashmob,md5($salt.md5($pass.$salt))
-Coricamo.de [bcrypt],,30066,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Coricamo.de [bcrypt],,30051,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Cledesecurite.com,,16581,Hashmob,PrestaShop
 Bettersport.gr,,39119,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Beautybuy.com.ua,,14013,Hashmob,Simpla CMS - md5($salt.$pass.md5($pass))
 Beccontrols.com,,14115,Hashmob,MD5
-Barcelonaled.com [presta],,119092,Hashmob,MD5
+Barcelonaled.com [presta],,119356,Hashmob,MD5
 Barcelonaled.com [bcrypt],,194986,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Farmadelivery.com.br,,1150010,Hashmob,md5($salt.$pass)
-Adecco.com,,3270221,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Farmadelivery.com.br,,1171171,Hashmob,md5($salt.$pass)
+Adecco.com,,3270219,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 A3M.com,,433922,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Zacks.com [2024-06],,1961793,Hashmob,SHA2-256
-Strongholdkingdoms.com,,5816522,Hashmob,HMAC-RIPEMD160 (key = $salt)
+Strongholdkingdoms.com,,5803218,Hashmob,HMAC-RIPEMD160 (key = $salt)
 Storybird.com [djangosha1],,1384815,Hashmob,Django (SHA-1)
 Storenvy.com,,9682746,Hashmob,Ruby on Rails Restful-Authentication
-Forums.xkcd.com,,546599,Hashmob,phpass
+Forums.xkcd.com,,546466,Hashmob,phpass
 Forums.xkcd.com [bcrypt],,15149,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Cafepress.com,,5902984,Hashmob,"nsldap, SHA-1(Base64), Netscape LDAP SHA"
 Bitcointalk.org,,450355,Hashmob,"sha256crypt $5$, SHA256 (Unix)"
 Bitcointalk.org [sha1],,44865,Hashmob,SHA1
 Beedoo.com.br,,432120,Hashmob,MD5
-Armorgames.com,,7806281,Hashmob,sha1($salt.sha1($pass.$salt))
+Armorgames.com,,7958528,Hashmob,sha1($salt.sha1($pass.$salt))
 Comai.fr,,20075,Hashmob,md5($salt.$pass)
 grpvyn.com,,255724,Hashmob,MD5
 cmelitegroup.com,,50259,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Lecoqsportif.com.co,,47810,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-ftp.region20.com.ar,,84007,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+ftp.region20.com.ar,,83908,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 GlassGiant.com,,189577,Hashmob,MD5
 Afibel.pl,,12918,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Afibel.pl [prestashop],,1319,Hashmob,md5($salt.$pass)
-GameTime.com,,1134073,Hashmob,vBulletin < v3.8.5
+GameTime.com,,1134077,Hashmob,vBulletin < v3.8.5
 tracelo.com,,94927,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ostrov-shop.by,,765462,Hashmob,"sha512crypt $6$, SHA512 (Unix)"
 mmo-db.com,,28003,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
@@ -78,63 +78,63 @@ espresso-jobs.com,,87781,Hashmob,phpass
 espresso-jobs.com [bcrypt],,22136,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 bhfcouriers.com.au,,11468,Hashmob,MD5
 Zamzamdirect.com,,16272,Hashmob,MD5
-Verygames.com,,21807,Hashmob,vBulletin >= v3.8.5
+Verygames.com,,21809,Hashmob,vBulletin >= v3.8.5
 Verygames.com [bcrypt],,747,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Unix.com,,157240,Hashmob,vBulletin < v3.8.5
-Thesedayscontinue.org,,331809,Hashmob,vBulletin < v3.8.5
-Skotos.net,,130312,Hashmob,vBulletin < v3.8.5
+Unix.com,,158569,Hashmob,vBulletin < v3.8.5
+Thesedayscontinue.org,,331917,Hashmob,vBulletin < v3.8.5
+Skotos.net,,130327,Hashmob,vBulletin < v3.8.5
 Skotos.net [bcrypt],,5737,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Sitcomsonline.com,,42949,Hashmob,vBulletin < v3.8.5
+Sitcomsonline.com,,42960,Hashmob,vBulletin < v3.8.5
 SchenkYou.com,,236926,Hashmob,sha256($salt.$pass)
 Raffaello-Network,,827801,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Protecta.com.au,,59251,Hashmob,sha256($salt.$pass)
-Pearldrummersforums.com,,197821,Hashmob,vBulletin >= v3.8.5
+Pearldrummersforums.com,,197831,Hashmob,vBulletin >= v3.8.5
 Owned.com,,72493,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Nterone.com,,203091,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Narutorp.net,,98866,Hashmob,vBulletin < v3.8.5
+Narutorp.net,,98998,Hashmob,vBulletin < v3.8.5
 Multibux.org,,32244,Hashmob,vBulletin < v3.8.5
 Masterforex-v.org,,166699,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Lifeofpix.com,,175861,Hashmob,phpass
 Killbillet.com [bcrypt],,33468,Hashmob,bcrypt(md5($pass)) / bcryptmd5
-Killbillet.com,,87334,Hashmob,vBulletin >= v3.8.5
-Goninja.de,,161145,Hashmob,vBulletin < v3.8.5
+Killbillet.com,,87338,Hashmob,vBulletin >= v3.8.5
+Goninja.de,,161149,Hashmob,vBulletin < v3.8.5
 Gamershood.com [bcrypt],,111,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Gamershood.com,,85867,Hashmob,vBulletin >= v3.8.5
+Gamershood.com,,85928,Hashmob,vBulletin >= v3.8.5
 Forums.webzen.com,,208900,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Fortniteporn.org [phpass],,53696,Hashmob,phpass
 Fortniteporn.org,,21191,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
-FoodFood.com,,62441,Hashmob,phpass
+FoodFood.com,,62404,Hashmob,phpass
 Exclusivelygames.com,,13692,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Ecb.co.uk,,28328,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Ecb.co.uk [md5],,14069,Hashmob,MD5
-Darkwindforums.com,,112974,Hashmob,MD5
-Czforito.com,,63500,Hashmob,vBulletin < v3.8.5
+Darkwindforums.com,,112923,Hashmob,MD5
+Czforito.com,,63523,Hashmob,vBulletin < v3.8.5
 Czforito.com [bcrypt],,27085,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Cpokemon.com [vbulletin],,71371,Hashmob,vBulletin >= v3.8.5
 Cpokemon.com [bcrypt],,220,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Cosforums.com,,100719,Hashmob,vBulletin < v3.8.5
-Comunidadzero.com,,63500,Hashmob,vBulletin < v3.8.5
+Cosforums.com,,101009,Hashmob,vBulletin < v3.8.5
+Comunidadzero.com,,63515,Hashmob,vBulletin < v3.8.5
 Comunidadzero.com [bcrypt],,27105,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Bleutorch.com,,363081,Hashmob,SHA1
 AlpineReplay.com,,632158,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Monstercars.nl,,17486,Hashmob,"osCommerce, xt:Commerce"
+Monstercars.nl,,17902,Hashmob,"osCommerce, xt:Commerce"
 Tappware.com,,779,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 PurePC.pl,,124310,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Aussiearcade.com,,18975,Hashmob,vBulletin >= v3.8.5
 Aussiearcade.com [bcrypt],,652,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-LupaWorld.com,,523853,Hashmob,vBulletin < v3.8.5
+LupaWorld.com,,523869,Hashmob,vBulletin < v3.8.5
 umebluje.pl [prestashop],,9708,Hashmob,PrestaShop
 umebluje.pl [bcrypt],,45131,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 pcTattletale.com,,48371,Hashmob,MD5
-SilabGarza.com,,104276,Hashmob,vBulletin >= v3.8.5
+SilabGarza.com,,113488,Hashmob,vBulletin >= v3.8.5
 RoninArmy.com,,7386,Hashmob,phpass
 Nexva.com,,55623,Hashmob,MD5
 MussleGurus.com [drupal],,36827,Hashmob,Drupal7
 MussleGurus.com [bcrypt],,2664,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Miva.com,,30162,Hashmob,vBulletin < v3.8.5
+Miva.com,,30168,Hashmob,vBulletin < v3.8.5
 Miva.com [bcrypt],,2637,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ComicbookResources.com,,65197,Hashmob,vBulletin >= v3.8.5
-CanadianProtein.com,,115462,Hashmob,sha1($salt.$pass)
+CanadianProtein.com,,37924,Hashmob,sha1($salt.$pass)
 Brianbanebbs.com,,321742,Hashmob,vBulletin < v3.8.5
 BandaiNamcoEnt.com,,13,Hashmob,Drupal7
 AudioModeling.com,,10,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -145,8 +145,8 @@ AndroidLista.com,,70265,Hashmob,sha1($salt.$pass)
 Zumvu.com,,169892,Hashmob,MD5
 CentralTickets.co.uk,,457144,Hashmob,SHA1
 1Win.com Partners,,523665,Hashmob,SHA2-256
-1Win.com,,73444633,Hashmob,SHA2-256
-Nursing.com,,568221,Hashmob,phpass
+1Win.com,,73444633,Hashmob,sha256($pass.$salt)
+Nursing.com,,530949,Hashmob,phpass
 Tvoe.ru,,2268605,Hashmob,"sha512crypt $6$, SHA512 (Unix)"
 FastBalloons.com,,62492,Hashmob,MD5
 AniDub.pro,,56107,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
@@ -158,8 +158,8 @@ AnimeLeague.com [bcrypt],,13247,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Bar-Equipment.com [bCrypt],,849,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Subsunacs.net,,27516,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Thelastdoor.com,,130549,Hashmob,phpass
-PureIncubation.com,,3182354,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-InfinityLearn.com,,728095,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+PureIncubation.com,,3182196,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+InfinityLearn.com,,723093,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Chudbuds.lol,,3616,Hashmob,Python passlib pbkdf2-sha512
 Bar-Equipment.com,,64755,Hashmob,md5($salt.$pass)
 AuroraFN.dev,,125599,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -169,14 +169,14 @@ MegaModels.pl,,176429,Hashmob,SHA1
 UpToSchoolWorksheets.com,,81787,Hashmob,MD5
 RealDudesInc.com,,101872,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 MMGfusion.com [olsnewprod],,10738,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-KitchenPal.com,,146430,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+KitchenPal.com,,146428,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HLTV.org [bcrypt],,248913,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HLTV.org [GoRainbowThis],,319875,Hashmob,md5(md5($plain).md5($plain).md5($plain).md5($plain).$salt)
 Goku.watch,,87854,Hashmob,SHA1
 Goku.watch [bcrypt],,15885,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Globaldtt.com,,300863,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 DriveSure customers,,93062,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Detskazidle.com,,107565,Hashmob,MD5
+Detskazidle.com,,104091,Hashmob,MD5
 DentalInsider.com,,90939,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ClashOfOlympus.com,,1225793,Hashmob,MD5
 ChronOfHorse.com [25600],,36900,Hashmob,bcrypt(md5($pass)) / bcryptmd5
@@ -277,7 +277,7 @@ Chordie.com [md5],,56879,Hashmob,MD5
 Trackitt.com,,36211,Hashmob,SHA1
 Trackitt.com [salted],,378149,Hashmob,sha1($salt.$pass)
 ArmyforceOnline.com,,1374845,Hashmob,MD5
-Have I been Pwned V8.4 (Delta V8) (SHA1),,18050003,Hashmob,SHA1
+Have I been Pwned V8.4 (Delta V8) (SHA1),,17840957,Hashmob,SHA1
 LeagueSpy.com,,146555,Hashmob,phpass
 SpaceTimeStudios.com,,7796333,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 level.travel,,317986,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -320,14 +320,14 @@ Ulmon.com,,1274383,Hashmob,bcrypt(sha1($pass)) / bcryptsha1
 toontownalleybanned,,70,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Verified.cash,,24812,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 lolzteam.ru,,21321,Hashmob,vBulletin >= v3.8.5
-Kixify.com,,2609518,Hashmob,MD5
+Kixify.com,,2187803,Hashmob,MD5
 HomeRefill.com.br,,190634,Hashmob,sha512($pass.$salt)
 Onlinetrade.ru,,1100918,Hashmob,MD5
 NFLRush.com,,385977,Hashmob,MD5
 happy-hack.ru,,17109,Hashmob,md5(md5($pass))
 avtoto.ru,,459497,Hashmob,MD5
 Exvagos.com,,2122353,Hashmob,vBulletin < v3.8.5
-school.mos.ru mixed MD5,,4387662,Hashmob,MD5
+school.mos.ru mixed MD5,,1531877,Hashmob,MD5
 Telderi.ru bcrypt,,102953,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ahoygame.com,,174647,Hashmob,vBulletin < v3.8.5
 Antichat.ru,,41128,Hashmob,vBulletin < v3.8.5
@@ -336,7 +336,7 @@ ABFRL.com,,2782915,Hashmob,md5($salt.$pass)
 Unigame.com,,857789,Hashmob,vBulletin < v3.8.5
 PRS06,,69190,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 SkylarGame,,255548,Hashmob,vBulletin >= v3.8.5
-Kinokong.org,,468244,Hashmob,md5(md5($pass))
+Kinokong.org,,399676,Hashmob,md5(md5($pass))
 EpicNPC.com,,400065,Hashmob,vBulletin >= v3.8.5
 datehotbrunettes.com,,1130829,Hashmob,MD5
 community.tribot.org,,22779,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
@@ -351,7 +351,7 @@ dev.dota2.com,,436181,Hashmob,vBulletin >= v3.8.5
 GGCorp.me,,2500521,Hashmob,vBulletin < v3.8.5
 r2sales.com,,20257,Hashmob,sha256($pass.$salt)
 ClashOfClansBuilder.com,,532398,Hashmob,MD5
-evonyp2,,7149360,Hashmob,MD5
+evonyp2,,7149358,Hashmob,MD5
 datpiff.com,,4301895,Hashmob,md5($pass.$salt)
 habbo.st,,318752,Hashmob,md5($pass.$salt)
 Neonet.pl,,340210,Hashmob,MD5
@@ -361,7 +361,7 @@ g7ass7jxdtwz3bib,,32562,Hashmob,phpass
 GameSalad.com (sha1),,35898,Hashmob,SHA1
 Book24.ua,,313341,Hashmob,md5($salt.$pass)
 4cheat.ru,,200823,Hashmob,vBulletin >= v3.8.5
-naturallycurly,,178512,Hashmob,vBulletin < v3.8.5
+naturallycurly,,178510,Hashmob,vBulletin < v3.8.5
 SideMC.net,,327338,Hashmob,md5(md5($pass))
 Benchmark.pl (md5),,125807,Hashmob,MD5
 boostbot.org,,1009049,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
@@ -386,7 +386,7 @@ bella-semena.ru,,43268,Hashmob,"osCommerce, xt:Commerce"
 netdoktorpro.se,,2615,Hashmob,SHA1
 Hjedd.com,,12739823,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 assoc.pension.bg,,55474,Hashmob,MD5
-Text.ru,,3347820,Hashmob,MD5
+Text.ru,,3347823,Hashmob,MD5
 devx,,47816,Hashmob,vBulletin < v3.8.5
 deshhosting.com,,131,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Battlefy.com,,81783,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -487,7 +487,7 @@ pokemonus,,1003,Hashmob,vBulletin >= v3.8.5
 hexui,,13626,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Shotengai.fr,,2304,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 canva,,53110424,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-linuxmint,,144546,Hashmob,phpass
+linuxmint,,144516,Hashmob,phpass
 ChatBooks.com,,2642634,Hashmob,sha512($pass.$salt)
 crackingitaly,,18130,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 cs-kings,,41123,Hashmob,vBulletin >= v3.8.5
@@ -502,7 +502,7 @@ pingpong,,37965,Hashmob,MD5
 lararforbundet,,225987,Hashmob,MD5
 macforums,,321485,Hashmob,vBulletin < v3.8.5
 forum.AlbionOnline.com (bcryptx2),,292332,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Yam.com,,9810738,Hashmob,MD5
+Yam.com,,9810755,Hashmob,MD5
 forum.AlbionOnline.com,,404,Hashmob,SMF (Simple Machines Forum) > v1.1
 crimecraft.mayngames.com,,1571588,Hashmob,"Ruby on Rails Restful Auth (one round, no sitekey)"
 ivniky,,2943,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
@@ -538,7 +538,7 @@ forumpitofwar,,1308,Hashmob,vBulletin < v3.8.5
 tmoxh4kr5xfnvxun,,82565,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 psx-scene,,363872,Hashmob,vBulletin >= v3.8.5
 Zacks.com,,1982423,Hashmob,SHA2-256
-Shein.com,,26506080,Hashmob,MD5
+Shein.com,,25318749,Hashmob,MD5
 planeetman,,98,Hashmob,vBulletin >= v3.8.5
 vrtalk,,2366,Hashmob,vBulletin >= v3.8.5
 gamerxserver,,4414,Hashmob,vBulletin >= v3.8.5
@@ -571,14 +571,14 @@ thishabbo,,27974,Hashmob,vBulletin >= v3.8.5
 planet3dnow,,110460,Hashmob,vBulletin < v3.8.5
 mmokings,,68164,Hashmob,MD5
 infowars,,43775,Hashmob,MD5
-Wattpad.com bcrypt,,145899718,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Wattpad.com bcrypt,,145899381,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 joygames.com,,17551515,Hashmob,vBulletin < v3.8.5
 myheritage,,109968880,Hashmob,sha1($pass.$salt)
 AimWare.net,,246984,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 campgroundmaster,,1092,Hashmob,vBulletin >= v3.8.5
 fashionfantasy,,1223397,Hashmob,MD5
 playsc,,112353,Hashmob,vBulletin < v3.8.5
-LiveAuctioneers.com,,2333013,Hashmob,MD5
+LiveAuctioneers.com,,2333011,Hashmob,MD5
 xbox-sky,,33998,Hashmob,vBulletin < v3.8.5
 nifgaming,,1335,Hashmob,vBulletin >= v3.8.5
 metruyen,,48083,Hashmob,vBulletin >= v3.8.5
@@ -590,7 +590,7 @@ guildwars2pc,,78501,Hashmob,vBulletin >= v3.8.5
 forumprowrestling,,637,Hashmob,vBulletin < v3.8.5
 quantumbooter,,42152,Hashmob,sha1($pass.$salt)
 forumsnodoubt,,16020,Hashmob,vBulletin < v3.8.5
-Have I been Pwned V8 (NTLM),,847208239,Hashmob,NTLM
+Have I been Pwned V8 (NTLM),,847207847,Hashmob,NTLM
 usdhyip,,145,Hashmob,vBulletin >= v3.8.5
 pokegym,,51542,Hashmob,vBulletin >= v3.8.5
 boarduscho,,24268,Hashmob,vBulletin < v3.8.5
@@ -653,18 +653,18 @@ aarinfantasyjoomla,,107013,Hashmob,Joomla < 2.5.18
 1337crew,,3666,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 forums.qhimm.com SMF,,18861,Hashmob,SMF (Simple Machines Forum) > v1.1
 forums.qhimm.com MD5,,239,Hashmob,MD5
-Realgm.com phpass,,102219,Hashmob,phpass
+Realgm.com phpass,,102211,Hashmob,phpass
 Realgm.com bcrypt,,14684,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Re Epik MD5,,39536,Hashmob,MD5
 forums.gamesprite.me,,6193055,Hashmob,vBulletin < v3.8.5
 Jefit.com VB,,8529577,Hashmob,vBulletin >= v3.8.5
 autosportwilly.com,,178957,Hashmob,"osCommerce, xt:Commerce"
-applied.world-psychotherapy.com,,12586,Hashmob,phpass
+applied.world-psychotherapy.com,,12584,Hashmob,phpass
 africadesk.asia,,885,Hashmob,MD5
 2flashgames.com,,2485,Hashmob,MD5
 Mayngames,,200000,Hashmob,vBulletin < v3.8.5
 Flashbay.com,,208466,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Wanelo,,2213500,Hashmob,MD5
+Wanelo,,2213498,Hashmob,MD5
 Adult Friend Finder Network,,37048424,Hashmob,sha1($pass.$salt)
 Abandonia.com,,777136,Hashmob,vBulletin < v3.8.5
 3dsiso,,128055,Hashmob,vBulletin >= v3.8.5
@@ -674,11 +674,11 @@ GemPlex.tv,,30280,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Wecreategame.com,,166350,Hashmob,MD5
 Jam Tangan sha256crypt,,151061,Hashmob,"sha256crypt $5$, SHA256 (Unix)"
 Jam Tangan MD5,,235612,Hashmob,MD5
-Dubsmash.com (Part 9),,10312405,Hashmob,Django (PBKDF2-SHA256)
+Dubsmash.com (Part 9),,10256723,Hashmob,Django (PBKDF2-SHA256)
 Dubsmash.com (Part 8),,9910456,Hashmob,Django (PBKDF2-SHA256)
 Dubsmash.com (Part 7),,9915665,Hashmob,Django (PBKDF2-SHA256)
 Dubsmash.com (Part 6),,9900382,Hashmob,Django (PBKDF2-SHA256)
-Dubsmash.com (Part 5),,10085461,Hashmob,Django (PBKDF2-SHA256)
+Dubsmash.com (Part 5),,10081907,Hashmob,Django (PBKDF2-SHA256)
 Dubsmash.com (Part 4),,9871935,Hashmob,Django (PBKDF2-SHA256)
 Dubsmash.com (Part 3),,9882775,Hashmob,Django (PBKDF2-SHA256)
 Dubsmash.com (Part 2),,8373168,Hashmob,Django (PBKDF2-SHA256)
@@ -706,11 +706,11 @@ AddictedCheats,,1051,Hashmob,vBulletin >= v3.8.5
 CityBee.LT,,97654,Hashmob,SHA1
 Liker.com,,312849,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 JD.com,,63353212,Hashmob,MD5
-HO[99]__Last.fm 2016,,20872319,Hashmob,MD5
+HO[99]__Last.fm 2016,,20872317,Hashmob,MD5
 HO[979]__Newseasims.com (2018),,174543,Hashmob,MD5
 HO[978]__Hackbase.cc,,9802,Hashmob,vBulletin < v3.8.5
 HO[977]__Solomid.net,,40157,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
-HO[976]__Cheapassgamer.com,,378278,Hashmob,vBulletin < v3.8.5
+HO[976]__Cheapassgamer.com,,378284,Hashmob,vBulletin < v3.8.5
 HO[973]__Gamephics.com,,324,Hashmob,vBulletin >= v3.8.5
 HO[971]__Forum.lightshope.org,,28721,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[956]__F.elex.com,,1595589,Hashmob,vBulletin >= v3.8.5
@@ -880,12 +880,12 @@ HO[8401]__Oyunkayit.com,,290811,Hashmob,phpass
 HO[8400]__Radioreference.com,,207388,Hashmob,MD5
 HO[839]__Vbulletin.org,,482767,Hashmob,vBulletin < v3.8.5
 HO[8399]__Outix.co,,189827,Hashmob,MD5
-HO[8397]__Quicklyuninstall.com,,189019,Hashmob,phpass
+HO[8397]__Quicklyuninstall.com,,188866,Hashmob,phpass
 HO[8396]__Streoapp.com,,178345,Hashmob,MD5
-HO[8395]__Uninstallfix.com,,264350,Hashmob,phpass
-HO[8394]__Openfilekit.com,,186196,Hashmob,phpass
+HO[8395]__Uninstallfix.com,,264102,Hashmob,phpass
+HO[8394]__Openfilekit.com,,186044,Hashmob,phpass
 HO[8393]__Casksultania.com,,159523,Hashmob,MD5
-HO[8392]__Emagist.com,,116846,Hashmob,phpass
+HO[8392]__Emagist.com,,116819,Hashmob,phpass
 HO[8390]__Tokyocreative.jp,,164344,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[838]__Vbulletin.com,,485328,Hashmob,vBulletin < v3.8.5
 HO[8389]__Soniguptaandassociates.com,,143517,Hashmob,MD5
@@ -988,7 +988,7 @@ HO[8218]__Forum.fxopen.ru,,273129,Hashmob,vBulletin >= v3.8.5
 HO[8217]__Cyberlearningmauritius.org,,292117,Hashmob,MD5
 HO[8216]__Refips.org,,269825,Hashmob,MD5
 HO[8215]__Tourtips.com,,825808,Hashmob,MD5
-HO[8213]__Meetmaster.ru,,369991,Hashmob,md5(md5($pass))
+HO[8213]__Meetmaster.ru,,369989,Hashmob,md5(md5($pass))
 HO[8212]__Omni-interconsult.com,,268913,Hashmob,md5($pass.$salt)
 HO[8210]__Techbizvideos.com,,535814,Hashmob,MD5
 HO[820]__Texasguntalk.com,,14507,Hashmob,vBulletin < v3.8.5
@@ -1093,7 +1093,7 @@ HO[775]__Pcbsupplies.co.uk,,7587,Hashmob,vBulletin >= v3.8.5
 HO[7754]__Needmine.ru,,599964,Hashmob,AuthMe sha256
 HO[774]__Pat-testing-course.com,,6349,Hashmob,vBulletin >= v3.8.5
 HO[773]__Outdoorseiten.net,,15954,Hashmob,vBulletin < v3.8.5
-HO[772]__Openraid.org,,455888,Hashmob,phpass
+HO[772]__Openraid.org,,455789,Hashmob,phpass
 HO[7725]__Poshmark.com,,32847285,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[7721]__Minted.com,,4339366,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[771]__Onverse.com,,300832,Hashmob,vBulletin < v3.8.5
@@ -1234,10 +1234,10 @@ HO[709]__Forumcommunity.net,,607335,Hashmob,MD5
 HO[7099]__Affiliate-toolbox.net,,10763,Hashmob,MD5
 HO[7098]__Albertwisnerlibrary.org,,33197,Hashmob,Drupal7
 HO[7097]__Alco.by,,22913,Hashmob,MD5
-HO[7096]__alfanord-pt,,22057,Hashmob,phpass
+HO[7096]__alfanord-pt,,19846,Hashmob,phpass
 HO[7094]__Amazingcharts.com,,4239,Hashmob,MD5
 HO[7093]__Americangroupconstructioninc.com,,22995,Hashmob,phpass
-HO[7092]__Amigacd32.com,,32161,Hashmob,phpass
+HO[7092]__Amigacd32.com,,32151,Hashmob,phpass
 HO[7091]__Amphasisdesign.com,,6781,Hashmob,MD5
 HO[708]__Forum.yamaha-europe.com,,7558,Hashmob,vBulletin < v3.8.5
 HO[7089]__Anypresentations.com,,13301,Hashmob,MD5
@@ -1325,7 +1325,7 @@ HO[7002]__Feirasbrasil.com.br,,5918,Hashmob,MD5
 HO[7000]__Fire.holdgold.ru,,5317,Hashmob,MD5
 HO[69]__PayAsUGym,,241195,Hashmob,MD5
 HO[699]__Forum.graceonthemoon.com,,13137,Hashmob,vBulletin >= v3.8.5
-HO[6999]__Fliggerty.com,,20513,Hashmob,phpass
+HO[6999]__Fliggerty.com,,20510,Hashmob,phpass
 HO[6997]__Flyingfoxcafe.com.au,,23132,Hashmob,MD5
 HO[6996]__Fmsudaipur.org,,18381,Hashmob,MD5
 HO[6995]__Frederick.com,,5467,Hashmob,MD5
@@ -1333,7 +1333,7 @@ HO[6994]__Fx-portal.com,,4843,Hashmob,MD5
 HO[6993]__Gameark.com,,13665,Hashmob,MD5
 HO[6992]__Gameawards.ru,,22180,Hashmob,MD5
 HO[6991]__Gamespp.com,,33014,Hashmob,phpass
-HO[6990]__Gamonline.com,,31132,Hashmob,MD5
+HO[6990]__Gamonline.com,,29703,Hashmob,MD5
 HO[698]__Fon,,85032,Hashmob,MD5
 HO[6988]__Goodoldboat.com,,4135,Hashmob,phpass
 HO[6986]__Gradlinkuk.com,,7897,Hashmob,MD5
@@ -1342,7 +1342,7 @@ HO[6984]__Hanbit.co.kr,,29941,Hashmob,MySQL4.1/MySQL5
 HO[6983]__Hedaet.com,,939,Hashmob,MD5
 HO[6981]__Hellenic-world.com,,8822,Hashmob,MD5
 HO[6980]__Hiyaapp.com.au,,4624,Hashmob,"osCommerce, xt:Commerce"
-HO[6979]__Homeold.com,,7554,Hashmob,vBulletin < v3.8.5
+HO[6979]__Homeold.com,,7481,Hashmob,vBulletin < v3.8.5
 HO[6978]__Hothandbag.cn,,5328,Hashmob,MD5
 HO[6977]__Howtocallabroad.com,,8312,Hashmob,phpass
 HO[6976]__Hp.antex.ru,,6417,Hashmob,md5(md5($pass))
@@ -1367,7 +1367,7 @@ HO[6958]__Jgu.edu.in,,6869,Hashmob,Drupal7
 HO[6957]__Jimcordova.com,,23415,Hashmob,phpass
 HO[6956]__Jkrishnamurti.org,,4050,Hashmob,MD5
 HO[6955]__K1-sport.de,,2449,Hashmob,phpass
-HO[6954]__Kabarindonesia.com,,15187,Hashmob,MD5
+HO[6954]__Kabarindonesia.com,,15185,Hashmob,MD5
 HO[6953]__Kb.community-space.co.uk,,9964,Hashmob,MD5
 HO[6952]__Kgz-kranj.si,,5648,Hashmob,MD5
 HO[6951]__Koaci.com,,12710,Hashmob,MD5
@@ -1419,13 +1419,13 @@ HO[6903]__Pescagonismo.it,,7264,Hashmob,MD5
 HO[6902]__Phenix.int-evry.fr,,5141,Hashmob,MD5
 HO[6901]__Pinxinternational.com,,17060,Hashmob,Drupal7
 HO[6900]__Poliba.it,,10708,Hashmob,Drupal7
-HO[68]__Linkedin,,61810723,Hashmob,SHA1
+HO[68]__Linkedin,,61766123,Hashmob,SHA1
 HO[689]__Epicnpc.com,,186384,Hashmob,md5($pass.$salt)
 HO[6898]__Popviralist.com,,21774,Hashmob,MD5
 HO[6896]__Profitaccount.ru,,12886,Hashmob,MD5
 HO[6895]__Progressivetorrents.com,,38254,Hashmob,MD5
 HO[6894]__Psikusy.cz,,10510,Hashmob,phpass
-HO[6893]__Pureweddingindex.co.uk,,7485,Hashmob,phpass
+HO[6893]__Pureweddingindex.co.uk,,7482,Hashmob,phpass
 HO[6892]__Queroabogado.es,,9316,Hashmob,Joomla < 2.5.18
 HO[6891]__Rabotuvsem.ru,,11922,Hashmob,MD5
 HO[6890]__Radiodetail.ru,,19612,Hashmob,MD5
@@ -1515,7 +1515,7 @@ HO[6808]__Web-super-sonntag.com,,13765,Hashmob,Joomla < 2.5.18
 HO[6806]__Wootstalker.com,,4981,Hashmob,MD5
 HO[6805]__Worldpicks.eu,,717,Hashmob,SHA1
 HO[6804]__Ws-news.ru,,5381,Hashmob,MD5
-HO[6803]__Wuxi.jiangsu.net,,8118,Hashmob,phpass
+HO[6803]__Wuxi.jiangsu.net,,8114,Hashmob,phpass
 HO[6802]__Wuzzlepuzzlegames.com,,12871,Hashmob,phpass
 HO[6801]__Xhnmedia.com,,4230,Hashmob,Drupal7
 HO[6800]__Zhuravlev.info,,7483,Hashmob,MD5
@@ -1816,7 +1816,7 @@ HO[6425]__Aw-gaming.net,,3626,Hashmob,MD5
 HO[6424]__Hafniumcity.com,,3966,Hashmob,MD5
 HO[6423]__Bapujidental.edu,,3768,Hashmob,phpass
 HO[6421]__Kinoman.net,,3475,Hashmob,MD5
-HO[6420]__Psychotherapy.ruspsy.net,,2868,Hashmob,phpass
+HO[6420]__Psychotherapy.ruspsy.net,,2866,Hashmob,phpass
 HO[641]__Askgamblers.com,,25343,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 HO[6419]__3dmotive.com,,2175,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[6418]__Outils.easycup.fr,,3742,Hashmob,phpass
@@ -1883,7 +1883,7 @@ HO[6185]__Media.mynameischance.com,,36517,Hashmob,MD5
 HO[6183]__Forest.ku.ac.th,,49543,Hashmob,Joomla < 2.5.18
 HO[6182]__Gomel.belarusgo.com,,87987,Hashmob,MD5
 HO[6181]__Digitalworld.fr,,104048,Hashmob,MD5
-HO[6180]__Sabusinesshub.co.za,,96949,Hashmob,phpass
+HO[6180]__Sabusinesshub.co.za,,96927,Hashmob,phpass
 HO[6179]__Iasscore.in,,96531,Hashmob,MD5
 HO[6178]__Fftoday.com,,120917,Hashmob,MD5
 HO[6177]__Shorttask.com,,223766,Hashmob,MD5
@@ -1962,7 +1962,7 @@ HO[5449]__Highcountry4wheelers.com,,46630,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5447]__Fybforum.co.uk,,50557,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5442]__Thechinforum.com,,58095,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5440]__Forum.learncima.com,,62522,Hashmob,bcrypt(md5($pass)) / bcryptmd5
-HO[543]__Edmodo.com,,74577287,Hashmob,bcrypt(md5($pass)) / bcryptmd5
+HO[543]__Edmodo.com,,74577284,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5438]__Forum.dex-rpg.com,,67629,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 HO[5428]__Forum.cabaleu.playthisgame.com,,143833,Hashmob,vBulletin >= v3.8.5
 HO[53]__Madword.co.uk,,1029,Hashmob,MD5
@@ -2147,19 +2147,19 @@ HO[3308]__Reom.ru,,24845,Hashmob,MD5
 HO[3307]__Gamecheats.net.ru,,5329,Hashmob,md5($pass.$salt)
 HO[3306]__Gadzilka.ru,,23320,Hashmob,MD5
 HO[3305]__Pda.ntsk.ru,,18275,Hashmob,md5($pass.$salt)
-HO[3304]__Vettorg.online2biz.ru,,43424,Hashmob,MD5
+HO[3304]__Vettorg.online2biz.ru,,43350,Hashmob,MD5
 HO[3303]__Menzelinsk.ru,,43837,Hashmob,MD5
 HO[3302]__Uyutmarket.ru,,41752,Hashmob,MD5
-HO[3301]__Bsv.pedmix.ru,,34230,Hashmob,MD5
+HO[3301]__Bsv.pedmix.ru,,34135,Hashmob,MD5
 HO[3300]__Mospsy.ru,,52303,Hashmob,MD5
 HO[32]__MilitarySingles.com,,118375,Hashmob,MD5
 HO[3299]__Tehservis.ru,,28567,Hashmob,MD5
-HO[3298]__Vetlek.ru,,43663,Hashmob,MD5
-HO[3297]__Ds3d.ru,,46570,Hashmob,phpass
+HO[3298]__Vetlek.ru,,43593,Hashmob,MD5
+HO[3297]__Ds3d.ru,,46547,Hashmob,phpass
 HO[3296]__Katalogsuvenirov.ru,,44111,Hashmob,md5(md5($pass))
 HO[3295]__Souzpromarmatura.ru,,33851,Hashmob,MD5
-HO[3294]__Wrm.ru,,46995,Hashmob,phpass
-HO[3293]__Moscowfitness.ru,,28240,Hashmob,phpass
+HO[3294]__Wrm.ru,,46860,Hashmob,phpass
+HO[3293]__Moscowfitness.ru,,28193,Hashmob,phpass
 HO[3292]__Diva-m.ru,,67214,Hashmob,MD5
 HO[3291]__Ritchiblackmore.ru,,22239,Hashmob,MD5
 HO[3290]__Zoojournal.ru,,69707,Hashmob,"md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5)"
@@ -2184,14 +2184,14 @@ HO[2929]__Oneservers.su,,35012,Hashmob,MD5
 HO[2927]__Borealis.su,,280077,Hashmob,md5(md5($pass))
 HO[2917]__Newlook.com,,843330,Hashmob,SHA1
 HO[28]__Blizzard.com.au,,15956,Hashmob,MD5
-HO[2804]__Whitepages.com,,10839470,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+HO[2804]__Whitepages.com,,9261306,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[2802]__Roadtrippers.com,,2510187,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[2801]__Sephora.com,,767165,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[2800]__Pobiearmy24.pl,,150825,Hashmob,vBulletin < v3.8.5
 HO[27]__Ahashare.com,,150595,Hashmob,MD5
 HO[2799]__Pixelmon-world.com,,67613,Hashmob,MD5
 HO[2798]__Promofarma.org,,54642,Hashmob,MD5
-HO[2763]__Chegg.com,,29034831,Hashmob,MD5
+HO[2763]__Chegg.com,,28726223,Hashmob,MD5
 HO[2762]__Stockx.com,,6846487,Hashmob,md5($salt.$pass)
 HO[2760]__Datacamp.com,,513513,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[2729]__Offshorebetter.com,,3254,Hashmob,MD5
@@ -2337,7 +2337,7 @@ HO[1886]__Ixigo.com,,3014394,Hashmob,MD5
 HO[1881]__Avvo.com,,3671918,Hashmob,"Ruby on Rails Restful Auth (one round, no sitekey)"
 HO[1880]__8fit.com,,12424042,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[184]__Faucethub.io,,452480,Hashmob,SHA2-512
-HO[1803]__Ashleymadison.com,,35532381,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+HO[1803]__Ashleymadison.com,,35532377,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[17]__eHarmony,,1516749,Hashmob,MD5
 HO[1775]__Fotolog.com,,18774892,Hashmob,SHA2-256
 HO[1773]__Eyeem.com,,12327759,Hashmob,sha1($salt.$pass)
@@ -2359,7 +2359,7 @@ HO[1657]__De.streamscene.cc,,16089,Hashmob,vBulletin >= v3.8.5
 HO[1655]__Allwomenstalk.com,,198205,Hashmob,phpass
 HO[1654]__Filetracker.pl,,41019,Hashmob,MD5
 HO[1653]__Interpals.net,,723951,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-HO[1652]__Acne.org,,435467,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
+HO[1652]__Acne.org,,462040,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 HO[1651]__Foe-rs.com,,16435,Hashmob,SHA1
 HO[1648]__Myfitnesspal.com (Under Armour),,24418819,Hashmob,sha1($salt.$pass)
 HO[1647]__Warandwork.net,,57098,Hashmob,md5(md5($pass))
@@ -2390,14 +2390,14 @@ HO[1600]__Cura.at,,15904,Hashmob,MD5
 HO[15]__Stratfor,,822629,Hashmob,MD5
 HO[1599]__Electorg.ru,,22578,Hashmob,MD5
 HO[1598]__Agitprop.media-objektiv.com,,42470,Hashmob,MD5
-HO[1597]__Auto-voshod.ru,,87251,Hashmob,vBulletin < v3.8.5
+HO[1597]__Auto-voshod.ru,,87243,Hashmob,vBulletin < v3.8.5
 HO[1596]__Mypita.ourconference.ca,,36180,Hashmob,MD5
 HO[1592]__Kiaebs.org,,33076,Hashmob,SHA2-256
 HO[1591]__Promgoods.ru,,23193,Hashmob,MD5
 HO[1590]__Djcj.org,,51054,Hashmob,Drupal7
 HO[1589]__Tablatures.tk,,70896,Hashmob,MD5
-HO[1588]__Iskkra9.ksdk.ru,,31698,Hashmob,MD5
-HO[1587]__Fiola1002.pedmix.ru,,31671,Hashmob,MD5
+HO[1588]__Iskkra9.ksdk.ru,,31604,Hashmob,MD5
+HO[1587]__Fiola1002.pedmix.ru,,31577,Hashmob,MD5
 HO[1586]__Light.muztorg.ru,,46648,Hashmob,MD5
 HO[1585]__Smc-bg.com,,78686,Hashmob,MD5
 HO[1580]__Storelp.ru,,910957,Hashmob,MD5
@@ -2417,7 +2417,7 @@ HO[1567]__Fupa.net,,163659,Hashmob,MD5
 HO[1566]__Hypercomplex.xpsweb.com,,107010,Hashmob,MD5
 HO[1565]__Smartsoft.kiev.ua,,180855,Hashmob,md5(md5($pass))
 HO[1563]__Originalintimo.com,,120388,Hashmob,"osCommerce, xt:Commerce"
-HO[1562]__Bondagestory.biz,,66669,Hashmob,vBulletin < v3.8.5
+HO[1562]__Bondagestory.biz,,66666,Hashmob,vBulletin < v3.8.5
 HO[1560]__Shop77.ru,,76396,Hashmob,MySQL4.1/MySQL5
 HO[1559]__Jodi4ever.com,,204741,Hashmob,phpass
 HO[1543]__No1hsk.co.kr,,153714,Hashmob,MySQL4.1/MySQL5
@@ -2464,21 +2464,21 @@ HO[1410]__Eurocampingcar.com,,61272,Hashmob,MD5
 HO[1408]__Bmapo.com,,55449,Hashmob,MD5
 HO[1407]__Leuropevueduciel.com,,63910,Hashmob,MD5
 HO[1406]__Mindfiesta.com,,45247,Hashmob,MD5
-HO[1405]__Orlandosentinel2.com,,50275,Hashmob,phpass
-HO[1404]__1001moteurs.com,,56821,Hashmob,phpass
+HO[1405]__Orlandosentinel2.com,,50240,Hashmob,phpass
+HO[1404]__1001moteurs.com,,56814,Hashmob,phpass
 HO[1402]__Mxzdy.com,,55576,Hashmob,MD5
 HO[1401]__Monolink.kr,,63997,Hashmob,MD5
-HO[1400]__Aeroklas.com,,53479,Hashmob,SHA1
+HO[1400]__Aeroklas.com,,53479,Hashmob,SMF (Simple Machines Forum) > v1.1
 HO[1398]__Pk.ipobar.com,,49791,Hashmob,MD5
-HO[1397]__Industrialreviews.ru,,42090,Hashmob,phpass
+HO[1397]__Industrialreviews.ru,,42071,Hashmob,phpass
 HO[1396]__Dosportseasy.com,,47309,Hashmob,SHA1
-HO[1395]__Spanking-shop.com,,35760,Hashmob,vBulletin >= v3.8.5
+HO[1395]__Spanking-shop.com,,35751,Hashmob,vBulletin >= v3.8.5
 HO[1393]__Presiuniv.ac.in,,37018,Hashmob,MD5
 HO[1392]__Data.e-rockford.com,,50856,Hashmob,MD5
 HO[1390]__Marriagebuilders.com,,19772,Hashmob,MD5
-HO[1387]__Tabledescalories.com,,22126,Hashmob,MD5
+HO[1387]__Tabledescalories.com,,22068,Hashmob,vBulletin < v3.8.5
 HO[1386]__Assoc.pension.bg,,49717,Hashmob,MD5
-HO[1385]__History.cyberbody.ru,,39646,Hashmob,phpass
+HO[1385]__History.cyberbody.ru,,39524,Hashmob,phpass
 HO[1384]__Designbuilder-v4.co.uk,,48304,Hashmob,MD5
 HO[1383]__Panapace.com,,49095,Hashmob,MD5
 HO[1381]__Subfor.associationhouse.org.uk,,49222,Hashmob,MD5
@@ -2486,7 +2486,7 @@ HO[1380]__Partycam.de,,36516,Hashmob,MD5
 HO[137]__Nihonomaru,,276184,Hashmob,vBulletin < v3.8.5
 HO[1378]__Huplux.com,,71346,Hashmob,MySQL4.1/MySQL5
 HO[1377]__Eliteskills.com,,49841,Hashmob,MD5
-HO[1376]__Pcbuyersguide.com.ph,,45194,Hashmob,phpass
+HO[1376]__Pcbuyersguide.com.ph,,45174,Hashmob,phpass
 HO[1375]__Kutle.bunedir.org,,46203,Hashmob,MD5
 HO[1374]__Dordingull.com,,41472,Hashmob,MD5
 HO[1373]__Umaxit.com,,19873,Hashmob,MD5
@@ -2498,8 +2498,8 @@ HO[1367]__Freeclassifieds.ws,,31280,Hashmob,MD5
 HO[1366]__Themusichutch.com,,40877,Hashmob,MD5
 HO[1365]__Bunedir.org,,39621,Hashmob,MD5
 HO[1364]__Bluestartbb.com,,47118,Hashmob,phpass
-HO[1362]__Florentiavillage.com,,52975,Hashmob,md5(md5($pass))
-HO[1361]__Cskrl.com,,53087,Hashmob,vBulletin < v3.8.5
+HO[1362]__Florentiavillage.com,,52823,Hashmob,md5(md5($pass))
+HO[1361]__Cskrl.com,,53034,Hashmob,vBulletin < v3.8.5
 HO[1360]__Scd.univ-fcomte.fr,,32561,Hashmob,MD5
 HO[1359]__Dzialkowiec.pixelart.com.pl,,46231,Hashmob,MD5
 HO[1358]__Manastir-lepavina.org,,18871,Hashmob,SHA1
@@ -2507,7 +2507,7 @@ HO[1353]__Orderzwz.com,,32875,Hashmob,Joomla < 2.5.18
 HO[1352]__Xn--l3cabki0dq2hg8p.com,,82213,Hashmob,MD5
 HO[1351]__3forfun.com,,67832,Hashmob,MD5
 HO[1350]__Halalfire.com,,61782,Hashmob,MD5
-HO[1349]__Uukt.com.tw,,85142,Hashmob,phpass
+HO[1349]__Uukt.com.tw,,85120,Hashmob,phpass
 HO[1347]__Auphanonline.com,,32960,Hashmob,MD5
 HO[1346]__Osnews.com,,22975,Hashmob,SHA1
 HO[1345]__Qarchive.org,,86368,Hashmob,MySQL323
@@ -2516,12 +2516,12 @@ HO[1343]__Community.saa.co.uk,,20153,Hashmob,"osCommerce, xt:Commerce"
 HO[1342]__Onlygirlsgames.com,,64657,Hashmob,MD5
 HO[1340]__Fastsaloons.com,,38323,Hashmob,MD5
 HO[1339]__Medwaymadness.co.uk,,67714,Hashmob,SHA1
-HO[1338]__Bdsmstorys.com,,68299,Hashmob,vBulletin < v3.8.5
+HO[1338]__Bdsmstorys.com,,68296,Hashmob,vBulletin < v3.8.5
 HO[1337]__Supras-unisono.info,,76527,Hashmob,MD5
 HO[1336]__Academyfence.com,,25257,Hashmob,MD5
 HO[1335]__Icpdas-usa.com,,56579,Hashmob,MD5
 HO[1334]__Contentwizard.guru,,8129,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-HO[1330]__Coasterfuel.com,,68014,Hashmob,phpass
+HO[1330]__Coasterfuel.com,,67982,Hashmob,phpass
 HO[1328]__Destockcenter.com,,52045,Hashmob,MD5
 HO[1326]__Ralphstersspores.com,,30221,Hashmob,MD5
 HO[1325]__Multicines.com,,20969,Hashmob,MD5
@@ -2534,8 +2534,8 @@ HO[1319]__Platinum-celebs.com,,57077,Hashmob,MD5
 HO[1318]__Dfbarracks.com,,33446,Hashmob,MD5
 HO[1317]__Jeux-gratuit.com,,40755,Hashmob,SHA1
 HO[1315]__Tradelead.com,,64942,Hashmob,MD5
-HO[1314]__Thezyx.com,,103928,Hashmob,vBulletin < v3.8.5
-HO[1313]__Factway.net,,83727,Hashmob,MD5
+HO[1314]__Thezyx.com,,103923,Hashmob,vBulletin < v3.8.5
+HO[1313]__Factway.net,,83724,Hashmob,MD5
 HO[1312]__Gartoony.diaryclub.com,,57495,Hashmob,MD5
 HO[1311]__Ilsantodipadova.com,,118959,Hashmob,MD5
 HO[1310]__Arenafan.com,,76712,Hashmob,MD5
@@ -2547,10 +2547,10 @@ HO[1305]__Vch.jp,,73431,Hashmob,SHA2-256
 HO[1304]__Jishih.com,,125125,Hashmob,vBulletin < v3.8.5
 HO[1303]__Gochonggo.com,,102019,Hashmob,MD5
 HO[1301]__Fijilive.com,,77900,Hashmob,MD5
-HO[1300]__Swdsd.com,,117947,Hashmob,vBulletin < v3.8.5
+HO[1300]__Swdsd.com,,117925,Hashmob,vBulletin < v3.8.5
 HO[1299]__P2ptvsports.com,,91319,Hashmob,SHA1
 HO[1298]__Allp2ptv.org,,91211,Hashmob,SHA1
-HO[1297]__Developers-heaven.net,,93369,Hashmob,SHA1
+HO[1297]__Developers-heaven.net,,93361,Hashmob,SMF (Simple Machines Forum) > v1.1
 HO[1296]__Knowyourcollege-gov.in,,45687,Hashmob,MD5
 HO[1295]__Dhasleejobs.com,,102210,Hashmob,MD5
 HO[1294]__Akpr.ru,,86166,Hashmob,MD5
@@ -2583,47 +2583,47 @@ HO[1258]__Etvonline.hk,,35867,Hashmob,phpass
 HO[1257]__Digitalfilms.com,,84767,Hashmob,"descrypt, DES (Unix), Traditional DES"
 HO[1256]__Iqrashop.com,,139923,Hashmob,"osCommerce, xt:Commerce"
 HO[1255]__Fotoboom.com,,77708,Hashmob,MySQL323
-HO[1254]__Stm-fencing.com,,107190,Hashmob,phpass
-HO[1253]__Percovision.info,,106267,Hashmob,phpass
+HO[1254]__Stm-fencing.com,,107101,Hashmob,phpass
+HO[1253]__Percovision.info,,106191,Hashmob,phpass
 HO[1252]__Babynames.com,,821766,Hashmob,vBulletin < v3.8.5
 HO[1251]__Lakerstats.com,,446560,Hashmob,vBulletin < v3.8.5
 HO[1250]__Gl3a.com,,437958,Hashmob,vBulletin < v3.8.5
-HO[1249]__Onlinecenter.pl,,309688,Hashmob,vBulletin < v3.8.5
-HO[1248]__Gamershell.com,,367246,Hashmob,MD5
+HO[1249]__Onlinecenter.pl,,309685,Hashmob,vBulletin < v3.8.5
+HO[1248]__Gamershell.com,,367242,Hashmob,MD5
 HO[1247]__Theaerodrome.com,,408062,Hashmob,vBulletin < v3.8.5
 HO[1246]__Music.vuilen.com,,313462,Hashmob,vBulletin >= v3.8.5
 HO[1244]__Cordageforum.net,,7756,Hashmob,vBulletin < v3.8.5
 HO[1242]__Olgame.tw,,36216,Hashmob,vBulletin < v3.8.5
-HO[1241]__Trackmill.com,,392000,Hashmob,vBulletin < v3.8.5
-HO[1240]__Bdsmlibrary.org,,67869,Hashmob,vBulletin < v3.8.5
+HO[1241]__Trackmill.com,,391981,Hashmob,vBulletin < v3.8.5
+HO[1240]__Bdsmlibrary.org,,67866,Hashmob,vBulletin < v3.8.5
 HO[1239]__Vegastripping.com,,36513,Hashmob,MD5
 HO[1237]__Hype1.com,,122789,Hashmob,MD5
 HO[1236]__Youwinconnect.org.ng,,139968,Hashmob,Joomla < 2.5.18
 HO[1234]__Fastecash.com,,63217,Hashmob,MySQL4.1/MySQL5
 HO[1233]__Quizrevolution.com,,174210,Hashmob,SHA1
 HO[1231]__Thuglak.com,,39904,Hashmob,"osCommerce, xt:Commerce"
-HO[1230]__Marketdownload.com,,160351,Hashmob,phpass
+HO[1230]__Marketdownload.com,,160330,Hashmob,phpass
 HO[1229]__Caratulas.com,,60234,Hashmob,MD5
 HO[1227]__Everydayrecipes.ca,,25503,Hashmob,MD5
 HO[1226]__Newreleasetoday.com,,117168,Hashmob,MD5
 HO[1225]__Wholesale.swimdoctor.co.kr,,164649,Hashmob,MySQL4.1/MySQL5
-HO[1223]__Gardens4you.co.uk,,146785,Hashmob,MD5
+HO[1223]__Gardens4you.co.uk,,146783,Hashmob,MD5
 HO[1221]__Ruah.pl,,148312,Hashmob,MD5
 HO[1220]__Lstcymck.edu.hk,,99917,Hashmob,Joomla < 2.5.18
 HO[1219]__Lstkgttl.edu.hk,,99956,Hashmob,Joomla < 2.5.18
 HO[1218]__Techimo.com,,427652,Hashmob,vBulletin < v3.8.5
-HO[1217]__Au2exchange.com,,406932,Hashmob,MD5
+HO[1217]__Au2exchange.com,,405477,Hashmob,MD5
 HO[1215]__Axparisdev.co.uk,,419924,Hashmob,MD5
 HO[1214]__Pif-paf.ru,,308397,Hashmob,vBulletin < v3.8.5
 HO[1199]__Onthionline.net,,268247,Hashmob,md5($pass.$salt)
 HO[1197]__Denniswheatley.info,,151154,Hashmob,MD5
 HO[1196]__Autosportwilly.fr,,109748,Hashmob,"osCommerce, xt:Commerce"
 HO[1195]__Myteamstats.com,,125922,Hashmob,MD5
-HO[1194]__Supertalent.com,,211289,Hashmob,phpass
+HO[1194]__Supertalent.com,,211269,Hashmob,phpass
 HO[1193]__Insiderelite.com,,134258,Hashmob,MD5
 HO[1192]__Go-parts.com,,146544,Hashmob,"osCommerce, xt:Commerce"
-HO[1189]__Obeikaneducation.com,,810610,Hashmob,MD5
-HO[1188]__Shertonenglish.com,,468772,Hashmob,phpass
+HO[1189]__Obeikaneducation.com,,800852,Hashmob,MD5
+HO[1188]__Shertonenglish.com,,468699,Hashmob,phpass
 HO[1187]__Community.hitlab.com,,80019,Hashmob,MD5
 HO[1186]__Mystudiyo.com,,394770,Hashmob,SHA1
 HO[1185]__4oem.ru,,280647,Hashmob,MD5
@@ -2639,7 +2639,7 @@ HO[1175]__Wonderpolls.com,,376311,Hashmob,MD5
 HO[1174]__Gincv.com,,573417,Hashmob,MD5
 HO[1173]__Ir.chartnexus.com,,318903,Hashmob,MD5
 HO[1172]__Hichem.com,,341015,Hashmob,MD5
-HO[1171]__Pixelmonmod.com,,245625,Hashmob,phpass
+HO[1171]__Pixelmonmod.com,,245498,Hashmob,phpass
 HO[1170]__Minecraftaddicts.com,,195928,Hashmob,vBulletin >= v3.8.5
 HO[1169]__Scitechnol.com,,37488,Hashmob,MD5
 HO[1168]__Nefuniversity.org,,220311,Hashmob,MD5
@@ -2648,9 +2648,9 @@ HO[1166]__Rongshuxia.com,,1523717,Hashmob,md5($pass.$salt)
 HO[1165]__Lifetip.icross.co.kr,,854076,Hashmob,MD5
 HO[1164]__Roseindia.net,,683204,Hashmob,MD5
 HO[1162]__Patreon.com,,872902,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-HO[1161]__Xhamster.com,,297894,Hashmob,MD5
+HO[1161]__Xhamster.com,,297896,Hashmob,MD5
 HO[1156]__VGMods.net,,289519,Hashmob,phpass
-HO[1142]__Blankmediagames.com (Town of Salem),,7596227,Hashmob,phpass
+HO[1142]__Blankmediagames.com (Town of Salem),,7594906,Hashmob,phpass
 HO[113]__Nulled.io,,308318,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 HO[1125]__Androidforums.com,,654466,Hashmob,vBulletin >= v3.8.5
 HO[1124]__Gamerzplanet.net,,1012471,Hashmob,vBulletin >= v3.8.5
@@ -2698,7 +2698,7 @@ HO[104]__Forbes,,1058237,Hashmob,phpass
 HO[1049]__Starvault.se,,32434,Hashmob,vBulletin < v3.8.5
 HO[1043]__Amplitude-studios.com,,95810,Hashmob,vBulletin >= v3.8.5
 "HO[1038]__Myspace (unsalted, maxlen 10)",,113884863,Hashmob,SHA1
-HO[1037]__Myspace (salted),,67595065,Hashmob,sha1($salt.$pass)
+HO[1037]__Myspace (salted),,67595059,Hashmob,sha1($salt.$pass)
 HO[1036]__Mac-forums.com,,321476,Hashmob,vBulletin >= v3.8.5
 HO[1032]__Flyinghearts.info,,175032,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[1031]__Animoto.com,,22439713,Hashmob,sha256($pass.$salt)
