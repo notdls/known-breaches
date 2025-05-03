@@ -1,4 +1,11 @@
 dump_name,breach_date,record_count,source,info
+xyya.net,,298239,Hashmob,md5(md5($pass))
+avogadoonline.net,,193098,Hashmob,phpass
+Effiki.pl (bcrypt),,21239,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Ecooparts.com (sha1),,32940,Hashmob,SHA1
+Ecooparts.com (bcrypt),,16416,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Econt.com (md5),,4505,Hashmob,MD5
+Econt.com (bcrypt),,11426,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Dronestore.cl [prestashop],,14906,Hashmob,md5($salt.$pass)
 Dronestore.cl [bcrypt],,26605,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Dragonshield.com [prestashop],,21702,Hashmob,md5($salt.$pass)
@@ -189,7 +196,7 @@ Chibi-Akihabara.com [BCrypt],,39407,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 CarParts.bg,,5690,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 CarMedia.bg,,4974,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Areavag.com,,91469,Hashmob,vBulletin < v3.8.5
-AirsoftStation.com,,75197,Hashmob,PBKDF2-HMAC-SHA256
+AirsoftStation.com,,75197,Hashmob,Django (PBKDF2-SHA256)
 CityJerks.com [phpass],,6176,Hashmob,phpass
 CityJerks.com [VB],,81776,Hashmob,vBulletin < v3.8.5
 Omnimaga.org,,1791,Hashmob,SMF (Simple Machines Forum) > v1.1
