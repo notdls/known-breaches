@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Eguzkilorejoya.com (bcrypt),,9814,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Eguzkilorejoya.com  (Prestashop),,6398,Hashmob,md5($salt.$pass)
 xyya.net,,298239,Hashmob,md5(md5($pass))
 avogadoonline.net,,193098,Hashmob,phpass
 Effiki.pl (bcrypt),,21239,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
