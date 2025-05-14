@@ -596,7 +596,7 @@ Eatigo.com,,992029,Hashmob,MD5
 kstaplh572a5g3a2,,1026,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 hackreviews,,2164,Hashmob,vBulletin >= v3.8.5
 guildwars2pc,,78501,Hashmob,vBulletin >= v3.8.5
-forumprowrestling,,637,Hashmob,vBulletin < v3.8.5
+forumprowrestling,,637,Hashmob,vBulletin >= v3.8.5
 quantumbooter,,42152,Hashmob,sha1($pass.$salt)
 forumsnodoubt,,16020,Hashmob,vBulletin < v3.8.5
 Have I been Pwned V8 (NTLM),,847207847,Hashmob,NTLM
