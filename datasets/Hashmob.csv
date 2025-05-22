@@ -1,4 +1,9 @@
 dump_name,breach_date,record_count,source,info
+Energy-torrent.com (md5($salt.$pass.$salt)),,94541,Hashmob,md5($salt.$pass.$salt)
+Emso.de (sha1),,58062,Hashmob,SHA1
+Emso.de (bcrypt),,18829,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Emove.esicm.org (phpass),,46070,Hashmob,phpass
+Emove.esicm.org (bcrypt),,8072,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Eisailearn.com  (sha2-256),,18878,Hashmob,SHA2-256
 Eisailearn.com  (md5),,44679,Hashmob,MD5
 Eisailearn.com  (bcrypt),,17846,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
