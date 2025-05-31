@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Eos-numerique.com [Vbulletin],,73534,Hashmob,vBulletin < v3.8.5
 Energy-torrent.com (md5($salt.$pass.$salt)),,94541,Hashmob,md5($salt.$pass.$salt)
 Emso.de (sha1),,58062,Hashmob,SHA1
 Emso.de (bcrypt),,18829,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
