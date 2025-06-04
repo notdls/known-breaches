@@ -1,4 +1,12 @@
 dump_name,breach_date,record_count,source,info
+eye-parts.co.uk,,5763,Hashmob,md5($salt.$pass)
+Fahrradanhaenger-freiburg.de [prestashop],,902,Hashmob,md5($salt.$pass)
+Fahrradanhaenger-freiburg.de [bcrypt],,57737,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Farmalive.it [prestashop],,12018,Hashmob,md5($salt.$pass)
+Farmalive.it [bcrypt],,21045,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Eurmoma.it,,37151,Hashmob,md5($salt.$pass)
+Dna-solutions.it [bcrypt],,25433,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Designer.graphicsprings.com [md5],,67060,Hashmob,MD5
 Failheap-challenge.com [vbulletin],,131550,Hashmob,vBulletin >= v3.8.5
 Eos-numerique.com [Vbulletin],,73534,Hashmob,vBulletin < v3.8.5
 Energy-torrent.com (md5($salt.$pass.$salt)),,94541,Hashmob,md5($salt.$pass.$salt)
