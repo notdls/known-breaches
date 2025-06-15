@@ -7,7 +7,7 @@ Accimoto.com [sha2-256],,53198,Hashmob,SHA2-256
 Accimoto.com [mysql5],,25,Hashmob,MySQL4.1/MySQL5
 DrukMistrz.pl [prestashop],,9051,Hashmob,md5($salt.$pass)
 eye-parts.co.uk,,5763,Hashmob,md5($salt.$pass)
-Fahrradanhaenger-freiburg.de [prestashop],,902,Hashmob,md5($salt.$pass)
+Fahrradanhaenger-freiburg.de [prestashop],,902,Hashmob,PrestaShop
 Fahrradanhaenger-freiburg.de [bcrypt],,57737,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Farmalive.it [prestashop],,12018,Hashmob,md5($salt.$pass)
 Farmalive.it [bcrypt],,21045,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
