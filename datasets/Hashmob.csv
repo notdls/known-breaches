@@ -38,7 +38,7 @@ Econt.com (md5),,4505,Hashmob,MD5
 Econt.com (bcrypt),,11426,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Dronestore.cl [prestashop],,14906,Hashmob,md5($salt.$pass)
 Dronestore.cl [bcrypt],,26605,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Dragonshield.com [prestashop],,21702,Hashmob,md5($salt.$pass)
+Dragonshield.com [prestashop],,21702,Hashmob,PrestaShop
 Dragonshield.com [bcrypt],,27874,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 brandstores.de [bcrypt],,12421,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 brandstores.de [Presta],,80605,Hashmob,md5($salt.$pass)
