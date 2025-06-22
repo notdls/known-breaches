@@ -1,4 +1,12 @@
 dump_name,breach_date,record_count,source,info
+Recklesspk.com,,81973,Hashmob,SMF (Simple Machines Forum) > v1.1
+Forevermoto.it [prestashop],,2279,Hashmob,md5($salt.md5($pass.$salt))
+Forevermoto.it [bcrypt],,7347,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Follownature.com.pt [prestashop],,10345,Hashmob,PrestaShop
+Follownature.com.pt [oscommerce],,519,Hashmob,"osCommerce, xt:Commerce"
+Fleursdedragees.com [prestashop],,172166,Hashmob,PrestaShop
+Fleursdedragees.com [bcrypt],,233702,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Fire-and-steel.de [bcrypt],,11236,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Fccvarna.bg [sha1],,28816,Hashmob,SHA1
 Angelominetti.it [prestashop],,4,Hashmob,md5($salt.$pass)
 Angelominetti.it [bcrypt],,17737,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -1969,7 +1977,6 @@ HO[5754]__Techsupportforum.com,,130610,Hashmob,vBulletin < v3.8.5
 HO[5753]__Phpfreak.com,,15286,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 HO[5752]__W3schools.invisionzone.com,,21415,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 HO[5751]__Gamewinners.com,,7382,Hashmob,vBulletin < v3.8.5
-HO[5750]__Recklesspk.com,,75686,Hashmob,sha1($pass.$salt)
 HO[5749]__Bit-tech.net,,13617,Hashmob,vBulletin < v3.8.5
 HO[5748]__Bittorrent.com,,17791,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 HO[5746]__Dragonnoir.planetemu.net,,24069,Hashmob,MD5
