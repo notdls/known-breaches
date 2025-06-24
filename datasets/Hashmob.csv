@@ -1,6 +1,6 @@
 dump_name,breach_date,record_count,source,info
 Recklesspk.com,,81973,Hashmob,SMF (Simple Machines Forum) > v1.1
-Forevermoto.it [prestashop],,2279,Hashmob,md5($salt.md5($pass.$salt))
+Forevermoto.it [prestashop],,2279,Hashmob,PrestaShop
 Forevermoto.it [bcrypt],,7347,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Follownature.com.pt [prestashop],,10345,Hashmob,PrestaShop
 Follownature.com.pt [oscommerce],,519,Hashmob,"osCommerce, xt:Commerce"
