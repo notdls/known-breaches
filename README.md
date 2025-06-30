@@ -11,7 +11,7 @@ A compliation of breach information gathered from data aggregators, breach looku
 | Leak-Lookup | 4,443 | 28,033,809,418 | ✅ |
 | LeakCheck.io | 1,304 | 6,482,029,102 | ✅ |
 | Leaked.Domains | 309 | 10,390,618,831 | ✅ |
-| ScatteredSecrets | 4,736 | Unavailable | ✅ |
+| ScatteredSecrets | 4,805 | Unavailable | ✅ |
 | BreachAware | 3,685 | 6,117,426,271 | ❌ |
 | BreachForums_Official_Index | 1,006 | 16,041,441,468 | ❌ |
 | BreachForums_Unofficial_Index | 184 | 1,335,823,055 | ❌ |
