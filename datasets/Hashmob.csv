@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Brasmarketonline.com [magento],,14903,Hashmob,md5($salt.$pass)
+Avfoch.com [phpass],,409479,Hashmob,phpass
 Asianngo.org [bcrypt],,8803,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Allegressebeauty.com [magento],,17479,Hashmob,md5($salt.$pass)
 Recklesspk.com,,116318,Hashmob,SMF (Simple Machines Forum) > v1.1
