@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Forex-pak.com [vBulletin],,80130,Hashmob,vBulletin >= v3.8.5
 Brasmarketonline.com [magento],,14903,Hashmob,md5($salt.$pass)
 Avfoch.com [phpass],,409479,Hashmob,phpass
 Asianngo.org [bcrypt],,8803,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
