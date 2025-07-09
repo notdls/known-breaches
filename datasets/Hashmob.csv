@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Nartorolkowy.pl [prestashop],,3463,Hashmob,md5($salt.$pass)
+Nartorolkowy.pl [bcrypt],,3943,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Forex09.com [vBulletin],,198892,Hashmob,vBulletin >= v3.8.5
 Forex-pak.com [vBulletin],,80130,Hashmob,vBulletin >= v3.8.5
 Brasmarketonline.com [magento],,14903,Hashmob,md5($salt.$pass)
