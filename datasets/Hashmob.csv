@@ -4,7 +4,7 @@ Forum.northnet.ru [vBulletin],,11636,Hashmob,vBulletin < v3.8.5
 Forum.muss2.vn [vBulletin],,42031,Hashmob,vBulletin >= v3.8.5
 Forum.motorguia.net [vBulletin],,116588,Hashmob,vBulletin < v3.8.5
 Forstbekleidungschmidt-shop.de [bcrypt],,59410,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Foro.noticias3d.com [vBulletin],,135367,Hashmob,vBulletin >= v3.8.5
+Foro.noticias3d.com [vBulletin],,135367,Hashmob,vBulletin < v3.8.5
 Fleurs-en-deuil.com [bcrypt],,32157,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Emporiopan.it [prestashop],,732,Hashmob,md5($salt.$pass)
 Emporiopan.it [bcrypt],,50854,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
