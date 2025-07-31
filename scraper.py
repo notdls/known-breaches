@@ -6,6 +6,10 @@ from bs4 import BeautifulSoup
 Scrapes in the indexed/available datasets from several data aggregators/indexers. Currently supports Dehashed, Leak-Lookup, HaveIBeenPwned
 """
 
+# Disable logging from 'requests' and 'urllib3'
+logging.getLogger("requests").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
+
 def add_source(breaches, source):
     """
     Adds a source field to a list of breaches.
@@ -215,7 +219,6 @@ def get_dehashed_page(session=generate_requests_session(), page=1, attempt=0):
     response = session.get(url)
     # print rate limit headers
     if response.status_code == 200:
-        print(response.headers)
         return response.json()
     else:
         # we are doing this single threaded, current rate limit is ~50 requests per 3 seconds - we should never hit this, but just in case.
@@ -356,7 +359,7 @@ if __name__ == "__main__":
             logging.error("Error occurred while scraping Leaked.Domains: %s", str(e))
 
     # scrape datasets from dehashed
-    logging.info("Scraping Dehashed.com")
+    logging.info("Scraping Dehashed.com (this will take some time)")
     try:
         dehashed_result = scrape_dehashed()
         if dehashed_result:
