@@ -5,7 +5,7 @@ A compliation of breach information gathered from data aggregators, breach looku
 | Service Name | Breach Count | Total Records | Automatic Updates |
 | ------------ | ------------ | ------------- |        :--:       |
 | BreachDirectory | 4,437 | 27,978,047,211 | ✅ |
-| Dehashed | 23,869 | 22,326,201,113 | ✅ |
+| Dehashed | 23,869 | 22,326,556,573 | ✅ |
 | Hashmob | 2,771 | 5,151,105,453 | ✅ |
 | HaveIBeenPwned | 897 | 14,986,327,238 | ✅ |
 | Leak-Lookup | 4,450 | 28,034,643,219 | ✅ |
