@@ -1,10 +1,5 @@
-import requests
-import json
-import csv
-import os
+import requests, json, csv, os, traceback, logging, time
 from bs4 import BeautifulSoup
-import traceback
-import logging
 
 
 """
@@ -203,93 +198,62 @@ def scrape_hibp(session=generate_requests_session()):
     Scrapes the HaveIBeenPwned dataset.
     """
     breaches = []
-    url = "https://haveibeenpwned.com/PwnedWebsites"
+    url = "https://haveibeenpwned.com/api/v3/breaches"
     response = session.get(url)
     if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        data_table = soup.find_all('div', {'class': 'row'})
-        for entry in data_table:
-            """
-            Example entry
-            <div class="container">
-            <hr /><a id="000webhost"></a>
-            <div class="row">
-            <div class="col-sm-2">
-            <img class="pwnLogo large" src="/Content/Images/PwnedLogos/000webhost.png" alt="000webhost logo" />
-            </div>
-            <div class="col-sm-10">
-            <h3>
-            000webhost
-            </h3>
-            <p>In approximately March 2015, the free web hosting provider <a href="https://www.troyhunt.com/2015/10/breaches-traders-plain-text-passwords.html" target="_blank" rel="noopener">000webhost suffered a major data breach</a> that exposed almost 15 million customer records. The data was sold and traded before 000webhost was alerted in October. The breach included names, email addresses and plain text passwords.</p>
-            <p>
-            <strong>Breach date:</strong> 1 March 2015<br />
-            <strong>Date added to HIBP:</strong> 26 October 2015<br />
-            <strong>Compromised accounts:</strong> 14,936,670<br />
-            <strong>Compromised data:</strong> Email addresses, IP addresses, Names, Passwords<br />
-            <a href="#000webhost">Permalink</a>
-            </p>
-            </div>
-            </div>
-            """
-            if "Breach date:" in entry.text:
-                # valid entry
-                dump_name = entry.find('h3').text.strip()
-                breach_date = entry.find_all('p')[1].text.splitlines()[1].split(":")[1].strip()
-                index_date = entry.find_all('p')[1].text.splitlines()[2].split(":")[1].strip()
-                record_count = remove_non_digits(entry.find_all('p')[1].text.splitlines()[3].split(":")[1].strip())
-                description = entry.find_all('p')[0].text.strip()
-                info = entry.find_all('p')[1].text.splitlines()[4].split(":")[1].strip()
-                breaches.append({"dump_name": dump_name, "record_count": record_count, "breach_date": breach_date, "index_date": index_date, "description": description, "info": info, "source": "HaveIBeenPwned"})
+        data = response.json()
+        for entry in data:
+            breaches.append({"dump_name": entry['Name'], "record_count": entry['PwnCount'], "breach_date": entry['BreachDate'], "index_date": entry['AddedDate'], "description": entry['Description'], "info": entry['Description'], "source": "HaveIBeenPwned"})
         return breaches
     else:
         return None
 
+
+def get_dehashed_page(session=generate_requests_session(), page=1, attempt=0):
+    MAX_ATTEMPTS = 3
+    url = f"https://web-api.dehashed.com/datawells?page={page}&sort=name-ASC&count=50"
+    response = session.get(url)
+    # print rate limit headers
+    if response.status_code == 200:
+        print(response.headers)
+        return response.json()
+    else:
+        # we are doing this single threaded, current rate limit is ~50 requests per 3 seconds - we should never hit this, but just in case.
+        if "X-Ratelimit-Remaining" in response.headers:
+            if response.headers["X-Ratelimit-Remaining"] == "0":
+                logging.error("Dehashed Rate limit exceeded")
+                # rate limit hit, lets wait until it resets
+                time.sleep(response.headers["X-Ratelimit-Reset"])
+                return get_dehashed_page(session, page)
+            else:
+                if attempt > MAX_ATTEMPTS:
+                    logging.error("Dehashed Rate limit exceeded, max attempts reached")
+                    return None
+                # unknown error, lets wait 10 seconds and try again
+                time.sleep(10)
+                return get_dehashed_page(session, page)
+        logging.error(f"Received non-200 status code: {response.status_code}")
+    return None
 
 def scrape_dehashed(session=generate_requests_session()):
     """
     Scrapes the Dehashed dataset index.
     """
     breaches = []
-    url = "https://dehashed.com/data"
-    # get cf_clearance
-    cookies, userAgent = get_via_flaresolverr(url, cookies_only=True)
-    # update cookies
-    req_cookies = {}
-    for cookie in cookies:
-        req_cookies[cookie['name']] = cookie['value']
-    # Update user-agent to match FlareSolverr's
-    session.headers.update({"User-Agent":userAgent})
-    # send request with new cookies
-    response = session.get(url, cookies=req_cookies)
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        data_table = soup.find('table', {'class': 'table table-hover'})
-        for entry in data_table.find('tbody').find_all('tr'):
-            """
-            Example <tr>
-            <tr>
-            <td class="align-middle">2paclegacyboard.net</td>
-            <td class="align-middle">
-            <abbr class="bs-tooltip" data-placement="top" title='-'>Hover Here</abbr>
-            <p></p>
-            </td>
-            <td class="align-middle"><span class="text-nowrap">N/A</span></td>
-            <td class="align-middle"><span class="text-nowrap">1061</span></td>
-            <td class="align-middle"><abbr class="bs-tooltip" data-placement="top" title='N/A'>Hover Here</abbr></td>
-            </tr>
-            """
-            tds = entry.find_all('td')
-            dump_name = tds[0].text.strip()
-            breach_date = tds[2].find('span').text.strip()
-            record_count = remove_non_digits(tds[3].find('span').text.replace(",","").strip())
-            info = tds[4].find('abbr')['title'].strip()
-            breaches.append({"dump_name": dump_name, "breach_date": breach_date, "record_count": record_count, "info": info, "source": "Dehashed"})
-        return breaches
-    else:
-        print(f"Received non-200 status code: {response.status_code}")
-        return None
-    
+    page = 1
+    while True:
+        data = get_dehashed_page(session, page)
+        if data:
+            for entry in data['data_wells']:
+                breaches.append({"dump_name": entry['name'], "breach_date": entry['date'], "record_count": entry['records'], "info": entry['description'], "source": "Dehashed"})
+            if data['next_page'] == True:
+                page += 1
+            else:
+                break
+        else:
+            logging.error("No data returned from Dehashed")
+            break
+    return breaches
 
 def scrape_leaked_domains(session=generate_requests_session()):
     breaches = []
@@ -332,25 +296,6 @@ if __name__ == "__main__":
     # init breaches
     breaches = []
     if "FLARESOLVERR_URL" in os.environ:
-        # scrape datasets from dehashed
-        logging.info("Scraping Dehashed.com")
-        try:
-            dehashed_result = scrape_dehashed()
-            if dehashed_result:
-                breaches += dehashed_result
-                logging.info("Saving results to file")
-                with open("datasets/Dehashed.json", "w") as f:
-                    json.dump(dehashed_result, f)
-                with open("datasets/Dehashed.csv", "w") as f:
-                    writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","source"])
-                    writer.writeheader()
-                    writer.writerows(dehashed_result)
-                logging.info("Successfully scraped %d breaches from Dehashed.com", len(dehashed_result))
-            else:
-                logging.error("Scraping dehashed failed")
-        except Exception as e:
-            logging.error("Error occurred while scraping dehashed: %s", str(e))
-
         # scrape datasets from BreachDirectory
         logging.info("Scraping BreachDirectory.org")
         try:
@@ -410,6 +355,25 @@ if __name__ == "__main__":
         except Exception as e:
             logging.error("Error occurred while scraping Leaked.Domains: %s", str(e))
 
+    # scrape datasets from dehashed
+    logging.info("Scraping Dehashed.com")
+    try:
+        dehashed_result = scrape_dehashed()
+        if dehashed_result:
+            breaches += dehashed_result
+            logging.info("Saving results to file")
+            with open("datasets/Dehashed.json", "w") as f:
+                json.dump(dehashed_result, f)
+            with open("datasets/Dehashed.csv", "w") as f:
+                writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","source"])
+                writer.writeheader()
+                writer.writerows(dehashed_result)
+            logging.info("Successfully scraped %d breaches from Dehashed.com", len(dehashed_result))
+        else:
+            logging.error("Scraping dehashed failed")
+    except Exception as e:
+        logging.error("Error occurred while scraping dehashed: %s", str(e))
+    
     # scrape datasets from ScatteredSecrets
     logging.info("Scraping ScatteredSecrets.com")
     try:
