@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Artmaxturbo.de [prestashop],,12244,Hashmob,md5($salt.$pass)
+Artmaxturbo.de [bcrypt],,27567,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Forum.presta-tr.com [vBulletin],,14691,Hashmob,vBulletin >= v3.8.5
 Forum.northnet.ru [vBulletin],,11636,Hashmob,vBulletin < v3.8.5
 Forum.muss2.vn [vBulletin],,42031,Hashmob,vBulletin >= v3.8.5
