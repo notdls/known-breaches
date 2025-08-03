@@ -1,5 +1,12 @@
 dump_name,breach_date,record_count,source,info
-Artmaxturbo.de [prestashop],,12244,Hashmob,md5($salt.$pass)
+Forum.traktir.ru [vBulletin],,28617,Hashmob,vBulletin < v3.8.5
+Forum.rusrek.com [mybb],,165894,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
+Forum.artinvestment.ru [vBulletin],,15666,Hashmob,vBulletin < v3.8.5
+Evoxtech.com [prestashop],,4787,Hashmob,PrestaShop
+Evoxtech.com [bcrypt],,3072,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Cloture-privee.com [bcrypt],,16558,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Campingforum.at [vBulletin],,4638,Hashmob,vBulletin < v3.8.5
+Artmaxturbo.de [prestashop],,12244,Hashmob,PrestaShop
 Artmaxturbo.de [bcrypt],,27567,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Forum.presta-tr.com [vBulletin],,14691,Hashmob,vBulletin >= v3.8.5
 Forum.northnet.ru [vBulletin],,11636,Hashmob,vBulletin < v3.8.5
@@ -2740,7 +2747,7 @@ HO[1104]__Just-roleplay.ru,,47339,Hashmob,MD5
 HO[1103]__Icrafts.su,,208295,Hashmob,md5(md5($pass))
 HO[1102]__Hacker.org,,5069,Hashmob,MD5
 HO[1101]__Gamesbites.com,,43173,Hashmob,MD5
-HO[1100]__Freehack.com,,5506,Hashmob,vBulletin >= v3.8.5
+HO[1100]__Freehack.com,,5506,Hashmob,vBulletin < v3.8.5
 HO[1099]__Fourdollarclick.com,,42042,Hashmob,MD5
 HO[1097]__Smallworlds.com,,79944,Hashmob,vBulletin >= v3.8.5
 HO[1090]__Mumsatwork.ae,,6034,Hashmob,MD5
