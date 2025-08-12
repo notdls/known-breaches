@@ -1,32 +1,35 @@
 dump_name,breach_date,record_count,source,info
+1000brico.it [prestashop],,4022,Hashmob,md5($salt.$pass)
+1000brico.it [bcrypt],,9089,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Body-cosmetic.ch [bcrypt],,5067,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Forum.traktir.ru [vBulletin],,28617,Hashmob,vBulletin < v3.8.5
 Forum.rusrek.com [mybb],,165894,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
-Forum.artinvestment.ru [vBulletin],,15666,Hashmob,vBulletin < v3.8.5
-Evoxtech.com [prestashop],,4787,Hashmob,PrestaShop
+Forum.artinvestment.ru [vBulletin],,15669,Hashmob,vBulletin < v3.8.5
+Evoxtech.com [prestashop],,4791,Hashmob,PrestaShop
 Evoxtech.com [bcrypt],,3072,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Cloture-privee.com [bcrypt],,16558,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Campingforum.at [vBulletin],,4638,Hashmob,vBulletin < v3.8.5
 Artmaxturbo.de [prestashop],,12244,Hashmob,PrestaShop
 Artmaxturbo.de [bcrypt],,27567,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Forum.presta-tr.com [vBulletin],,14691,Hashmob,vBulletin >= v3.8.5
-Forum.northnet.ru [vBulletin],,11636,Hashmob,vBulletin < v3.8.5
+Forum.northnet.ru [vBulletin],,11642,Hashmob,vBulletin < v3.8.5
 Forum.muss2.vn [vBulletin],,42031,Hashmob,vBulletin >= v3.8.5
-Forum.motorguia.net [vBulletin],,116588,Hashmob,vBulletin >= v3.8.5
+Forum.motorguia.net [vBulletin],,116594,Hashmob,vBulletin >= v3.8.5
 Forstbekleidungschmidt-shop.de [bcrypt],,59410,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Foro.noticias3d.com [vBulletin],,135367,Hashmob,vBulletin < v3.8.5
+Foro.noticias3d.com [vBulletin],,135394,Hashmob,vBulletin < v3.8.5
 Fleurs-en-deuil.com [bcrypt],,32157,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Emporiopan.it [prestashop],,732,Hashmob,md5($salt.$pass)
 Emporiopan.it [bcrypt],,50854,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Cafe345.com [mysql],,1029766,Hashmob,MySQL4.1/MySQL5
 Cafe345.com [bcrypt],,12321,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Nartorolkowy.pl [prestashop],,3463,Hashmob,md5($salt.$pass)
-Nartorolkowy.pl [bcrypt],,3943,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Nartorolkowy.pl [bcrypt],,3940,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Forex09.com [vBulletin],,198892,Hashmob,vBulletin >= v3.8.5
 Forex-pak.com [vBulletin],,80130,Hashmob,vBulletin >= v3.8.5
 Brasmarketonline.com [magento],,14903,Hashmob,md5($salt.$pass)
 Avfoch.com [phpass],,409479,Hashmob,phpass
 Asianngo.org [bcrypt],,8803,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Allegressebeauty.com [magento],,17479,Hashmob,md5($salt.$pass)
+Allegressebeauty.com [magento],,17482,Hashmob,md5($salt.$pass)
 Recklesspk.com,,116318,Hashmob,SMF (Simple Machines Forum) > v1.1
 Forevermoto.it [prestashop],,2279,Hashmob,PrestaShop
 Forevermoto.it [bcrypt],,7347,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -48,7 +51,7 @@ Fahrradanhaenger-freiburg.de [bcrypt],,57737,Hashmob,"bcrypt $2*$, Blowfish (Uni
 Farmalive.it [prestashop],,12018,Hashmob,md5($salt.$pass)
 Farmalive.it [bcrypt],,21045,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Eurmoma.it,,37151,Hashmob,md5($salt.$pass)
-Dna-solutions.it [bcrypt],,25433,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Dna-solutions.it [bcrypt],,13417,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Designer.graphicsprings.com [md5],,67060,Hashmob,MD5
 Failheap-challenge.com [vbulletin],,131550,Hashmob,vBulletin >= v3.8.5
 Eos-numerique.com [Vbulletin],,73534,Hashmob,vBulletin < v3.8.5
@@ -2170,7 +2173,7 @@ HO[4160]__Sportsfreaksonline.com,,110213,Hashmob,vBulletin < v3.8.5
 HO[4159]__Swrpgnetwork.com,,3356,Hashmob,vBulletin < v3.8.5
 HO[4158]__Thebestcasescenario.com,,18303,Hashmob,vBulletin < v3.8.5
 HO[4156]__Forum.ox.pl,,82603,Hashmob,vBulletin < v3.8.5
-HO[4155]__Freesoft-board.de,,97286,Hashmob,vBulletin < v3.8.5
+HO[4155]__Freesoft-board.de,,117139,Hashmob,vBulletin < v3.8.5
 HO[4153]__Toondoo.com,,6003517,Hashmob,md5($pass.$salt)
 HO[4140]__Pokemonshowdown.com,,4330479,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[4139]__Lekoolgames.com,,3925129,Hashmob,vBulletin < v3.8.5
