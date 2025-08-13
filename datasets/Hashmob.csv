@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Belmeb.pl [prestashop],,647,Hashmob,md5($salt.$pass)
+Belmeb.pl [bcrypt],,24372,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 1000brico.it [prestashop],,4022,Hashmob,md5($salt.$pass)
 1000brico.it [bcrypt],,9089,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Body-cosmetic.ch [bcrypt],,5067,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
