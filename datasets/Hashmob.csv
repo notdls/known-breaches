@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Biereartisanale.ch [prestashop],,5287,Hashmob,PrestaShop
+Biereartisanale.ch [bcrypt],,3995,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Benson-shoes.be [md5],,8856,Hashmob,MD5
 Benson-shoes.be [bcrypt],,6015,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Belmeb.pl [prestashop],,647,Hashmob,md5($salt.$pass)
