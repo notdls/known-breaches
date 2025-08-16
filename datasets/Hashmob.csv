@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Fenster-jetzt.de [prestashop],,53083,Hashmob,MD5
+Fenster-jetzt.de [bcrypt],,26068,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Biereartisanale.ch [prestashop],,5287,Hashmob,PrestaShop
 Biereartisanale.ch [bcrypt],,3995,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Benson-shoes.be [md5],,8856,Hashmob,MD5
