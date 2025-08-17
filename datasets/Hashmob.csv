@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Micronsystems.de [md5],,133,Hashmob,MD5
+Micronsystems.de [bcrypt],,9712,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Fenster-jetzt.de [prestashop],,53083,Hashmob,MD5
 Fenster-jetzt.de [bcrypt],,26068,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Biereartisanale.ch [prestashop],,5287,Hashmob,PrestaShop
