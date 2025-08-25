@@ -1,4 +1,12 @@
 dump_name,breach_date,record_count,source,info
+Divissima.it [prestashop],,20948,Hashmob,"osCommerce, xt:Commerce"
+Divissima.it [bcrypt],,340718,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Chartare.com [prestashop],,11678,Hashmob,md5($salt.$pass)
+Chartare.com [bcrypt],,12626,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Artiligne.com [bcrypt],,2436,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Artiligne.com  [prestashop],,4766,Hashmob,PrestaShop
+Afteressentials.com [bcrypt],,1586,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Afteressentials.com  [prestashop],,3512,Hashmob,md5($salt.$pass)
 Realdoll24.de [md5],,714,Hashmob,MD5
 Realdoll24.de [bcrypt],,47832,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Micronsystems.de [md5],,133,Hashmob,MD5
