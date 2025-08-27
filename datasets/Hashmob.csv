@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Farmaciapuertobanus.com [prestashop],,13709,Hashmob,md5($salt.$pass)
+Farmaciapuertobanus.com [bcrypt],,8385,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Edabea.com [prestashop],,32849,Hashmob,md5($salt.$pass)
 Edabea.com [bcrypt],,16239,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Divissima.it [prestashop],,20948,Hashmob,"osCommerce, xt:Commerce"
