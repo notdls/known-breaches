@@ -289,6 +289,21 @@ def scrape_leaked_domains(session=generate_requests_session()):
         print(f"Received non-200 status code: {response.status_code}")
         return None
 
+def scrape_9ghz(session=generate_requests_session()):
+    """
+    Scrapes the 9ghz dataset.
+    """
+    breaches = []
+    url = "https://9ghz.com/api/v1/breach_list"
+    response = session.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        for entry in data['data']:
+            breaches.append({"dump_name": entry['title'], "breach_date": entry['breach_date'], "record_count": entry['record_count'], "info": entry['domain'], "source": "9Ghz.com"})
+        return breaches
+    else:
+        return None
+
 if __name__ == "__main__":
     # initialize logging
     logging.basicConfig(
@@ -357,6 +372,26 @@ if __name__ == "__main__":
                 logging.error("Scraping Leaked.Domains failed")
         except Exception as e:
             logging.error("Error occurred while scraping Leaked.Domains: %s", str(e))
+
+    # scrape datasets from 9ghz
+    logging.info("Scraping 9ghz.com")
+    try:
+        nineghz_result = scrape_9ghz()
+        if nineghz_result:
+            breaches += nineghz_result
+            logging.info("Saving results to file")
+            with open("datasets/9ghz.json", "w") as f:
+                json.dump(nineghz_result, f)
+            with open("datasets/9ghz.csv", "w") as f:
+                writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","source"])
+                writer.writeheader()
+                writer.writerows(nineghz_result)
+            logging.info("Successfully scraped %d breaches from 9ghz.com", len(nineghz_result))
+        else:
+            logging.error("Scraping 9ghz failed")
+    except Exception as e:
+        logging.error("Error occurred while scraping 9ghz: %s", str(e))
+        logging.error('Traceback: %s', traceback.format_exc())
 
     # scrape datasets from dehashed
     logging.info("Scraping Dehashed.com (this will take some time)")
