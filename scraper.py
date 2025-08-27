@@ -373,20 +373,20 @@ if __name__ == "__main__":
         except Exception as e:
             logging.error("Error occurred while scraping Leaked.Domains: %s", str(e))
 
-    # scrape datasets from 9ghz
-    logging.info("Scraping 9ghz.com")
+    # scrape datasets from 9Ghz
+    logging.info("Scraping 9Ghz.com")
     try:
         nineghz_result = scrape_9ghz()
         if nineghz_result:
             breaches += nineghz_result
             logging.info("Saving results to file")
-            with open("datasets/9ghz.json", "w") as f:
+            with open("datasets/9Ghz.json", "w") as f:
                 json.dump(nineghz_result, f)
-            with open("datasets/9ghz.csv", "w") as f:
+            with open("datasets/9Ghz.csv", "w") as f:
                 writer = csv.DictWriter(f, fieldnames=["dump_name","breach_date","record_count","info","source"])
                 writer.writeheader()
                 writer.writerows(nineghz_result)
-            logging.info("Successfully scraped %d breaches from 9ghz.com", len(nineghz_result))
+            logging.info("Successfully scraped %d breaches from 9Ghz.com", len(nineghz_result))
         else:
             logging.error("Scraping 9ghz failed")
     except Exception as e:

@@ -2,7 +2,7 @@ import os
 import json
 
 ignore = ['combined.json']
-live = sorted(['HaveIBeenPwned.json','Dehashed.json','Hashmob.json','BreachDirectory.json','LeakCheck.io.json','ScatteredSecrets.json','Leak-Lookup.json','Leaked.Domains.json','9ghz.json'], key=str.lower)
+live = sorted(['HaveIBeenPwned.json','Dehashed.json','Hashmob.json','BreachDirectory.json','LeakCheck.io.json','ScatteredSecrets.json','Leak-Lookup.json','Leaked.Domains.json','9Ghz.json'], key=str.lower)
 
 TABLE_HEADER = """| Service Name | Breach Count | Total Records | Automatic Updates |
 | ------------ | ------------ | ------------- |        :--:       |\n"""
