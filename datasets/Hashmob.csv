@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Scoredb.io,,770437,Hashmob,MD5
 Feroca.com [prestashop],,40269,Hashmob,md5($salt.$pass)
 Feroca.com [bcrypt],,15092,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Farmaciapuertobanus.com [prestashop],,13709,Hashmob,md5($salt.$pass)
