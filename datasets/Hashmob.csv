@@ -189,7 +189,7 @@ Verygames.com [bcrypt],,747,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Unix.com,,158569,Hashmob,vBulletin < v3.8.5
 Thesedayscontinue.org,,331917,Hashmob,vBulletin < v3.8.5
 Skotos.net,,130327,Hashmob,vBulletin < v3.8.5
-Skotos.net [bcrypt],,5737,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Skotos.net [bcrypt],,5737,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Sitcomsonline.com,,42960,Hashmob,vBulletin < v3.8.5
 SchenkYou.com,,236926,Hashmob,sha256($salt.$pass)
 Raffaello-Network,,827801,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -217,7 +217,7 @@ Darkwindforums.com,,112923,Hashmob,MD5
 Czforito.com,,63523,Hashmob,vBulletin < v3.8.5
 Czforito.com [bcrypt],,27085,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Cpokemon.com [vbulletin],,71371,Hashmob,vBulletin >= v3.8.5
-Cpokemon.com [bcrypt],,220,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Cpokemon.com [bcrypt],,220,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Cosforums.com,,101009,Hashmob,vBulletin < v3.8.5
 Comunidadzero.com,,63515,Hashmob,vBulletin < v3.8.5
 Comunidadzero.com [bcrypt],,27105,Hashmob,bcrypt(md5($pass)) / bcryptmd5
