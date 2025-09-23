@@ -1,4 +1,10 @@
 dump_name,breach_date,record_count,source,info
+TVInfo.de,,240440,Hashmob,sha1(md5($pass).$salt)
+Forumbmwportugal.com [vBulletin],,33268,Hashmob,vBulletin < v3.8.5
+Decostock.fr [bcrypt],,5025,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Cuisine-et-ustensiles.com [md5],,20558,Hashmob,MD5
+VGChartz.com,,164141,Hashmob,MD5
+Rebatemango.my,,18722,Hashmob,md5(sha1($pass))
 dayuse.sg,,837061,Hashmob,MD5
 kbzaveree.com,,196307,Hashmob,MD5
 USAJewels.com,,2516435,Hashmob,MD5
