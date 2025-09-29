@@ -6,13 +6,13 @@ A compliation of breach information gathered from data aggregators, breach looku
 | ------------ | ------------ | ------------- |        :--:       |
 | 9Ghz | 1,148 | 39,481,184,382 | ✅ |
 | BreachDirectory | 4,437 | 27,978,047,211 | ✅ |
-| Dehashed | 23,914 | 22,796,706,534 | ✅ |
+| Dehashed | 23,914 | 22,796,489,192 | ✅ |
 | Hashmob | 2,819 | 5,156,924,478 | ✅ |
 | HaveIBeenPwned | 908 | 15,108,767,800 | ✅ |
 | Leak-Lookup | 4,467 | 28,045,644,785 | ✅ |
 | LeakCheck.io | 1,305 | 6,482,515,705 | ✅ |
 | Leaked.Domains | 310 | 10,397,456,801 | ✅ |
-| ScatteredSecrets | 4,805 | Unavailable | ✅ |
+| ScatteredSecrets | 4,831 | Unavailable | ✅ |
 | 9ghz | 1,148 | 39,481,184,382 | ❌ |
 | BreachAware | 3,685 | 6,117,426,271 | ❌ |
 | BreachForums_Official_Index | 1,006 | 16,041,441,468 | ❌ |
