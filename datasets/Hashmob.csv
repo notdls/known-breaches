@@ -1,4 +1,15 @@
 dump_name,breach_date,record_count,source,info
+Foto-tip.pl [prestashop],,8094,Hashmob,md5($salt.$pass)
+Foto-tip.pl [bcrypt],,16463,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Fossier.com [bcrypt],,14897,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Fossier.com  [prestashop],,14748,Hashmob,MD5
+Forums.decagames.com [vBulletin],,355867,Hashmob,vBulletin >= v3.8.5
+Forum-schlafapnoe.de [bcrypt],,21008,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Farmavalley.com [bcrypt],,22955,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Erobot-piscine.fr [prestashop],,15797,Hashmob,MD5
+Erobot-piscine.fr [bcrypt],,15368,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Amenager-ma-maison.com [bcrypt],,5447,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Amenager-ma-maison.com  [prestashop],,23201,Hashmob,md5($salt.$pass)
 TVInfo.de,,240440,Hashmob,sha1(md5($pass).$salt)
 Forumbmwportugal.com [vBulletin],,33268,Hashmob,vBulletin < v3.8.5
 Decostock.fr [bcrypt],,5025,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
