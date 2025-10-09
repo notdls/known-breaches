@@ -1,4 +1,8 @@
 dump_name,breach_date,record_count,source,info
+Francecasse.fr [sha256],,249,Hashmob,SHA2-256
+Francecasse.fr [phpass],,9,Hashmob,phpass
+Francecasse.fr [md5],,436,Hashmob,MD5
+Francecasse.fr [bcrypt],,1874476,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Foto-tip.pl [prestashop],,8094,Hashmob,md5($salt.$pass)
 Foto-tip.pl [bcrypt],,16463,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Fossier.com [bcrypt],,14897,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
