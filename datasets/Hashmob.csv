@@ -172,7 +172,7 @@ Cledesecurite.com,,16581,Hashmob,PrestaShop
 Bettersport.gr,,39119,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Beautybuy.com.ua,,14013,Hashmob,Simpla CMS - md5($salt.$pass.md5($pass))
 Beccontrols.com,,14115,Hashmob,MD5
-Barcelonaled.com [presta],,119356,Hashmob,MD5
+Barcelonaled.com [presta],,119356,Hashmob,PrestaShop
 Barcelonaled.com [bcrypt],,194986,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Farmadelivery.com.br,,1171171,Hashmob,md5($salt.$pass)
 Adecco.com,,3270219,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -315,7 +315,7 @@ Chibi-Akihabara.com [Presta],,33300,Hashmob,PrestaShop
 Chibi-Akihabara.com [BCrypt],,39407,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 CarParts.bg,,5690,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 CarMedia.bg,,4974,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Areavag.com,,91469,Hashmob,vBulletin < v3.8.5
+Areavag.com,,91469,Hashmob,vBulletin >= v3.8.5
 AirsoftStation.com,,74271,Hashmob,Django (PBKDF2-SHA256)
 CityJerks.com [phpass],,6176,Hashmob,phpass
 CityJerks.com [VB],,81776,Hashmob,vBulletin < v3.8.5
