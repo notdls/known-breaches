@@ -6,7 +6,7 @@ Francecasse.fr [bcrypt],,1874476,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Foto-tip.pl [prestashop],,8094,Hashmob,md5($salt.$pass)
 Foto-tip.pl [bcrypt],,16463,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Fossier.com [bcrypt],,14897,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Fossier.com  [prestashop],,14748,Hashmob,MD5
+Fossier.com  [prestashop],,14748,Hashmob,PrestaShop
 Forums.decagames.com [vBulletin],,355867,Hashmob,vBulletin >= v3.8.5
 Forum-schlafapnoe.de [bcrypt],,21008,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Farmavalley.com [bcrypt],,22955,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
