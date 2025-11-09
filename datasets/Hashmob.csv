@@ -13,7 +13,7 @@ Francecasse.fr [bcrypt],,1874476,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Foto-tip.pl [prestashop],,8094,Hashmob,md5($salt.$pass)
 Foto-tip.pl [bcrypt],,16463,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Fossier.com [bcrypt],,14897,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Fossier.com  [prestashop],,14748,Hashmob,PrestaShop
+Fossier.com  [prestashop],,14748,Hashmob,MD5
 Forums.decagames.com [vBulletin],,355867,Hashmob,vBulletin >= v3.8.5
 Forum-schlafapnoe.de [bcrypt],,21008,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Farmavalley.com [bcrypt],,22955,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -33,7 +33,7 @@ USAJewels.com,,2516435,Hashmob,MD5
 Scoredb.io,,770437,Hashmob,MD5
 Feroca.com [prestashop],,40269,Hashmob,md5($salt.$pass)
 Feroca.com [bcrypt],,15092,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Farmaciapuertobanus.com [prestashop],,13709,Hashmob,md5($salt.$pass)
+Farmaciapuertobanus.com [prestashop],,13709,Hashmob,MD5
 Farmaciapuertobanus.com [bcrypt],,8385,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Edabea.com [prestashop],,32849,Hashmob,md5($salt.$pass)
 Edabea.com [bcrypt],,16239,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
