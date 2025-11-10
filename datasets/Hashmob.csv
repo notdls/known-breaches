@@ -57,7 +57,7 @@ Benson-shoes.be [md5],,8856,Hashmob,MD5
 Benson-shoes.be [bcrypt],,6015,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Belmeb.pl [prestashop],,647,Hashmob,md5($salt.$pass)
 Belmeb.pl [bcrypt],,24372,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-1000brico.it [prestashop],,4022,Hashmob,md5($salt.$pass)
+1000brico.it [prestashop],,4022,Hashmob,MD5
 1000brico.it [bcrypt],,9089,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Body-cosmetic.ch [bcrypt],,5067,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Forum.traktir.ru [vBulletin],,28617,Hashmob,vBulletin < v3.8.5
