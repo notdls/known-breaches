@@ -1,4 +1,25 @@
 dump_name,breach_date,record_count,source,info
+E-military.eu [prestashop],,3992,Hashmob,MD5
+E-military.eu [oscommerce],,9390,Hashmob,md5($salt.$pass)
+Katzen-deko.com [prestashop],,2363,Hashmob,PrestaShop
+Katzen-deko.com [bcrypt],,5226,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Dvdprime.com [mysql],,101884,Hashmob,MySQL4.1/MySQL5
+Domori.com [bcrypt],,17187,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Braasch.sh [md5],,1287,Hashmob,MD5
+Braasch.sh [bcrypt],,1688,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Dejavu-fashion.de [prestashop],,141,Hashmob,PrestaShop
+Dejavu-fashion.de [bcrypt],,5849,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Cozabuty.pl [prestashop],,88555,Hashmob,MD5
+Cozabuty.pl [bcrypt],,9145,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Concept-mosaique.com [bcrypt],,10869,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Butiklorenzo.pl [prestashop],,240582,Hashmob,PrestaShop
+Butiklorenzo.pl [bcrypt],,24011,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Bedworks.com.au [prestashop],,19823,Hashmob,PrestaShop
+Beatacupriak.pl [prestashop],,3593,Hashmob,PrestaShop
+Beatacupriak.pl [bcrypt],,32,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Arobron.pl [bcrypt],,23964,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Ajkwiatkowscy.pl [prestashop],,7025,Hashmob,md5($salt.$pass)
+Ajkwiatkowscy.pl [bcrypt],,14135,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Hello-online.org,,189240,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 hcrealms.com,,1035133,Hashmob,vBulletin < v3.8.5
 DarkForums.st [MyBB],,1777,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
