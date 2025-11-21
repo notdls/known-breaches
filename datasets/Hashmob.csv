@@ -1,7 +1,9 @@
 dump_name,breach_date,record_count,source,info
+Fromages-constant.fr [bcrypt],,4617,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Food.sasakonnect.net [bcrypt],,75277,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Filmifen.com [md5(md5($pass))],,116,Hashmob,md5(md5($pass))
 Filmifen.com [bcrypt],,1988,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-E-military.eu [prestashop],,3992,Hashmob,PrestaShop
+E-military.eu [prestashop],,3992,Hashmob,md5($salt.md5($pass.$salt))
 E-military.eu [oscommerce],,9390,Hashmob,md5($salt.$pass)
 Katzen-deko.com [prestashop],,2363,Hashmob,PrestaShop
 Katzen-deko.com [bcrypt],,5226,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -16,11 +18,11 @@ Cozabuty.pl [bcrypt],,9145,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Concept-mosaique.com [bcrypt],,10869,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Butiklorenzo.pl [prestashop],,240582,Hashmob,PrestaShop
 Butiklorenzo.pl [bcrypt],,24011,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Bedworks.com.au [prestashop],,19823,Hashmob,PrestaShop
+Bedworks.com.au [prestashop],,19823,Hashmob,md5($salt.md5($pass.$salt))
 Beatacupriak.pl [prestashop],,3593,Hashmob,PrestaShop
 Beatacupriak.pl [bcrypt],,32,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Arobron.pl [bcrypt],,23964,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Ajkwiatkowscy.pl [prestashop],,7025,Hashmob,md5($salt.$pass)
+Ajkwiatkowscy.pl [prestashop],,7025,Hashmob,md5($salt.md5($pass.$salt))
 Ajkwiatkowscy.pl [bcrypt],,14135,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Hello-online.org,,189240,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 hcrealms.com,,1035133,Hashmob,vBulletin < v3.8.5
@@ -129,7 +131,7 @@ DrukMistrz.pl [prestashop],,9051,Hashmob,md5($salt.$pass)
 eye-parts.co.uk,,5763,Hashmob,md5($salt.$pass)
 Fahrradanhaenger-freiburg.de [prestashop],,902,Hashmob,PrestaShop
 Fahrradanhaenger-freiburg.de [bcrypt],,57737,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Farmalive.it [prestashop],,12018,Hashmob,md5($salt.$pass)
+Farmalive.it [prestashop],,12018,Hashmob,md5($pass.$salt)
 Farmalive.it [bcrypt],,21045,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Eurmoma.it,,37151,Hashmob,md5($salt.$pass)
 Dna-solutions.it [bcrypt],,13417,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
