@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Suter-meggen.ch [sha512],,57187,Hashmob,SHA2-512
 Fsjnow.com [md5],,10792,Hashmob,MD5
 Fromages-constant.fr [bcrypt],,4617,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Food.sasakonnect.net [bcrypt],,75277,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
