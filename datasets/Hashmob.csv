@@ -1,4 +1,8 @@
 dump_name,breach_date,record_count,source,info
+B2b.insell.pl [bcrypt],,12126,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Abc-meubles.com [prestashop],,55403,Hashmob,md5($salt.$pass)
+Abc-meubles.com [bcrypt],,4484,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Ersatzteil-service.de [sha256],,668159,Hashmob,SHA2-256
 Have I been Pwned v2025-12 (Delta v2025-03) (SHA1),,768824219,Hashmob,SHA1
 Suter-meggen.ch [sha512],,57187,Hashmob,SHA2-512
 Fsjnow.com [md5],,10792,Hashmob,MD5
