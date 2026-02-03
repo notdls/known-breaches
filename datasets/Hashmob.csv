@@ -1,14 +1,4 @@
 dump_name,breach_date,record_count,source,info
-thebestadjobs.com [phpass],,583109,Hashmob,phpass
-Fuegos.pl [prestashop],,1517,Hashmob,PrestaShop
-Fuegos.pl [bcrypt],,5995,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Euromatik.fr [prestashop],,101706,Hashmob,md5($salt.$pass)
-Euromatik.fr [bcrypt],,19135,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Eterno.pl [bcrypt],,4996,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Discgolfmetrix.com [phpass],,2206,Hashmob,phpass
-Blue-aqua-sports.de [phpass],,1380,Hashmob,phpass
-Blu.com.pl [prestashop],,261,Hashmob,md5($salt.$pass)
-Blu.com.pl [bcrypt],,4966,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Biurogo.pl [prestashop],,886,Hashmob,PrestaShop
 Biurogo.pl [bcrypt],,53732,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Birthdaycomp.com [md5],,21531,Hashmob,MD5
@@ -16,7 +6,7 @@ Bestadsontv.com [md5],,204035,Hashmob,MD5
 B2b.insell.pl [bcrypt],,12126,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Abc-meubles.com [prestashop],,55403,Hashmob,MD5
 Abc-meubles.com [bcrypt],,4484,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Ersatzteil-service.de [sha256],,668159,Hashmob,sha256($salt.$pass)
+Ersatzteil-service.de [sha256],,668159,Hashmob,SHA2-256
 Have I been Pwned v2025-12 (Delta v2025-03) (SHA1),,768824219,Hashmob,SHA1
 Suter-meggen.ch [sha512],,57187,Hashmob,SHA2-512
 Fsjnow.com [md5],,10792,Hashmob,MD5
@@ -232,7 +222,6 @@ Adecco.com,,3270219,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 A3M.com,,433922,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Zacks.com [2024-06],,1961793,Hashmob,SHA2-256
 Strongholdkingdoms.com,,5803218,Hashmob,HMAC-RIPEMD160 (key = $salt)
-Storybird.com,,2824148,Hashmob,Django (PBKDF2-SHA256)
 Storybird.com [djangosha1],,1384815,Hashmob,Django (SHA-1)
 Storenvy.com,,9682746,Hashmob,Ruby on Rails Restful-Authentication
 Forums.xkcd.com,,546466,Hashmob,phpass
