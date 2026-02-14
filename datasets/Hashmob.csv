@@ -1,4 +1,7 @@
 dump_name,breach_date,record_count,source,info
+forums.introversion.co.uk [phpass],,365978,Hashmob,phpass
+forums.introversion.co.uk [md5],,43116,Hashmob,MD5
+forums.introversion.co.uk [bcrypt],,60469,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 thebestadjobs.com [phpass],,583109,Hashmob,phpass
 Fuegos.pl [prestashop],,1517,Hashmob,PrestaShop
 Fuegos.pl [bcrypt],,5995,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
