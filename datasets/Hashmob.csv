@@ -14,7 +14,7 @@ Blu.com.pl [prestashop],,261,Hashmob,md5($salt.$pass)
 Blu.com.pl [bcrypt],,4966,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Biurogo.pl [prestashop],,886,Hashmob,PrestaShop
 Biurogo.pl [bcrypt],,53732,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Birthdaycomp.com [md5],,21531,Hashmob,MD5
+Birthdaycomp.com [md5],,21531,Hashmob,md5(md5(md5($pass)))
 Bestadsontv.com [md5],,204035,Hashmob,MD5
 B2b.insell.pl [bcrypt],,12126,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Abc-meubles.com [prestashop],,55403,Hashmob,MD5
