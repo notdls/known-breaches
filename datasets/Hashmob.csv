@@ -1,5 +1,6 @@
 dump_name,breach_date,record_count,source,info
-Cleverhouse24.pl [prestashop],,5940,Hashmob,PrestaShop
+Fullmeltbubble.com [vBulletin],,11300,Hashmob,vBulletin >= v3.8.5
+Cleverhouse24.pl [prestashop],,5940,Hashmob,md5($salt.md5($pass.$salt))
 Zamunda.net,,2623425,Hashmob,md5($salt.$pass.$salt)
 forums.introversion.co.uk [phpass],,365978,Hashmob,phpass
 forums.introversion.co.uk [md5],,43116,Hashmob,MD5
