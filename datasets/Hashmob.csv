@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+67logos.com [md5],,17795,Hashmob,MD5
+Ek-onlineshop.at [bcrypt],,54356,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 000webhost.com forum [vBulletin],,33644,Hashmob,vBulletin < v3.8.5
 Fullmeltbubble.com [vBulletin],,11300,Hashmob,vBulletin >= v3.8.5
 Cleverhouse24.pl [prestashop],,5940,Hashmob,md5($salt.md5($pass.$salt))
