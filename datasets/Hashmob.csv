@@ -1,4 +1,13 @@
 dump_name,breach_date,record_count,source,info
+eventland.eu [sha1],,6568,Hashmob,SHA1
+Generationrobots.com [prestashop],,22862,Hashmob,PrestaShop
+Generationrobots.com [bcrypt],,9643,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Garibaldi.de [md5],,62516,Hashmob,MD5
+Gaias-garten.gewaechshausplaza.de [Magento],,4938,Hashmob,sha256($salt.$pass)
+G4m.com.ua [md5($salt.$pass)],,6695,Hashmob,md5($salt.$pass)
+G4m.com.ua [OpenCart],,6572,Hashmob,OpenCart
+Fuzion.it [prestashop],,15279,Hashmob,PrestaShop
+Fuzion.it [bcrypt],,9437,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Ajarn.com [md5],,173912,Hashmob,MD5
 Ajarn.com [bcrypt],,9988,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 67logos.com [md5],,17795,Hashmob,MD5
