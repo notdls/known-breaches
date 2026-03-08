@@ -4,9 +4,9 @@ A compliation of breach information gathered from data aggregators, breach looku
 ## Indexed Services
 | Service Name | Breach Count | Total Records | Automatic Updates |
 | ------------ | ------------ | ------------- |        :--:       |
-| 9Ghz | 1,242 | 40,049,924,301 | ✅ |
+| 9Ghz | 1,245 | 40,063,499,515 | ✅ |
 | BreachDirectory | 4,437 | 27,978,047,211 | ✅ |
-| Dehashed | 24,049 | 24,011,625,925 | ✅ |
+| Dehashed | 24,049 | 24,015,305,711 | ✅ |
 | Hashmob | 2,908 | 5,939,246,653 | ✅ |
 | HaveIBeenPwned | 959 | 17,501,153,109 | ✅ |
 | Leak-Lookup | 4,537 | 28,173,533,216 | ✅ |
