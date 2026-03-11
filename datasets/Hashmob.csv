@@ -1,5 +1,4 @@
 dump_name,breach_date,record_count,source,info
-Aptoide.com (Part 1) [SHA256],,10485761,Hashmob,SHA2-256
 eventland.eu [sha1],,6568,Hashmob,SHA1
 Generationrobots.com [prestashop],,22862,Hashmob,PrestaShop
 Generationrobots.com [bcrypt],,9643,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
