@@ -2904,6 +2904,6 @@ HO[1032]__Flyinghearts.info,,175032,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 HO[1031]__Animoto.com,,22439713,Hashmob,sha256($pass.$salt)
 HO[102]__Naughty America,,316860,Hashmob,MD5
 HO[101]__Heroes of Newerth,,2344049,Hashmob,vBulletin < v3.8.5
-HO[1017]__Disqus.com,,6145393,Hashmob,sha1($salt.$pass)
+HO[1017]__Disqus.com,,6151626,Hashmob,sha1($salt.$pass)
 HO[1007]__Thefaveapp.com,,229554,Hashmob,"Ruby on Rails Restful Auth (one round, no sitekey)"
 HO[1002]__LotRO.com,,428178,Hashmob,vBulletin < v3.8.5

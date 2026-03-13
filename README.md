@@ -6,10 +6,10 @@ A compliation of breach information gathered from data aggregators, breach looku
 | ------------ | ------------ | ------------- |        :--:       |
 | 9Ghz | 1,245 | 40,063,499,515 | ✅ |
 | BreachDirectory | 4,437 | 27,978,047,211 | ✅ |
-| Dehashed | 24,049 | 24,011,630,556 | ✅ |
-| Hashmob | 2,908 | 5,940,629,552 | ✅ |
+| Dehashed | 24,049 | 24,014,885,346 | ✅ |
+| Hashmob | 2,908 | 5,940,635,785 | ✅ |
 | HaveIBeenPwned | 959 | 17,501,153,109 | ✅ |
-| Leak-Lookup | 4,537 | 28,173,533,216 | ✅ |
+| Leak-Lookup | 4,540 | 28,173,834,427 | ✅ |
 | LeakCheck.io | 1,338 | 6,587,039,106 | ✅ |
 | Leaked.Domains | 312 | 10,406,907,274 | ✅ |
 | ScatteredSecrets | 4,847 | Unavailable | ✅ |
