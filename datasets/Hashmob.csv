@@ -2822,7 +2822,7 @@ HO[1195]__Myteamstats.com,,125922,Hashmob,MD5
 HO[1194]__Supertalent.com,,211269,Hashmob,phpass
 HO[1193]__Insiderelite.com,,134258,Hashmob,MD5
 HO[1192]__Go-parts.com,,139874,Hashmob,"osCommerce, xt:Commerce"
-HO[1189]__Obeikaneducation.com,,469789,Hashmob,MD5
+HO[1189]__Obeikaneducation.com,,469789,Hashmob,md5(md5($pass).md5($salt))
 HO[1188]__Shertonenglish.com,,468699,Hashmob,phpass
 HO[1187]__Community.hitlab.com,,80019,Hashmob,MD5
 HO[1186]__Mystudiyo.com,,394770,Hashmob,SHA1
