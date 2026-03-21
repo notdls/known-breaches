@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Gfellerbio.ch [prestashop],,1571,Hashmob,md5($salt.$pass)
+Gfellerbio.ch [osCommerce],,779,Hashmob,md5($salt.$pass)
 Gfellerbio.ch [bcrypt],,2272,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 eventland.eu [sha1],,6568,Hashmob,SHA1
 Generationrobots.com [prestashop],,22862,Hashmob,PrestaShop
