@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Gipermarket-gorod-dverej.ua (md5($salt.$pass)),,2212,Hashmob,md5($salt.$pass)
 Gfellerbio.ch [prestashop],,1571,Hashmob,md5($salt.$pass)
 Gfellerbio.ch [osCommerce],,779,Hashmob,md5($salt.$pass)
 Gfellerbio.ch [bcrypt],,2272,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
