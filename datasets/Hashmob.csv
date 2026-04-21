@@ -1,12 +1,22 @@
 dump_name,breach_date,record_count,source,info
+Havanasmoke.ru [bcrypt],,6999,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Guidetti-sport.com [prestashop],,11264,Hashmob,PrestaShop
+Guidetti-sport.com [bcrypt],,27934,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Gtunes.co.id [bcrypt],,11462,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Gsm-hurt.pl [prestashop],,3317,Hashmob,md5($salt.md5($pass.$salt))
+Gsm-hurt.pl [bcrypt],,38712,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Gold-pro.ru [md5(md5($pass).md5($salt))],,1946,Hashmob,md5(md5($pass).md5($salt))
+Go4trans.com [md5(md5($pass).md5($salt))],,6100,Hashmob,md5(md5($pass).md5($salt))
+Globaltradingsrl.it [prestashop],,2287,Hashmob,PrestaShop
+Beanstockinc.com [bcrypt],,1008,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Bagart.fr [prestashop],,46,Hashmob,PrestaShop
 Bagart.fr [bcrypt],,23284,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Gitaarbouwwinkel.be [prestashop],,698,Hashmob,md5($salt.$pass)
+Gitaarbouwwinkel.be [prestashop],,698,Hashmob,MD5
 Gitaarbouwwinkel.be [phpass],,87,Hashmob,phpass
 Gitaarbouwwinkel.be [bcrypt],,5547,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Gipermarket-gorod-dverej.ua (md5($salt.$pass)),,2212,Hashmob,md5($salt.$pass)
 Gfellerbio.ch [prestashop],,1571,Hashmob,md5($salt.$pass)
-Gfellerbio.ch [osCommerce],,779,Hashmob,md5($salt.$pass)
+Gfellerbio.ch [osCommerce],,803,Hashmob,md5($salt.$pass)
 Gfellerbio.ch [bcrypt],,2272,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 eventland.eu [sha1],,6568,Hashmob,SHA1
 Generationrobots.com [prestashop],,22862,Hashmob,PrestaShop
@@ -34,7 +44,7 @@ Fuegos.pl [bcrypt],,5988,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Euromatik.fr [prestashop],,101706,Hashmob,md5($salt.$pass)
 Euromatik.fr [bcrypt],,19135,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Eterno.pl [bcrypt],,4996,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Discgolfmetrix.com [phpass],,2206,Hashmob,phpass
+Discgolfmetrix.com [phpass],,2206,Hashmob,"md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5)"
 Blue-aqua-sports.de [phpass],,1380,Hashmob,phpass
 Blu.com.pl [prestashop],,261,Hashmob,md5($salt.$pass)
 Blu.com.pl [bcrypt],,4966,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -63,7 +73,7 @@ Braasch.sh [md5],,1287,Hashmob,MD5
 Braasch.sh [bcrypt],,1688,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Dejavu-fashion.de [prestashop],,141,Hashmob,PrestaShop
 Dejavu-fashion.de [bcrypt],,5849,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Cozabuty.pl [prestashop],,5082,Hashmob,MD5
+Cozabuty.pl [prestashop],,84318,Hashmob,MD5
 Cozabuty.pl [bcrypt],,9145,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Concept-mosaique.com [bcrypt],,10869,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Butiklorenzo.pl [prestashop],,240582,Hashmob,PrestaShop
