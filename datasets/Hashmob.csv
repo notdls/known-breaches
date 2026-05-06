@@ -1,4 +1,7 @@
 dump_name,breach_date,record_count,source,info
+Hiphopplaya.com [MySQL5],,259852,Hashmob,MySQL4.1/MySQL5
+Hiphopplaya.com [MySQL323],,92862,Hashmob,MySQL323
+Havanasmoke.ru [prestashop],,5477,Hashmob,md5($salt.$pass)
 Havanasmoke.ru [bcrypt],,6999,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Guidetti-sport.com [prestashop],,11264,Hashmob,PrestaShop
 Guidetti-sport.com [bcrypt],,27934,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -44,7 +47,7 @@ Fuegos.pl [bcrypt],,5988,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Euromatik.fr [prestashop],,101706,Hashmob,md5($salt.$pass)
 Euromatik.fr [bcrypt],,19135,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Eterno.pl [bcrypt],,4996,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Discgolfmetrix.com [phpass],,2206,Hashmob,"md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5)"
+Discgolfmetrix.com [phpass],,2153,Hashmob,"md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5)"
 Blue-aqua-sports.de [phpass],,1380,Hashmob,phpass
 Blu.com.pl [prestashop],,261,Hashmob,md5($salt.$pass)
 Blu.com.pl [bcrypt],,4966,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -73,7 +76,7 @@ Braasch.sh [md5],,1287,Hashmob,MD5
 Braasch.sh [bcrypt],,1688,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Dejavu-fashion.de [prestashop],,141,Hashmob,PrestaShop
 Dejavu-fashion.de [bcrypt],,5849,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Cozabuty.pl [prestashop],,84318,Hashmob,MD5
+Cozabuty.pl [prestashop],,95326,Hashmob,MD5
 Cozabuty.pl [bcrypt],,9145,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Concept-mosaique.com [bcrypt],,10869,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Butiklorenzo.pl [prestashop],,240582,Hashmob,PrestaShop
@@ -341,7 +344,7 @@ Monstercars.nl,,17902,Hashmob,"osCommerce, xt:Commerce"
 Tappware.com,,779,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 PurePC.pl,,124310,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Aussiearcade.com,,18975,Hashmob,vBulletin >= v3.8.5
-Aussiearcade.com [bcrypt],,652,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Aussiearcade.com [bcrypt],,652,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 LupaWorld.com,,523869,Hashmob,vBulletin < v3.8.5
 umebluje.pl [prestashop],,9708,Hashmob,PrestaShop
 umebluje.pl [bcrypt],,45131,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -350,9 +353,9 @@ SilabGarza.com,,113488,Hashmob,vBulletin >= v3.8.5
 RoninArmy.com,,7386,Hashmob,phpass
 Nexva.com,,55623,Hashmob,MD5
 MussleGurus.com [drupal],,36827,Hashmob,Drupal7
-MussleGurus.com [bcrypt],,2664,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+MussleGurus.com [bcrypt],,2664,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Miva.com,,30168,Hashmob,vBulletin < v3.8.5
-Miva.com [bcrypt],,2637,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Miva.com [bcrypt],,2637,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 ComicbookResources.com,,65197,Hashmob,vBulletin >= v3.8.5
 CanadianProtein.com,,37924,Hashmob,sha1($salt.$pass)
 Brianbanebbs.com,,321742,Hashmob,vBulletin < v3.8.5
