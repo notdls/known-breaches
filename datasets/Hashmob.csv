@@ -1,4 +1,9 @@
 dump_name,breach_date,record_count,source,info
+Basbleu.pl [SHA2-256],,1043,Hashmob,SHA2-256
+Alkozona.cz [prestashop],,1067,Hashmob,md5($salt.md5($pass.$salt))
+Alkozona.cz [bcrypt],,6233,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Alkotester.pl [prestashop],,6665,Hashmob,md5($salt.md5($pass.$salt))
+Alkotester.pl [bcrypt],,15238,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Hiphopplaya.com [MySQL5],,259852,Hashmob,MySQL4.1/MySQL5
 Hiphopplaya.com [MySQL323],,92862,Hashmob,MySQL323
 Havanasmoke.ru [prestashop],,5477,Hashmob,md5($salt.$pass)
