@@ -1,4 +1,8 @@
 dump_name,breach_date,record_count,source,info
+Gamecenter.com.mx [bcrypt],,15578,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+E-militaria.pl [prestashop],,95563,Hashmob,md5($salt.md5($pass.$salt))
+E-militaria.pl [osCommerce],,17090,Hashmob,"osCommerce, xt:Commerce"
+E-militaria.pl [bcrypt],,77894,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Basbleu.pl [SHA2-256],,1043,Hashmob,SHA2-256
 Alkozona.cz [prestashop],,1067,Hashmob,md5($salt.md5($pass.$salt))
 Alkozona.cz [bcrypt],,6233,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
