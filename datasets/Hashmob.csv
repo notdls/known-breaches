@@ -1,6 +1,10 @@
 dump_name,breach_date,record_count,source,info
+Blackmonk.pl [bcrypt],,26633,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Astaroth-Server.com,,16501,Hashmob,sha1($salt.$pass)
+Basbleu.pl [prestashop],,759,Hashmob,PrestaShop
+Basbleu.pl [bcrypt],,11046,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Gamecenter.com.mx [bcrypt],,15578,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-E-militaria.pl [prestashop],,95563,Hashmob,md5($salt.md5($pass.$salt))
+E-militaria.pl [prestashop],,95563,Hashmob,PrestaShop
 E-militaria.pl [osCommerce],,17090,Hashmob,"osCommerce, xt:Commerce"
 E-militaria.pl [bcrypt],,77894,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Basbleu.pl [SHA2-256],,1043,Hashmob,SHA2-256
