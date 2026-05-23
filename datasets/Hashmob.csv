@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Bodynet.nl [vbulletin],,50274,Hashmob,vBulletin < v3.8.5
+Blackmonk.pl [prestashop],,3061,Hashmob,PrestaShop
 Blackmonk.pl [bcrypt],,26633,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Astaroth-Server.com,,16501,Hashmob,sha1($salt.$pass)
 Basbleu.pl [prestashop],,759,Hashmob,PrestaShop
