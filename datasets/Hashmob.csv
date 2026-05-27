@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Cs-puchatek.pl [vbulletin],,546181,Hashmob,vBulletin < v3.8.5
+Confectionerycorner.com.au [bcrypt],,86492,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Cableaway.com.au [prestashop],,2609,Hashmob,PrestaShop
 Cableaway.com.au [bcrypt],,2732,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Bodynet.nl [vbulletin],,50274,Hashmob,vBulletin < v3.8.5
