@@ -1,4 +1,17 @@
 dump_name,breach_date,record_count,source,info
+Forum.play-il.co.il [vbulletin],,16903,Hashmob,vBulletin < v3.8.5
+Forum.play-il.co.il [bcrypt],,4713,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Forum.esignal.com [vbulletin],,3983,Hashmob,vBulletin < v3.8.5
+Forum.esignal.com [bcrypt],,9273,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Fairmoney.io [Unknown] ,,138552,Hashmob,MD5
+Edmunds.com [Unknown],,80727,Hashmob,MD5
+DojoApp.com [md5],,42697,Hashmob,MD5
+Computerowiec.com.pl [prestashop],,1607,Hashmob,PrestaShop
+Computerowiec.com.pl [bcrypt],,4990,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Biomineraly.pl [bcrypt],,47666,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Bikepart.pl [prestashop],,7611,Hashmob,md5($salt.$pass)
+Bikepart.pl [bcrypt],,5401,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+DojoApp.com [bcrypt],,554114,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Diversal.es [prestashop],,23146,Hashmob,MD5
 Diversal.es [bcrypt],,5821,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Cs-puchatek.pl [vbulletin],,546181,Hashmob,vBulletin < v3.8.5
