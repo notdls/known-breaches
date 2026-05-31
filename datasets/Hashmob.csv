@@ -1,9 +1,9 @@
 dump_name,breach_date,record_count,source,info
-Forum.play-il.co.il [vbulletin],,16903,Hashmob,vBulletin < v3.8.5
-Forum.play-il.co.il [bcrypt],,4713,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Forums.doublefuns.com [md5],,33296,Hashmob,vBulletin < v3.8.5
+Forum.play-il.co.il [vbulletin],,16903,Hashmob,vBulletin >= v3.8.5
+Forum.play-il.co.il [bcrypt],,4713,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Forum.esignal.com [vbulletin],,3983,Hashmob,vBulletin < v3.8.5
-Forum.esignal.com [bcrypt],,9273,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Fairmoney.io [Unknown] ,,138552,Hashmob,MD5
+Forum.esignal.com [bcrypt],,9273,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Edmunds.com [Unknown],,80727,Hashmob,MD5
 DojoApp.com [md5],,42697,Hashmob,MD5
 Computerowiec.com.pl [prestashop],,1607,Hashmob,PrestaShop
