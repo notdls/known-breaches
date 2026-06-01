@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Forums.fingergames.me [md5],,13060,Hashmob,vBulletin < v3.8.5
 Forums.doublefuns.com [md5],,33296,Hashmob,vBulletin < v3.8.5
 Forum.play-il.co.il [vbulletin],,16903,Hashmob,vBulletin >= v3.8.5
 Forum.play-il.co.il [bcrypt],,4713,Hashmob,bcrypt(md5($pass)) / bcryptmd5
