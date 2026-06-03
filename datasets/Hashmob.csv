@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+GamingRadio.net [vbulletin],,2546,Hashmob,vBulletin < v3.8.5
+Gamegrin.com [md5],,90405,Hashmob,vBulletin < v3.8.5
 Forums.idcgames.com [bcrypt],,60066,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Forums.fingergames.me [md5],,13060,Hashmob,vBulletin < v3.8.5
 Forums.doublefuns.com [md5],,33296,Hashmob,vBulletin < v3.8.5
