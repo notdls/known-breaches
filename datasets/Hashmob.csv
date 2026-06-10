@@ -1,4 +1,44 @@
 dump_name,breach_date,record_count,source,info
+grau-mailorder.de,,19256,Hashmob,MD5
+app.youaudit.com.au,,5047,Hashmob,MD5
+app.youaudit.com.au [md5],,5047,Hashmob,MD5
+WoW-Mania.com [sha1],,73763,Hashmob,sha1($salt.$pass)
+Tribogamer.com [bcrypt],,102781,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Steamgamers.com [md5],,13178,Hashmob,vBulletin >= v3.8.5
+SmolderForge.com [phpass],,8346,Hashmob,phpass
+SmolderForge.com [bcrypt],,1268,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+RevScene.com [vbulletin],,110826,Hashmob,vBulletin < v3.8.5
+RSGame.com [vbulletin],,259756,Hashmob,vBulletin < v3.8.5
+Playtheplanet.org [vb],,120589,Hashmob,vBulletin < v3.8.5
+Pampling.com [md5] ,,72117,Hashmob,MD5
+Narutohentaidb.com [md5],,21362,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
+Home-furnishing-direct.co.uk [prestashop],,5200,Hashmob,md5($salt.$pass)
+Home-furnishing-direct.co.uk [osCommerce],,2148,Hashmob,"osCommerce, xt:Commerce"
+Home-furnishing-direct.co.uk [bcrypt],,388,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Hivlife.info [vBulletin],,10009,Hashmob,vBulletin >= v3.8.5
+Healthcapital.nl [prestashop],,10833,Hashmob,md5($salt.$pass)
+Healthcapital.nl [osCommerce],,2191,Hashmob,md5($salt.$pass)
+Healthcapital.nl [bcrypt],,525,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Health-shop.com.ua [prestashop],,4063,Hashmob,PrestaShop
+Gamescampus.com [phpass] ,,68293,Hashmob,phpass
+Gamescampus.com [md5],,106227,Hashmob,MD5
+Gamesamba.com [vb],,29239,Hashmob,vBulletin >= v3.8.5
+Gamesamba.com [bcrypt],,40559,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Gamecampus.com [md5] ,,220125,Hashmob,MD5
+Funplusgame.fr [md5],,107637,Hashmob,MD5
+Forum.esignal.com [vb],,3983,Hashmob,vBulletin < v3.8.5
+Focusky.com [md5],,1042347,Hashmob,MD5
+Descargasdd.net [vb],,26945,Hashmob,vBulletin >= v3.8.5
+Assinatura-xbox-live.com [md5],,41255,Hashmob,OpenCart
+70grad-nord.de [bcrypt],,17313,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Playtheplanet.org [vbulletin],,120590,Hashmob,vBulletin < v3.8.5
+Ontecnia.com [md5],,60880,Hashmob,md5($pass.$salt)
+Nvia.com [bcrypt],,45920,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Nordicmarksman.com [phpass],,172,Hashmob,phpass
+Nordicmarksman.com [bcrypt],,5088,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Neverendless-wow.com [sha1],,341400,Hashmob,sha1($salt.$pass)
+Neverendless-wow.com [bcrypt],,1607,Hashmob,sha1($salt.$pass)
+Narutohentaidb.com [phpass],,12652,Hashmob,phpass
 Monochrom.com [bcrypt],,13585,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 GamingRadio.net [vbulletin],,2546,Hashmob,vBulletin < v3.8.5
 Gamegrin.com [md5],,90405,Hashmob,vBulletin < v3.8.5
@@ -160,7 +200,7 @@ USAJewels.com,,2516435,Hashmob,MD5
 Scoredb.io,,770437,Hashmob,MD5
 Feroca.com [prestashop],,40269,Hashmob,md5($salt.$pass)
 Feroca.com [bcrypt],,15092,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Farmaciapuertobanus.com [prestashop],,13709,Hashmob,MD5
+Farmaciapuertobanus.com [prestashop],,13709,Hashmob,md5($salt.$pass)
 Farmaciapuertobanus.com [bcrypt],,8385,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Edabea.com [prestashop],,32849,Hashmob,md5($salt.$pass)
 Edabea.com [bcrypt],,16239,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
