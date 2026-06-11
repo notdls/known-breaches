@@ -2,36 +2,36 @@ dump_name,breach_date,record_count,source,info
 grau-mailorder.de,,19256,Hashmob,MD5
 app.youaudit.com.au,,5047,Hashmob,MD5
 app.youaudit.com.au [md5],,5047,Hashmob,MD5
-WoW-Mania.com [sha1],,73763,Hashmob,sha1($salt.$pass)
+WoW-Mania.com [sha1],,73763,Hashmob,SHA1
 Tribogamer.com [bcrypt],,102781,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Steamgamers.com [md5],,13178,Hashmob,vBulletin >= v3.8.5
+Steamgamers.com [md5],,13178,Hashmob,vBulletin < v3.8.5
 SmolderForge.com [phpass],,8346,Hashmob,phpass
 SmolderForge.com [bcrypt],,1268,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-RevScene.com [vbulletin],,110826,Hashmob,vBulletin < v3.8.5
-RSGame.com [vbulletin],,259756,Hashmob,vBulletin < v3.8.5
+RevScene.com [vbulletin],,110841,Hashmob,vBulletin >= v3.8.5
+RSGame.com [vbulletin],,260505,Hashmob,vBulletin < v3.8.5
 Playtheplanet.org [vb],,120589,Hashmob,vBulletin < v3.8.5
 Pampling.com [md5] ,,72117,Hashmob,MD5
 Narutohentaidb.com [md5],,21362,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Home-furnishing-direct.co.uk [prestashop],,5200,Hashmob,md5($salt.$pass)
-Home-furnishing-direct.co.uk [osCommerce],,2148,Hashmob,"osCommerce, xt:Commerce"
+Home-furnishing-direct.co.uk [osCommerce],,2287,Hashmob,"osCommerce, xt:Commerce"
 Home-furnishing-direct.co.uk [bcrypt],,388,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Hivlife.info [vBulletin],,10009,Hashmob,vBulletin >= v3.8.5
 Healthcapital.nl [prestashop],,10833,Hashmob,md5($salt.$pass)
-Healthcapital.nl [osCommerce],,2191,Hashmob,md5($salt.$pass)
+Healthcapital.nl [osCommerce],,2258,Hashmob,md5($salt.$pass)
 Healthcapital.nl [bcrypt],,525,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Health-shop.com.ua [prestashop],,4063,Hashmob,PrestaShop
 Gamescampus.com [phpass] ,,68293,Hashmob,phpass
 Gamescampus.com [md5],,106227,Hashmob,MD5
 Gamesamba.com [vb],,29239,Hashmob,vBulletin >= v3.8.5
 Gamesamba.com [bcrypt],,40559,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Gamecampus.com [md5] ,,220125,Hashmob,MD5
+Gamecampus.com [md5] ,,393684,Hashmob,MD5
 Funplusgame.fr [md5],,107637,Hashmob,MD5
 Forum.esignal.com [vb],,3983,Hashmob,vBulletin < v3.8.5
-Focusky.com [md5],,1042347,Hashmob,MD5
+Focusky.com [md5],,1042440,Hashmob,md5($pass.$salt)
 Descargasdd.net [vb],,26945,Hashmob,vBulletin >= v3.8.5
 Assinatura-xbox-live.com [md5],,41255,Hashmob,OpenCart
 70grad-nord.de [bcrypt],,17313,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Playtheplanet.org [vbulletin],,120590,Hashmob,vBulletin < v3.8.5
+Playtheplanet.org [vbulletin],,120618,Hashmob,vBulletin < v3.8.5
 Ontecnia.com [md5],,60880,Hashmob,md5($pass.$salt)
 Nvia.com [bcrypt],,45920,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Nordicmarksman.com [phpass],,172,Hashmob,phpass
@@ -40,14 +40,14 @@ Neverendless-wow.com [sha1],,341400,Hashmob,sha1($salt.$pass)
 Neverendless-wow.com [bcrypt],,1607,Hashmob,sha1($salt.$pass)
 Narutohentaidb.com [phpass],,12652,Hashmob,phpass
 Monochrom.com [bcrypt],,13585,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-GamingRadio.net [vbulletin],,2546,Hashmob,vBulletin < v3.8.5
+GamingRadio.net [vbulletin],,18624,Hashmob,vBulletin < v3.8.5
 Gamegrin.com [md5],,90405,Hashmob,vBulletin < v3.8.5
 Forums.idcgames.com [bcrypt],,60066,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Forums.fingergames.me [md5],,13060,Hashmob,vBulletin < v3.8.5
-Forums.doublefuns.com [md5],,33296,Hashmob,vBulletin < v3.8.5
+Forums.doublefuns.com [md5],,33299,Hashmob,vBulletin < v3.8.5
 Forum.play-il.co.il [vbulletin],,16903,Hashmob,vBulletin >= v3.8.5
 Forum.play-il.co.il [bcrypt],,4713,Hashmob,bcrypt(md5($pass)) / bcryptmd5
-Forum.esignal.com [vbulletin],,3983,Hashmob,vBulletin < v3.8.5
+Forum.esignal.com [vbulletin],,3992,Hashmob,vBulletin < v3.8.5
 Forum.esignal.com [bcrypt],,9273,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Edmunds.com [Unknown],,80727,Hashmob,MD5
 DojoApp.com [md5],,42697,Hashmob,MD5
@@ -57,13 +57,13 @@ Biomineraly.pl [bcrypt],,47666,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Bikepart.pl [prestashop],,7611,Hashmob,md5($salt.$pass)
 Bikepart.pl [bcrypt],,5401,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 DojoApp.com [bcrypt],,554114,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Diversal.es [prestashop],,23146,Hashmob,MD5
+Diversal.es [prestashop],,23209,Hashmob,MD5
 Diversal.es [bcrypt],,5821,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Cs-puchatek.pl [vbulletin],,546181,Hashmob,vBulletin < v3.8.5
+Cs-puchatek.pl [vbulletin],,546905,Hashmob,vBulletin < v3.8.5
 Confectionerycorner.com.au [bcrypt],,86492,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Cableaway.com.au [prestashop],,2609,Hashmob,PrestaShop
 Cableaway.com.au [bcrypt],,2732,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Bodynet.nl [vbulletin],,50274,Hashmob,vBulletin < v3.8.5
+Bodynet.nl [vbulletin],,50278,Hashmob,vBulletin < v3.8.5
 Blackmonk.pl [prestashop],,3061,Hashmob,PrestaShop
 Blackmonk.pl [bcrypt],,26633,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Astaroth-Server.com,,16501,Hashmob,sha1($salt.$pass)
@@ -71,11 +71,11 @@ Basbleu.pl [prestashop],,759,Hashmob,PrestaShop
 Basbleu.pl [bcrypt],,11046,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Gamecenter.com.mx [bcrypt],,15578,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 E-militaria.pl [prestashop],,95563,Hashmob,PrestaShop
-E-militaria.pl [osCommerce],,17090,Hashmob,"osCommerce, xt:Commerce"
+E-militaria.pl [osCommerce],,17552,Hashmob,"osCommerce, xt:Commerce"
 E-militaria.pl [bcrypt],,77894,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Basbleu.pl [SHA2-256],,1043,Hashmob,SHA2-256
 Alkozona.cz [prestashop],,1067,Hashmob,md5($salt.md5($pass.$salt))
-Alkozona.cz [bcrypt],,6233,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Alkozona.cz [bcrypt],,6231,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Alkotester.pl [prestashop],,6665,Hashmob,PrestaShop
 Alkotester.pl [bcrypt],,15238,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Hiphopplaya.com [MySQL5],,259852,Hashmob,MySQL4.1/MySQL5
