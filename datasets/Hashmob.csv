@@ -1,6 +1,5 @@
 dump_name,breach_date,record_count,source,info
 grau-mailorder.de,,19256,Hashmob,MD5
-app.youaudit.com.au,,5047,Hashmob,MD5
 app.youaudit.com.au [md5],,5047,Hashmob,MD5
 WoW-Mania.com [sha1],,73763,Hashmob,SHA1
 Tribogamer.com [bcrypt],,102781,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
