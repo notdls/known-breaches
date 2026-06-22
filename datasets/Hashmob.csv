@@ -1,4 +1,8 @@
 dump_name,breach_date,record_count,source,info
+Alegriaestudio.com [bcrypt],,53429,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Akstuning.co.uk [prestashop],,3619,Hashmob,PrestaShop
+Akstuning.co.uk [md5],,4050,Hashmob,MD5
+Akstuning.co.uk [bcrypt],,30550,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 grau-mailorder.de,,19256,Hashmob,MD5
 app.youaudit.com.au [md5],,5047,Hashmob,MD5
 WoW-Mania.com [sha1],,73763,Hashmob,SHA1
@@ -48,7 +52,7 @@ Forum.play-il.co.il [vbulletin],,16903,Hashmob,vBulletin >= v3.8.5
 Forum.play-il.co.il [bcrypt],,4713,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Forum.esignal.com [vbulletin],,3992,Hashmob,vBulletin < v3.8.5
 Forum.esignal.com [bcrypt],,9273,Hashmob,bcrypt(md5($pass)) / bcryptmd5
-Edmunds.com [Unknown],,80727,Hashmob,MD5
+Edmunds.com [Unknown],,80727,Hashmob,SHA1
 DojoApp.com [md5],,42697,Hashmob,MD5
 Computerowiec.com.pl [prestashop],,1607,Hashmob,PrestaShop
 Computerowiec.com.pl [bcrypt],,4990,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
