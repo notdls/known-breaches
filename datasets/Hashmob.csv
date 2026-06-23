@@ -1,4 +1,7 @@
 dump_name,breach_date,record_count,source,info
+Dpj-workspace.com [prestashop],,213633,Hashmob,md5($salt.$pass)
+Dpj-workspace.com [bcrypt],,52634,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Artzayla.com [bcrypt],,9803,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Alegriaestudio.com [bcrypt],,53429,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Akstuning.co.uk [prestashop],,3619,Hashmob,PrestaShop
 Akstuning.co.uk [md5],,4050,Hashmob,MD5
