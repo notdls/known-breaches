@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Bawene.pl [bcrypt],,15806,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Bache-automobile.com [bcrypt],,11659,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Dpj-workspace.com [prestashop],,213633,Hashmob,md5($salt.$pass)
 Dpj-workspace.com [bcrypt],,52634,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Artzayla.com [bcrypt],,9803,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
