@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+BitView.net,,63286,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Climamarket.eu [prestashop],,15625,Hashmob,PrestaShop
 Climamarket.eu [bcrypt],,15127,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Buy-it.pl [prestashop],,26,Hashmob,PrestaShop
 Bawene.pl [bcrypt],,15806,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -64,7 +66,7 @@ DojoApp.com [md5],,42697,Hashmob,MD5
 Computerowiec.com.pl [prestashop],,1607,Hashmob,PrestaShop
 Computerowiec.com.pl [bcrypt],,4990,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Biomineraly.pl [bcrypt],,47666,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Bikepart.pl [prestashop],,7611,Hashmob,md5($salt.$pass)
+Bikepart.pl [prestashop],,7611,Hashmob,PrestaShop
 Bikepart.pl [bcrypt],,5401,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 DojoApp.com [bcrypt],,554114,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Diversal.es [prestashop],,23209,Hashmob,MD5
