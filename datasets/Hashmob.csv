@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Conceptatrois.ro [bcrypt],,19826,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 BitView.net,,63286,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Climamarket.eu [prestashop],,15625,Hashmob,PrestaShop
 Climamarket.eu [bcrypt],,15127,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
