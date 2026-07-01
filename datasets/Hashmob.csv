@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Adda.com [md5],,828226,Hashmob,MD5
+Ababyonline.com [md5],,25454,Hashmob,MD5
 Buy-it.pl [bcrypt],,17968,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Conceptatrois.ro [md5],,411,Hashmob,MD5
 Conceptatrois.ro [bcrypt],,19826,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
