@@ -1,4 +1,44 @@
 dump_name,breach_date,record_count,source,info
+Factory-360.com [joomla],,51892,Hashmob,md5($pass.$salt)
+Euchips.com [md5],,16202,Hashmob,MD5
+Emps-world.net [sha1],,4952,Hashmob,SHA1
+Emps-world.net [bcrypt],,5151,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Easternfront.org [SMF],,68546,Hashmob,SHA1
+Dpgroup.org [Vbulletin],,59079,Hashmob,vBulletin >= v3.8.5
+Dota2hentai.com [phpass],,724,Hashmob,phpass
+Diyfishkeepers.com [Vbulletin],,22476,Hashmob,vBulletin >= v3.8.5
+Digitalnintendo.com [phpass],,23737,Hashmob,phpass
+Cyemen.com [Vbulletin],,36075,Hashmob,vBulletin < v3.8.5
+Cyberphoenix.com [bcrypt],,5454,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Cyberphoenix.com [Vbulletin],,40873,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
+Cunydb.com [Bcrypt],,188795,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Correos.es [md5],,24924,Hashmob,MD5
+Conceptatrois.ro [prestashop],,344,Hashmob,PrestaShop
+Comugamers.com [md5],,17363,Hashmob,MD5
+Codfans.ir [Vbulletin],,17932,Hashmob,vBulletin >= v3.8.5
+Cizimokulu.com [md5],,204060,Hashmob,MD5
+Cheerleading.com [sha512],,19832,Hashmob,SHA2-512
+Cchsoft.com [bcrypt],,59864,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Calibratedpower.com [md5],,11033,Hashmob,MD5
+Buffyforums.net [Vbulletin],,27208,Hashmob,vBulletin < v3.8.5
+Brisbanebbs.com [md5],,321742,Hashmob,vBulletin < v3.8.5
+Bkc-game.net [md5],,7278,Hashmob,MD5
+Birthright.net [Vbulletin],,15082,Hashmob,vBulletin >= v3.8.5
+Bayernzone.com [Vbulletin],,7637,Hashmob,vBulletin >= v3.8.5
+Battleroyaleforums.com [sha256],,994,Hashmob,sha256(sha256($pass).$salt)
+Battleroyaleforums.com [bcrypt],,5360,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Battleroyaleforums.com [Vbulletin],,44997,Hashmob,vBulletin >= v3.8.5
+Avantisportswear.com [sha1],,6861,Hashmob,OpenCart
+Autobodystore.com [Vbulletin],,21945,Hashmob,vBulletin >= v3.8.5
+Atspace.com [sha1],,2222331,Hashmob,SHA1
+Atlas.ps [bcrypt],,12860,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Atlas-menu.net [bcrypt],,64294,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Asusxperts.com [Vbulletin],,18777,Hashmob,vBulletin >= v3.8.5
+Armagnac.com [md5],,68554,Hashmob,PrestaShop
+Arcadeneblog.com [phpass],,13108,Hashmob,phpass
+Alphaconfidence.com [Vbulletin],,143938,Hashmob,vBulletin < v3.8.5
+Allaboutsymbian.com [Vbulletin],,218311,Hashmob,vBulletin < v3.8.5
+Airschool.com [bcrypt],,6035,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Adda.com [md5],,828226,Hashmob,MD5
 Ababyonline.com [md5],,25454,Hashmob,MD5
 Buy-it.pl [bcrypt],,17968,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
