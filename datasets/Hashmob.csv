@@ -1,4 +1,36 @@
 dump_name,breach_date,record_count,source,info
+Insidethegame.it [Vbulletin],,75342,Hashmob,vBulletin >= v3.8.5
+Howindialives.com [phpass],,149,Hashmob,phpass
+Howindialives.com [md5],,953,Hashmob,MD5
+Howindialives.com [bcrypt],,4481,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Homesgofast.com [md5],,2041,Hashmob,MD5
+Homesgofast.com [bcrypt],,7332,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Homesgofast.com [SHA512],,3867,Hashmob,SHA2-512
+Hiluxsurf.co.uk [vbulletin],,14196,Hashmob,vBulletin < v3.8.5
+Hifitest.de [phpass],,46,Hashmob,phpass
+Hifitest.de [md5],,54914,Hashmob,MD5
+Hidplanet.com [bcrypt],,11486,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Heyplay.games [Bcrypt],,50510,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Herculesca.ca [md5],,21,Hashmob,MD5
+Herculesca.ca [bcrypt],,2119,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Hentaicloud.com [bcrypt],,36467,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Hauntworld.com [Vbulletin],,5640,Hashmob,vBulletin < v3.8.5
+Haijiao.com [md5],,367081,Hashmob,MD5
+GsmKnight.com [Vbulletin],,16405,Hashmob,vBulletin >= v3.8.5
+Gskill.us [bcrypt],,2359,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Gskill.us [Vbulletin],,45089,Hashmob,vBulletin < v3.8.5
+Gskill.com [md5],,7401,Hashmob,MD5
+Gloryofgods.com [md5],,56905,Hashmob,MD5
+Getpaidto.com [Vbulletin],,92806,Hashmob,vBulletin >= v3.8.5
+Gchangetout.com [phpass],,177310,Hashmob,phpass
+Gataweb.com [md5],,24500,Hashmob,MD5
+Gamekiss.com [bcrypt],,8760,Hashmob,bcrypt(md5($pass)) / bcryptmd5
+Freeuseporn.com [md5],,30672,Hashmob,MD5
+Freehostforum.com [bcrypt],,4605,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Freehostforum.com [Vbulletin],,91402,Hashmob,vBulletin < v3.8.5
+Free.ee [md5],,19348,Hashmob,MD5
+Forums.gamevil.com [Vbulletin],,763015,Hashmob,vBulletin >= v3.8.5
+Fan-likes.de [md5],,30518,Hashmob,MD5
 Factory-360.com [joomla],,51892,Hashmob,md5($pass.$salt)
 Euchips.com [md5],,16202,Hashmob,MD5
 Emps-world.net [sha1],,4952,Hashmob,SHA1
@@ -19,7 +51,7 @@ Codfans.ir [Vbulletin],,17932,Hashmob,vBulletin >= v3.8.5
 Cizimokulu.com [md5],,204060,Hashmob,MD5
 Cheerleading.com [sha512],,19832,Hashmob,SHA2-512
 Cchsoft.com [bcrypt],,59864,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Calibratedpower.com [md5],,11033,Hashmob,MD5
+Calibratedpower.com [md5],,11033,Hashmob,md5($salt.$pass)
 Buffyforums.net [Vbulletin],,27208,Hashmob,vBulletin < v3.8.5
 Brisbanebbs.com [md5],,321742,Hashmob,vBulletin < v3.8.5
 Bkc-game.net [md5],,7278,Hashmob,MD5
