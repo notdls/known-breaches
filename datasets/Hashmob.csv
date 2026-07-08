@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Knopftruhe.de [md5],,28792,Hashmob,MD5
+Knopftruhe.de [bcrypt],,37104,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 KSFclan.com [Vbulletin],,21935,Hashmob,vBulletin >= v3.8.5
 Justskins.com [Vbulletin],,10090,Hashmob,vBulletin >= v3.8.5
 Jcfonline.com [Vbulletin],,79049,Hashmob,vBulletin >= v3.8.5
