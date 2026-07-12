@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Idealdesign.pl [bcrypt],,1550,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Lilwaynehq.com [Vbulletin],,39989,Hashmob,vBulletin >= v3.8.5
 Kwrev.com [md5],,64333,Hashmob,MD5
 Kwrev.com [bcrypt],,29024,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
