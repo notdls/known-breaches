@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Idenvironnement.fr [bcrypt],,6868,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Idealdesign.pl [prestashop],,5289,Hashmob,md5($salt.$pass)
 Idealdesign.pl [bcrypt],,1550,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Lilwaynehq.com [Vbulletin],,39989,Hashmob,vBulletin >= v3.8.5
