@@ -1,4 +1,34 @@
 dump_name,breach_date,record_count,source,info
+Haijiao.com [bcrypt],,15760041,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Rctankwarfare.co.uk [phpass],,7575,Hashmob,phpass
+Ratakan.com [md5],,16399,Hashmob,MD5
+Pornboard.net [Vbulletin],,24031,Hashmob,vBulletin >= v3.8.5
+Popreach.com [bcrypt],,13136,Hashmob,bcrypt(md5($pass)) / bcryptmd5
+Popreach.com [Vbulletin],,2246,Hashmob,vBulletin < v3.8.5
+Pokermagia.com [phpass],,641482,Hashmob,phpass
+Pokermagia.com [md5],,23851,Hashmob,md5($salt.$pass)
+Pokermagia.com [Vbulletin],,661833,Hashmob,vBulletin >= v3.8.5
+Pokemasters.net [Vbulletin],,9595,Hashmob,vBulletin < v3.8.5
+Podcastgarden.com [sha256],,53458,Hashmob,SHA2-256
+Pocketgames.me [Vbulletin],,99672,Hashmob,vBulletin < v3.8.5
+Pkmn.net [sha1],,27681,Hashmob,SMF (Simple Machines Forum) > v1.1
+Pkmn.net [md5],,22225,Hashmob,HMAC-MD5 (key = $salt)
+Pinnaclegameprofiler.com [Vbulletin],,34554,Hashmob,vBulletin >= v3.8.5
+Photigy.com [phpass],,45161,Hashmob,phpass
+Pesserbia.com [Vbulletin],,68371,Hashmob,vBulletin < v3.8.5
+Paladium-pvp.fr [bcrypt],,26663,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Oasisgames-partner.com [md5],,28417,Hashmob,md5($pass.$salt)
+Naradieshop.sk [md5],,65884,Hashmob,MD5
+Naradieshop.sk [Bcrypt],,77846,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Mypirateforums.com [md5],,503725,Hashmob,vBulletin < v3.8.5
+Multihulls4us.com [Vbulletin],,15133,Hashmob,vBulletin < v3.8.5
+Msworld.org [Vbulletin],,54283,Hashmob,MD5
+Middleschools.org.uk [md5],,25946,Hashmob,MD5
+Magic-custom.com [md5],,44012,Hashmob,MD5
+Magic-custom.com [bcrypt],,7885,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Longboardz.de [bcrypt],,607,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Longboardz.de [Vbulletin],,31325,Hashmob,vBulletin >= v3.8.5
+Idenvironnement.fr [prestashop],,6619,Hashmob,md5($salt.$pass)
 Idenvironnement.fr [bcrypt],,6868,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Idealdesign.pl [prestashop],,5289,Hashmob,md5($salt.$pass)
 Idealdesign.pl [bcrypt],,1550,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
