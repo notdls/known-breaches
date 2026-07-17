@@ -6,20 +6,20 @@ indigonails.fr [bcrypt],,171897,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 impresorasymas.com.mx [prestashop],,284,Hashmob,md5($salt.$pass)
 impresorasymas.com.mx [bcrypt],,2235,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 imgbox.de [Vbulletin],,28177,Hashmob,vBulletin < v3.8.5
-imaticalospalacios.com [prestashop],,52078,Hashmob,MD5
+imaticalospalacios.com [prestashop],,52078,Hashmob,md5($salt.$pass)
 imaticalospalacios.com [bcrypt],,9133,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ilpetalorosa.it [prestashop],,4442,Hashmob,PrestaShop
-ijam.com.au [md5($salt.$pass)],,18217,Hashmob,MD5
-forum.megaxus.com [vbulletin],,185661,Hashmob,vBulletin < v3.8.5
+ijam.com.au [md5($salt.$pass)],,18217,Hashmob,md5($salt.$pass)
+forum.megaxus.com [vbulletin],,185661,Hashmob,vBulletin >= v3.8.5
 eco-nord.com [bcrypt],,11765,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Zoozk.com [md5],,171876,Hashmob,MD5
 Zastavki.com [md5],,85128,Hashmob,MD5
 Yugioh-deck.com [md5],,7036,Hashmob,MD5
 Xtremecam.com [md5],,14617,Hashmob,md5($salt.$pass)
-Xclan.org [Vbulletin],,14315,Hashmob,vBulletin < v3.8.5
+Xclan.org [Vbulletin],,14315,Hashmob,vBulletin >= v3.8.5
 Worldtravels.com [phpass],,31816,Hashmob,phpass
 Worldtravels.com [md5],,163389,Hashmob,MD5
-Wingsofwar.com [Vbulletin],,7113,Hashmob,vBulletin < v3.8.5
+Wingsofwar.com [Vbulletin],,7113,Hashmob,vBulletin >= v3.8.5
 Volaklize.com [phpass],,111905,Hashmob,phpass
 Vettemods.com [phpass],,19031,Hashmob,phpass
 Ulektzcampus.com [md5],,305403,Hashmob,MD5
@@ -37,17 +37,17 @@ Storagefront.com [sha256],,136074,Hashmob,Django (PBKDF2-SHA256)
 Sonyuserforum.de [Vbulletin],,50847,Hashmob,vBulletin < v3.8.5
 Slivup.net [ipb],,124289,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Shoppo.com [Sha512],,94032,Hashmob,Python passlib pbkdf2-sha512
-Sancturaryradio.com [Vbulletin],,33463,Hashmob,vBulletin < v3.8.5
+Sancturaryradio.com [Vbulletin],,33463,Hashmob,vBulletin >= v3.8.5
 Rule34hentai.net [md5],,8005,Hashmob,MD5
 Rule34hentai.net [bcrypt],,207282,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Royalwholesalecandy.com [sha256],,27736,Hashmob,sha256($salt.$pass)
-Royalwholesalecandy.com [md5],,11979,Hashmob,MD5
+Royalwholesalecandy.com [md5],,11979,Hashmob,md5($salt.$pass)
 Rosaceagroup.org [Vbulletin],,42521,Hashmob,vBulletin < v3.8.5
 Rivercomics.com [bcrypt],,15390,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Ridgitforums.com [bcrypt],,12878,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Ibeton.davidculie.fr [prestashop],,14401,Hashmob,MD5
 Ibeton.davidculie.fr [bcrypt],,2625,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Hwesta.eu [prestashop],,47255,Hashmob,MD5
+Hwesta.eu [prestashop],,47255,Hashmob,PrestaShop
 Hwesta.eu [bcrypt],,44992,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Husator.pl [bcrypt],,2185,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Gaytell.com [md5],,14411,Hashmob,MD5
@@ -68,7 +68,7 @@ Pornboard.net [Vbulletin],,24031,Hashmob,vBulletin >= v3.8.5
 Popreach.com [bcrypt],,13136,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Popreach.com [Vbulletin],,2246,Hashmob,vBulletin < v3.8.5
 Pokermagia.com [phpass],,641482,Hashmob,phpass
-Pokermagia.com [md5],,23851,Hashmob,md5($salt.$pass)
+Pokermagia.com [md5],,23851,Hashmob,vBulletin < v3.8.5
 Pokermagia.com [Vbulletin],,661833,Hashmob,vBulletin >= v3.8.5
 Pokemasters.net [Vbulletin],,9595,Hashmob,vBulletin < v3.8.5
 Podcastgarden.com [sha256],,53458,Hashmob,SHA2-256
