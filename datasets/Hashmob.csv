@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Atlasmenu.net,,64264,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Im.solar [bcrypt],,5274,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 insperio.pl [bcrypt],,23510,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 inspectapi.bmitech.com [bcrypt],,782,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -7,7 +8,7 @@ indigonails.fr [bcrypt],,171897,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 impresorasymas.com.mx [prestashop],,284,Hashmob,md5($salt.$pass)
 impresorasymas.com.mx [bcrypt],,2235,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 imgbox.de [Vbulletin],,28177,Hashmob,vBulletin < v3.8.5
-imaticalospalacios.com [prestashop],,52078,Hashmob,md5($salt.$pass)
+imaticalospalacios.com [prestashop],,52078,Hashmob,MD5
 imaticalospalacios.com [bcrypt],,9133,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ilpetalorosa.it [prestashop],,4442,Hashmob,PrestaShop
 ijam.com.au [md5($salt.$pass)],,18217,Hashmob,md5($salt.$pass)
@@ -48,7 +49,7 @@ Rivercomics.com [bcrypt],,15390,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Ridgitforums.com [bcrypt],,12878,Hashmob,bcrypt(md5($pass)) / bcryptmd5
 Ibeton.davidculie.fr [prestashop],,14401,Hashmob,MD5
 Ibeton.davidculie.fr [bcrypt],,2625,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Hwesta.eu [prestashop],,47255,Hashmob,PrestaShop
+Hwesta.eu [prestashop],,47255,Hashmob,MD5
 Hwesta.eu [bcrypt],,44992,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Husator.pl [bcrypt],,2185,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Gaytell.com [md5],,14411,Hashmob,MD5
@@ -58,7 +59,7 @@ Galerialazienek.pl [prestashop],,7178,Hashmob,md5($salt.$pass)
 Galerialazienek.pl [bcrypt],,1407,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Devoucoux.com [prestashop],,121439,Hashmob,PrestaShop
 Devoucoux.com [SHA1],,54551,Hashmob,SHA1
-Butyplus.pl [prestashop],,10624,Hashmob,PrestaShop
+Butyplus.pl [prestashop],,10624,Hashmob,md5($salt.$pass)
 Butyplus.pl [bcrypt],,3021,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Booksale.pl [md5],,65938,Hashmob,MD5
 Ridgitforums.com [Vbulletin],,75879,Hashmob,vBulletin < v3.8.5
@@ -152,7 +153,7 @@ Cyberphoenix.com [bcrypt],,5454,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Cyberphoenix.com [Vbulletin],,40873,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 Cunydb.com [Bcrypt],,188795,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Correos.es [md5],,24924,Hashmob,MD5
-Conceptatrois.ro [prestashop],,344,Hashmob,PrestaShop
+Conceptatrois.ro [prestashop],,344,Hashmob,md5($salt.$pass)
 Comugamers.com [md5],,17363,Hashmob,MD5
 Codfans.ir [Vbulletin],,17932,Hashmob,vBulletin >= v3.8.5
 Cizimokulu.com [md5],,204060,Hashmob,MD5
@@ -189,7 +190,7 @@ Climamarket.eu [bcrypt],,15127,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Buy-it.pl [prestashop],,26,Hashmob,PrestaShop
 Bawene.pl [bcrypt],,15806,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Bache-automobile.com [bcrypt],,11659,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Dpj-workspace.com [prestashop],,213633,Hashmob,md5($salt.$pass)
+Dpj-workspace.com [prestashop],,213633,Hashmob,MD5
 Dpj-workspace.com [bcrypt],,52634,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Artzayla.com [bcrypt],,9803,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Alegriaestudio.com [bcrypt],,53429,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
