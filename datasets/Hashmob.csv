@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Tanzpartner.de [md5($pass.$salt)],,16149,Hashmob,MD5
+Advio-shop.de [phpass],,1895,Hashmob,phpass
 Atlasmenu.net,,64264,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Im.solar [bcrypt],,5274,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 insperio.pl [bcrypt],,23510,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
