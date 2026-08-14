@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+azialo.com [bcrypt],,271255,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 ai2art.art [Magento],,31161,Hashmob,md5($salt.$pass)
 Tanzpartner.de [md5($pass.$salt)],,16149,Hashmob,md5($pass.$salt)
 Advio-shop.de [phpass],,1895,Hashmob,phpass
