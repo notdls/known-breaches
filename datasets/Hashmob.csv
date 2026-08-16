@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+AnimuTank.com [vBulletin],,170025,Hashmob,vBulletin < v3.8.5
 AnimuTank.com [bcrypt],,623,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 azialo.com [prestashop],,52630,Hashmob,PrestaShop
 azialo.com [bcrypt],,271255,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -1590,7 +1591,7 @@ HO[784]__Porno-magnet.com,,27909,Hashmob,vBulletin >= v3.8.5
 HO[783]__Politicalforum.com,,9300,Hashmob,vBulletin >= v3.8.5
 HO[782]__Forums.plex.tv,,172938,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
 HO[781]__Planetjuly.org,,7971,Hashmob,vBulletin >= v3.8.5
-HO[778]__Pesfan.com,,420581,Hashmob,vBulletin >= v3.8.5
+HO[778]__Pesfan.com,,420581,Hashmob,MD5
 HO[7776]__Mcdontcraft.ru,,246205,Hashmob,AuthMe sha256
 HO[7775]__Reallyworld.ru,,289206,Hashmob,AuthMe sha256
 HO[776]__Pcgameiso,,30048,Hashmob,vBulletin >= v3.8.5
