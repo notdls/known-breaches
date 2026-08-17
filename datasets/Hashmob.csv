@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+casual.bg [bcrypt],,254,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 AnimuTank.com [vBulletin],,170025,Hashmob,vBulletin < v3.8.5
 AnimuTank.com [bcrypt],,623,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 azialo.com [prestashop],,52630,Hashmob,PrestaShop
@@ -176,11 +177,11 @@ Battleroyaleforums.com [sha256],,994,Hashmob,sha256(sha256($pass).$salt)
 Battleroyaleforums.com [bcrypt],,5360,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Battleroyaleforums.com [Vbulletin],,44997,Hashmob,vBulletin >= v3.8.5
 Avantisportswear.com [sha1],,6861,Hashmob,OpenCart
-Autobodystore.com [Vbulletin],,21945,Hashmob,vBulletin >= v3.8.5
+Autobodystore.com [Vbulletin],,21945,Hashmob,vBulletin < v3.8.5
 Atspace.com [sha1],,2222331,Hashmob,SHA1
 Atlas.ps [bcrypt],,12860,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Atlas-menu.net [bcrypt],,64294,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Asusxperts.com [Vbulletin],,18777,Hashmob,vBulletin >= v3.8.5
+Asusxperts.com [Vbulletin],,18777,Hashmob,vBulletin < v3.8.5
 Armagnac.com [md5],,68554,Hashmob,PrestaShop
 Arcadeneblog.com [phpass],,13108,Hashmob,phpass
 Alphaconfidence.com [Vbulletin],,143938,Hashmob,vBulletin < v3.8.5
