@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Armeec.ru [md5],,452228,Hashmob,MD5
 casual.bg [bcrypt],,254,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 AnimuTank.com [vBulletin],,170025,Hashmob,vBulletin < v3.8.5
 AnimuTank.com [bcrypt],,623,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
