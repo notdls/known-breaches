@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Forum.kodi.tv [vBulletin],,334685,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
+Casual.bg [prestashop],,7436,Hashmob,PrestaShop
 Armeec.ru [md5],,452228,Hashmob,MD5
 casual.bg [bcrypt],,254,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 AnimuTank.com [vBulletin],,170025,Hashmob,vBulletin < v3.8.5
