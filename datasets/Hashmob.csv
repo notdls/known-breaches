@@ -217,7 +217,7 @@ Tribogamer.com [bcrypt],,102781,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Steamgamers.com [md5],,13178,Hashmob,vBulletin < v3.8.5
 SmolderForge.com [phpass],,8346,Hashmob,phpass
 SmolderForge.com [bcrypt],,1268,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-RevScene.com [vbulletin],,110841,Hashmob,vBulletin >= v3.8.5
+RevScene.com [vbulletin],,110841,Hashmob,vBulletin < v3.8.5
 RSGame.com [vbulletin],,260505,Hashmob,vBulletin < v3.8.5
 Playtheplanet.org [vb],,120589,Hashmob,vBulletin < v3.8.5
 Pampling.com [md5] ,,72117,Hashmob,MD5
