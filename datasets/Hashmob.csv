@@ -1,4 +1,10 @@
 dump_name,breach_date,record_count,source,info
+dcdpaznokcie.pl [prestashop],,14976,Hashmob,PrestaShop
+dcdpaznokcie.pl [osCommerce],,11189,Hashmob,md5($salt.$pass)
+dcdpaznokcie.pl [bcrypt],,15305,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+WorkL.com,,28620,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Deardevice.com [phpass],,3809,Hashmob,phpass
+AnimeAD.com,,15717,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Paidwork.com [bcrypt],,11404580,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Investsocial.com [vBulletin],,164642,Hashmob,vBulletin >= v3.8.5
 Forum.kodi.tv [vBulletin],,334685,Hashmob,"MyBB 1.2+, IPB2+ (Invision Power Board)"
