@@ -127,7 +127,7 @@ Justskins.com [Vbulletin],,10090,Hashmob,vBulletin >= v3.8.5
 Jcfonline.com [Vbulletin],,79049,Hashmob,vBulletin >= v3.8.5
 Ironfactor.cz [phpass],,28710,Hashmob,phpass
 Ironfactor.cz [bcrypt],,97156,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Insidethegame.it [Vbulletin],,75342,Hashmob,vBulletin >= v3.8.5
+Insidethegame.it [Vbulletin],,75342,Hashmob,md5($pass.$salt)
 Howindialives.com [phpass],,149,Hashmob,phpass
 Howindialives.com [md5],,953,Hashmob,MD5
 Howindialives.com [bcrypt],,4481,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
