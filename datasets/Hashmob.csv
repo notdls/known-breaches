@@ -1,4 +1,8 @@
 dump_name,breach_date,record_count,source,info
+LegionProxy.io [bcrypt],,4767,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Durantistore.com [bcrypt],,38307,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
+Dogzer.net [md5],,2574626,Hashmob,MD5
+Artistsnclients.com [bcrypt],,94079,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Raaga.com,,2328350,Hashmob,MD5
 dcdpaznokcie.pl [prestashop],,14976,Hashmob,PrestaShop
 dcdpaznokcie.pl [osCommerce],,11189,Hashmob,md5($salt.$pass)
