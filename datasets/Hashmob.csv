@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+Findfemboys.com [vBulletin],,34413,Hashmob,vBulletin < v3.8.5
+Findfemboys.com [phpass],,5545,Hashmob,phpass
 LegionProxy.io [bcrypt],,4767,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Durantistore.com [bcrypt],,38307,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Dogzer.net [md5],,2574626,Hashmob,MD5
