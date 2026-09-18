@@ -89,7 +89,6 @@ Butyplus.pl [prestashop],,10624,Hashmob,md5($salt.$pass)
 Butyplus.pl [bcrypt],,3021,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Booksale.pl [md5],,65938,Hashmob,MD5
 Ridgitforums.com [Vbulletin],,75879,Hashmob,vBulletin < v3.8.5
-Haijiao.com [bcrypt],,15760041,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Rctankwarfare.co.uk [phpass],,7575,Hashmob,phpass
 Ratakan.com [md5],,16399,Hashmob,MD5
 Pornboard.net [Vbulletin],,24031,Hashmob,vBulletin >= v3.8.5
