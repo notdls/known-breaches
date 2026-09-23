@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+browsermmorpg.net,,13383,Hashmob,MD5
 Findfemboys.com [vBulletin],,34413,Hashmob,vBulletin < v3.8.5
 Findfemboys.com [phpass],,5545,Hashmob,phpass
 LegionProxy.io [bcrypt],,4767,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
@@ -225,7 +226,7 @@ Akstuning.co.uk [md5],,4050,Hashmob,MD5
 Akstuning.co.uk [bcrypt],,30550,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 grau-mailorder.de,,19256,Hashmob,MD5
 app.youaudit.com.au [md5],,5047,Hashmob,MD5
-WoW-Mania.com [sha1],,73763,Hashmob,SHA1
+WoW-Mania.com [sha1],,73763,Hashmob,sha1($salt.$pass)
 Tribogamer.com [bcrypt],,102781,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Steamgamers.com [md5],,13178,Hashmob,vBulletin < v3.8.5
 SmolderForge.com [phpass],,8346,Hashmob,phpass
