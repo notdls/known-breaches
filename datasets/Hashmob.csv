@@ -203,7 +203,7 @@ Atspace.com [sha1],,2222331,Hashmob,SHA1
 Atlas.ps [bcrypt],,12860,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Atlas-menu.net [bcrypt],,64294,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Asusxperts.com [Vbulletin],,18777,Hashmob,vBulletin < v3.8.5
-Armagnac.com [md5],,68554,Hashmob,PrestaShop
+Armagnac.com [md5],,68554,Hashmob,md5($salt.$pass)
 Arcadeneblog.com [phpass],,13108,Hashmob,phpass
 Alphaconfidence.com [Vbulletin],,143938,Hashmob,vBulletin < v3.8.5
 Allaboutsymbian.com [Vbulletin],,218311,Hashmob,vBulletin < v3.8.5
