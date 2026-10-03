@@ -172,7 +172,7 @@ Factory-360.com [joomla],,51892,Hashmob,md5($pass.$salt)
 Euchips.com [md5],,16202,Hashmob,MD5
 Emps-world.net [sha1],,4952,Hashmob,SHA1
 Emps-world.net [bcrypt],,5151,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Easternfront.org [SMF],,68546,Hashmob,SMF (Simple Machines Forum) > v1.1
+Easternfront.org [SMF],,68546,Hashmob,SHA1
 Dpgroup.org [Vbulletin],,59079,Hashmob,vBulletin >= v3.8.5
 Dota2hentai.com [phpass],,724,Hashmob,phpass
 Diyfishkeepers.com [Vbulletin],,22476,Hashmob,vBulletin >= v3.8.5
