@@ -1,4 +1,5 @@
 dump_name,breach_date,record_count,source,info
+Parler.com,,1657332,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 dcphoto.pl [md5],,29706,Hashmob,MD5
 hair-nails.pl [prestashop],,15122,Hashmob,PrestaShop
 hair-nails.pl [osCommerce],,11225,Hashmob,"osCommerce, xt:Commerce"
