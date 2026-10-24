@@ -1,4 +1,8 @@
 dump_name,breach_date,record_count,source,info
+gamesfree.ca [SHA1],,473194,Hashmob,SHA1
+ecenter.bg [md5],,135,Hashmob,MD5
+ecenter.bg [Wordpress],,267,Hashmob,phpass
+ecenter.bg [OpenCart],,3213,Hashmob,OpenCart
 Parler.com,,1657332,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 dcphoto.pl [md5],,29706,Hashmob,MD5
 hair-nails.pl [prestashop],,15122,Hashmob,PrestaShop
