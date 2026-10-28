@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+pianostreet.com [md5],,2498,Hashmob,MD5
+pianostreet.com [Wordpress],,115081,Hashmob,phpass
 pianostreet.com [SMF],,27957,Hashmob,sha1($salt.$pass)
 gamesfree.ca [md5],,100024,Hashmob,MD5
 gamesfree.ca [bcrypt],,91632,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
