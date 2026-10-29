@@ -99,7 +99,7 @@ Husator.pl [bcrypt],,2185,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Gaytell.com [md5],,14411,Hashmob,MD5
 Galeriareplik.pl [prestashop],,6355,Hashmob,PrestaShop
 Galeriareplik.pl [bcrypt],,9896,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
-Galerialazienek.pl [prestashop],,7178,Hashmob,md5($salt.$pass)
+Galerialazienek.pl [prestashop],,7178,Hashmob,md5($pass.$salt)
 Galerialazienek.pl [bcrypt],,1407,Hashmob,"bcrypt $2*$, Blowfish (Unix)"
 Devoucoux.com [prestashop],,121439,Hashmob,PrestaShop
 Devoucoux.com [SHA1],,54551,Hashmob,SHA1
