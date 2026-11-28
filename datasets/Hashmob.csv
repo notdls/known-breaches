@@ -1,4 +1,6 @@
 dump_name,breach_date,record_count,source,info
+good73.net [md5($salt.$pass.$salt)],,10107,Hashmob,md5($salt.$pass.$salt)
+forum.duncan-opf.com,,347,Hashmob,WBB3 (Woltlab Burning Board)
 deals.bg_md5,,152519,Hashmob,MD5
 2pharmacy.gr_prestashop,,34103,Hashmob,md5($salt.md5($pass.$salt))
 2pharmacy.gr_phpass,,4054,Hashmob,phpass
